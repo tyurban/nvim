@@ -2,3 +2,9 @@
 	path = lazy/lazy.nvim
 	url = git@github.com:folke/lazy.nvim.git
 	branch = stable
+[submodule "lazy/nvim-web-devicons"]
+	path = lazy/nvim-web-devicons
+	url = git@github.com:nvim-tree/nvim-web-devicons.git
+[submodule "lazy/oil.nvim"]
+	path = lazy/oil.nvim
+	url = git@github.com:stevearc/oil.nvim.git
