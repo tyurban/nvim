@@ -8,3 +8,6 @@
 [submodule "lazy/oil.nvim"]
 	path = lazy/oil.nvim
 	url = git@github.com:stevearc/oil.nvim.git
+[submodule "lazy/catppuccin"]
+	path = lazy/catppuccin
+	url = git@github.com:catppuccin/nvim.git
