@@ -11,3 +11,6 @@
 [submodule "lazy/catppuccin"]
 	path = lazy/catppuccin
 	url = git@github.com:catppuccin/nvim.git
+[submodule "lazy/Comment.nvim"]
+	path = lazy/Comment.nvim
+	url = git@github.com:numToStr/Comment.nvim.git
