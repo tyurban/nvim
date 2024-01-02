@@ -14,13 +14,34 @@ return {
       automatic_installation = true,
     }
 
+    vim.cmd([[autocmd! ColorScheme * highlight NormalFloat guibg=#1f2335]])
+    vim.cmd([[autocmd! ColorScheme * highlight FloatBorder guifg=white guibg=#1f2335]])
+
+    local border = {
+      {'🭽', 'FloatBorder'},
+      {'▔', 'FloatBorder'},
+      {'🭾', 'FloatBorder'},
+      {'▕', 'FloatBorder'},
+      {'🭿', 'FloatBorder'},
+      {'▁', 'FloatBorder'},
+      {'🭼', 'FloatBorder'},
+      {'▏', 'FloatBorder'},
+    }
+
+    local orig_util_open_floating_preview = vim.lsp.util.open_floating_preview
+    function vim.lsp.util.open_floating_preview(contents, syntax, opts, ...)
+      opts = opts or {}
+      opts.border = opts.border or border
+      return orig_util_open_floating_preview(contents, syntax, opts, ...)
+    end
+
     local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
     for _, server in ipairs({ 'gopls', 'pyright' }) do
       require('lspconfig')[server].setup({ capabilities = capabilities })
     end
 
-    require'lspconfig'.lua_ls.setup({
+    require('lspconfig').lua_ls.setup({
       capabilities = capabilities,
       settings = {
         Lua = {
@@ -89,5 +110,6 @@ return {
         end, { buffer = ev.buf, desc = 'Formats a buffer using the attached (and optionally filtered) language server clients.' })
       end,
     })
+
   end,
 }
