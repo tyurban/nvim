@@ -1,4 +1,2 @@
-mason/packages/lua-language-server/libexec/log/*
-mason/registries/github/mason-org/mason-registry/info.json
-mason/registries/github/mason-org/mason-registry/registry.json
-mason/packages/lua-language-server/libexec/log/file_home_turban_.config_nvim-current_lua_.log
+mason/
+lazy/
