@@ -1,0 +1,1 @@
+cargo:rustc-env=RIPGREP_BUILD_GIT_HASH=648a65f197

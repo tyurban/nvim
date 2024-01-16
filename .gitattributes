@@ -1,0 +1,2 @@
+nvim-linux64/bin/nvim filter=lfs diff=lfs merge=lfs -text
+ripgrep/rg filter=lfs diff=lfs merge=lfs -text
