@@ -6,8 +6,8 @@ return {
     'hrsh7th/cmp-nvim-lsp',
     { 'folke/neodev.nvim', opts={} },
     'mfussenegger/nvim-jdtls',
+    'nvim-telescope/telescope.nvim',
   },
-  lazy = true,
   config = function()
     require('mason-lspconfig').setup {
       ensure_installed = { 'jdtls' },
@@ -92,22 +92,20 @@ return {
         vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
 
         vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { buffer = ev.buf, desc = 'Jumps to the declaration of the symbol under the cursor.' })
-        vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = ev.buf, desc = 'Jumps to the definition of the symbol under the cursor.' })
+        vim.keymap.set('n', 'gd', '<cmd>Telescope lsp_definitions<CR>', { buffer = ev.buf, desc = "Goto the definition of the word under the cursor, if there's only one, otherwise show all options in Telescope." })
         vim.keymap.set('n', 'K', vim.lsp.buf.hover, { buffer = ev.buf, desc = 'Displays hover information about the symbol under the cursor in a floating window. Calling the function twice will jump into the floating window.' })
-        vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { buffer = ev.buf, desc = 'Lists all the implementations for the symbol under the cursor in the quickfix window.' })
+        vim.keymap.set('n', 'gi', '<cmd>Telescope lsp_implementations<CR>', { buffer = ev.buf, desc = "Goto the implementation of the word under the cursor if there's only one, otherwise show all options in Telescope." })
         vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, { buffer = ev.buf, desc = 'Displays signature information about the symbol under the cursor in a floating window.' })
         vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, { buffer = ev.buf, desc = 'Add the folder at path to the workspace folders. If {path} is not provided, the user will be prompted for a path using input().' })
         vim.keymap.set('n', '<space>wr', vim.lsp.buf.remove_workspace_folder, { buffer = ev.buf, desc = 'Remove the folder at path from the workspace folders. If {path} is not provided, the user will be prompted for a path using input().' })
         vim.keymap.set('n', '<space>wl', function()
           print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
         end, { buffer = ev.buf, desc = 'List workspace folders.' })
-        vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, { buffer = ev.buf, desc = 'Jumps to the definition of the type of the symbol under the cursor.' })
+        vim.keymap.set('n', '<space>D', '<cmd>Telescope diagnostics bufnr=0<CR>', { buffer = ev.buf, desc = 'Lists Diagnostics for the current buffer.' })
         vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, { buffer = ev.buf, desc = 'Renames all references to the symbol under the cursor.' })
         vim.keymap.set({ 'n', 'v' }, '<space>ca', vim.lsp.buf.code_action, { buffer = ev.buf, desc = 'Selects a code action available at the current cursor position.' })
-        vim.keymap.set('n', 'gr', vim.lsp.buf.references, { buffer = ev.buf, desc = 'Lists all the references to the symbol under the cursor in the quickfix window.' })
-        vim.keymap.set('n', '<space>f', function()
-          vim.lsp.buf.format { async = true }
-        end, { buffer = ev.buf, desc = 'Formats a buffer using the attached (and optionally filtered) language server clients.' })
+        vim.keymap.set('n', 'gr', '<cmd>Telescope lsp_references', { buffer = ev.buf, desc = 'Lists LSP references for word under the cursor.' })
+        vim.keymap.set('n', 'gt', '<cmd>Telescope lsp_type_definitions', { buffer = ev.buf, desc = "Goto the definition of the type of the word under the cursor, if there's only one, otherwise show all options in Telescope." })
       end,
     })
 
