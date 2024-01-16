@@ -1,3 +1,4 @@
 nvim-linux64/bin/nvim filter=lfs diff=lfs merge=lfs -text
 ripgrep/rg filter=lfs diff=lfs merge=lfs -text
 cmake/bin/* filter=lfs diff=lfs merge=lfs -text
+make/bin/* filter=lfs diff=lfs merge=lfs -text
