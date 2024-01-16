@@ -9,7 +9,6 @@ return {
     'hrsh7th/cmp-path',
     { 'windwp/nvim-autopairs', opts = {} },
   },
-  event = 'VeryLazy',
   config = function()
     local luasnip = require('luasnip')
     local cmp = require('cmp')
@@ -50,6 +49,7 @@ return {
       sources = cmp.config.sources({
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
+        { name = 'path' },
       }, {
         { name = 'buffer' },
       }),
