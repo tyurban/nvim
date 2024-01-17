@@ -1,26 +1,3 @@
-" Vim compiler file
-" Compiler:	PHP CLI
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2013 Jun 25
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "php"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo-=C
-
-CompilerSet makeprg=php\ -lq
-CompilerSet errorformat=%E<b>%.%#Parse\ error</b>:\ %m\ in\ <b>%f</b>\ on\ line\ <b>%l</b><br\ />,
-		    \%W<b>%.%#Notice</b>:\ %m\ in\ <b>%f</b>\ on\ line\ <b>%l</b><br\ />,
-		    \%E%.%#Parse\ error:\ %m\ in\ %f\ on\ line\ %l,
-		    \%W%.%#Notice:\ %m\ in\ %f\ on\ line\ %l,
-		    \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:76372d76b99048c32c519b1647316b6e69eca6da414f3cb9edae4dc77f8b58b8
+size 707

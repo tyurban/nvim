@@ -1,10 +1,3 @@
-CMAKE_INTERPROCEDURAL_OPTIMIZATION
-----------------------------------
-
-.. versionadded:: 3.9
-
-Default value for :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION` of targets.
-
-This variable is used to initialize the :prop_tgt:`INTERPROCEDURAL_OPTIMIZATION`
-property on all the targets.  See that target property for additional
-information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a76116d3b0170040ae9037acc0527823b82fa310ca73f01b8e8ba4f6a8503ce
+size 330

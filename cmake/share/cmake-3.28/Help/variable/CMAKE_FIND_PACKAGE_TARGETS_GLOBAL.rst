@@ -1,12 +1,3 @@
-CMAKE_FIND_PACKAGE_TARGETS_GLOBAL
----------------------------------
-
-.. versionadded:: 3.24
-
-Setting to ``TRUE`` promotes all :prop_tgt:`IMPORTED` targets discoverd
-by :command:`find_package` to a ``GLOBAL`` scope.
-
-
-Setting this to ``TRUE`` is akin to specifying ``GLOBAL``
-as an argument to :command:`find_package`.
-Default value is ``OFF``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:07011a0a51f839040029b0b9999a0292cc689b4125d47af0eb35018c66b33803
+size 344

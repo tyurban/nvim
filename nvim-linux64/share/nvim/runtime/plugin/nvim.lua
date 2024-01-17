@@ -1,20 +1,3 @@
-vim.api.nvim_create_user_command('Inspect', function(cmd)
-  if cmd.bang then
-    vim.print(vim.inspect_pos())
-  else
-    vim.show_pos()
-  end
-end, { desc = 'Inspect highlights and extmarks at the cursor', bang = true })
-
-vim.api.nvim_create_user_command('InspectTree', function(cmd)
-  if cmd.mods ~= '' or cmd.count ~= 0 then
-    local count = cmd.count ~= 0 and cmd.count or ''
-    local new = cmd.mods ~= '' and 'new' or 'vnew'
-
-    vim.treesitter.inspect_tree({
-      command = ('%s %s%s'):format(cmd.mods, count, new),
-    })
-  else
-    vim.treesitter.inspect_tree()
-  end
-end, { desc = 'Inspect treesitter language tree for buffer', count = true })
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cc012e6c1a85a3a0ec773de620e5ecb04093b1c0161ab3053d32831e8b17c4c
+size 654

@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             pinfo(1) configuration file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=:# commentstring=#\ %s formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b094dca2c87df14c8fe9b2634e0deeec67c35cd5c07e91ea8a6224f23422047
+size 435

@@ -1,11 +1,3 @@
-" Vim syntax file
-" Language:	XHTML
-" Maintainer:	noone
-" Last Change:	2003 Feb 04
-
-" Load the HTML syntax for now.
-runtime! syntax/html.vim
-
-let b:current_syntax = "xhtml"
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:db962db0381c07d9ef1c2fa18b371ba559174fdd45345f0b3012c81c2b225d2a
+size 186

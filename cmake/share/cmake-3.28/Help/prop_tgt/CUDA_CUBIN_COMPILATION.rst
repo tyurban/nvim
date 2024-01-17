@@ -1,14 +1,3 @@
-CUDA_CUBIN_COMPILATION
-----------------------
-
-.. versionadded:: 3.27
-
-Compile CUDA sources to ``.cubin`` files instead of ``.obj`` files
-within :ref:`Object Libraries`.
-
-For example:
-
-.. code-block:: cmake
-
-  add_library(mycubin OBJECT a.cu b.cu)
-  set_property(TARGET mycubin PROPERTY CUDA_CUBIN_COMPILATION ON)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5958dba2ff9bbff576f093b53a88f9daad3d81c606de893cb950813d1c0235aa
+size 314

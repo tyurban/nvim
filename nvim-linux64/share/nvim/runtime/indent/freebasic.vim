@@ -1,11 +1,3 @@
-" Vim indent file
-" Language:	FreeBASIC
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2022 Jan 24
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-
-runtime! indent/vb.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:64e7c97d0a025156a91630bf1ced70b15a877387611b0392617931122c541e00
+size 237

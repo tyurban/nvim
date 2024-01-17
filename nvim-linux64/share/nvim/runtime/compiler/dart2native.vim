@@ -1,28 +1,3 @@
-" Vim compiler file
-" Compiler:	Dart to Native Compiler
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2019 May 08
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "dart2native"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-CompilerSet makeprg=dart2native
-CompilerSet errorformat=%E%f:%l:%c:\ Error:\ %m,
-		       \%CTry\ %.%#,
-		       \%Z\ %#^%\\+,
-		       \%Z%$,
-		       \%C%.%#,
-		       \%E%f:\ %trror:\ %m,
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fdac5e1b2e3205aa7d8554df6a40254845b36bc355b515d24815486c0cc1e43
+size 620

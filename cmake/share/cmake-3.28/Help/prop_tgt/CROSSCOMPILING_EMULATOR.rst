@@ -1,18 +1,3 @@
-CROSSCOMPILING_EMULATOR
------------------------
-
-.. versionadded:: 3.3
-
-Use the given emulator to run executables created when crosscompiling.
-This command will be added as a prefix to :command:`add_test`,
-:command:`add_custom_command`, and :command:`add_custom_target` commands
-for built target system executables.
-
-.. versionadded:: 3.15
-  If this property contains a :ref:`semicolon-separated list <CMake Language
-  Lists>`, then the first value is the command and remaining values are its
-  arguments.
-
-This property is initialized by the value of the
-:variable:`CMAKE_CROSSCOMPILING_EMULATOR` variable if it is set when a target
-is created.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0b753be29f28db7eae7bcc50adf1a21816ae12a2d1893b00c964e205dfbf836
+size 646

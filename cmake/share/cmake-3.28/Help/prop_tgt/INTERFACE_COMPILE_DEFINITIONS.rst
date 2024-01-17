@@ -1,8 +1,3 @@
-INTERFACE_COMPILE_DEFINITIONS
------------------------------
-
-.. |property_name| replace:: compile definitions
-.. |command_name| replace:: :command:`target_compile_definitions`
-.. |PROPERTY_INTERFACE_NAME| replace:: ``INTERFACE_COMPILE_DEFINITIONS``
-.. |PROPERTY_LINK| replace:: :prop_tgt:`COMPILE_DEFINITIONS`
-.. include:: INTERFACE_BUILD_PROPERTY.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:04869c081efbba17c47ab88246123d9a577daab107cd983a4df3f95612931efa
+size 352

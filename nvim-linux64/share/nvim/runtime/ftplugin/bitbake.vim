@@ -1,16 +1,3 @@
-" Vim filetype plugin file
-" Language: Bitbake
-" Maintainer: Gregory Anders <greg@gpanders.com>
-" Repository: https://github.com/openembedded/bitbake
-" Latest Revision: 2022-07-23
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal commentstring=#%s
-setlocal comments=:#
-setlocal suffixesadd=.bb,.bbclass
-
-let b:undo_ftplugin = "setl cms< com< sua<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:99afd240f51421960bff9e5fc8d581066970d24e44bd7c1c8d95297e7175040b
+size 375

@@ -1,17 +1,3 @@
-CMP0122
--------
-
-.. versionadded:: 3.21
-
-:module:`UseSWIG` use library name conventions for ``CSharp`` language.
-
-Starting with CMake 3.21, :module:`UseSWIG` generates now a library using
-default naming conventions. This policy provides compatibility with projects
-that expect the legacy behavior.
-
-This policy was introduced in CMake version 3.21.  CMake version
-|release| warns when the policy is not set and uses ``OLD`` behavior.
-Use the :command:`cmake_policy` command to set it to ``OLD`` or ``NEW``
-explicitly.
-
-.. include:: DEPRECATED.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea5f2be84a62002d1ac5c03f5efc6053bcb6f31c4dd3ff86da7c604f16039e85
+size 547

@@ -1,14 +1,3 @@
-ECLIPSE_EXTRA_CPROJECT_CONTENTS
--------------------------------
-
-.. versionadded:: 3.12
-
-Additional contents to be inserted into the generated Eclipse cproject file.
-
-The cproject file defines the CDT specific information. Some third party IDE's
-are based on Eclipse with the addition of other information specific to that IDE.
-Through this property, it is possible to add this additional contents to
-the generated project.
-It is expected to contain valid XML.
-
-Also see the :prop_gbl:`ECLIPSE_EXTRA_NATURES` property.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d34a77b42757ff60dfc51cdb01611b4f3a534da4a664fe7ba83c6c12935c91bd
+size 519

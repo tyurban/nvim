@@ -1,10 +1,3 @@
-CMAKE_CXX_STANDARD
-------------------
-
-.. versionadded:: 3.1
-
-Default value for :prop_tgt:`CXX_STANDARD` target property if set when a target
-is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6903810ae45a2bdd8a60526f543f8b0d0436b39f8d9500f8d4e5c221cde7ca6
+size 277

@@ -1,9 +1,3 @@
-CPACK_START_MENU_SHORTCUTS
---------------------------
-
-.. versionadded:: 3.3
-
-Species a list of shortcut names that should be created in the ``Start Menu``
-for this file.
-
-The property is currently only supported by the :cpack_gen:`CPack WIX Generator`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d563a0d358a80e06f21ce33ad7891b96e1c8f912480650b7913e1d6d06d5ec3
+size 254

@@ -1,20 +1,3 @@
-" Vim filetype plugin file
-" Language:             Prolog
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=s1:/*,mb:*,ex:*/,:% commentstring=%\ %s
-setlocal formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1834a5e2c33260fa00d6ac3b79d62acd8a5cbde1f8f80672eb7d627957d8ec1
+size 440

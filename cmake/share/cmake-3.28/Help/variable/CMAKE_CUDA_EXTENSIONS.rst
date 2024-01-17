@@ -1,10 +1,3 @@
-CMAKE_CUDA_EXTENSIONS
----------------------
-
-.. versionadded:: 3.8
-
-Default value for :prop_tgt:`CUDA_EXTENSIONS` target property if set when a
-target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d27289ccb42240f6bea4a9dc601d6633b82be196d977d80165616db103bab97b
+size 286

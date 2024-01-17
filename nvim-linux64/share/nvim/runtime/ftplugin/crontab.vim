@@ -1,16 +1,3 @@
-" Vim filetype plugin
-" Language:    crontab
-" Maintainer:  Keith Smiley <keithbsmiley@gmail.com>
-" Last Change: 2022 Sep 11
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Don't load another plugin for this buffer
-let b:did_ftplugin = 1
-
-let b:undo_ftplugin = "setl commentstring<"
-
-setlocal commentstring=#\ %s
+version https://git-lfs.github.com/spec/v1
+oid sha256:e12c4f38101f569b2e15515d84cb265c50c2c211313963597744667d4888a7da
+size 361

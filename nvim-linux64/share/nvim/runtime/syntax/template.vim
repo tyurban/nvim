@@ -1,15 +1,3 @@
-" Vim syntax file
-" Language:	Generic template
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2019 May 06
-
-" Quit when a (custom) syntax file was already loaded
-if exists("b:current_syntax")
-  finish
-endif
-
-" Known template types are very similar to HTML, E.g. golang and "Xfire User
-" Interface Template"
-" If you know how to recognize a more specific type for *.tmpl suggest a
-" change to runtime/scripts.vim.
-runtime! syntax/html.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:a90bd2df824968c8ff9b19786a4382782cc7bd793929fcb3d6985905214235db
+size 449

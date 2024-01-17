@@ -1,22 +1,3 @@
-CMAKE_ROLE
-----------
-
-.. versionadded:: 3.14
-
-Tells what mode the current running script is in. Could be one of several
-values:
-
-``PROJECT``
-  Running in project mode (processing a ``CMakeLists.txt`` file).
-
-``SCRIPT``
-  Running in ``-P`` script mode.
-
-``FIND_PACKAGE``
-  Running in ``--find-package`` mode.
-
-``CTEST``
-  Running in CTest script mode.
-
-``CPACK``
-  Running in CPack.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4319ca7240c0a7174cf9877814d785e5c6d4aad29df66145d24cc818c9b0b2e
+size 383

@@ -1,7 +1,3 @@
-UNITY_GROUP
------------
-
-.. versionadded:: 3.18
-
-This property controls which *bucket* the source will be part of when
-the :prop_tgt:`UNITY_BUILD_MODE` is set to ``GROUP``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:008ffd49fc88feba3c57cafa2e4f679d1deffe74554e3afa9932b14cc891de16
+size 173

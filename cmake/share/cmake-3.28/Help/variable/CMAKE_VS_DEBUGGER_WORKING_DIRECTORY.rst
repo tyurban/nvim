@@ -1,8 +1,3 @@
-CMAKE_VS_DEBUGGER_WORKING_DIRECTORY
------------------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`VS_DEBUGGER_WORKING_DIRECTORY`
-property on each target as it is created.  See that target property
-for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:91d9b927b04515775a88014f501895c21acb24e4f071ab2b52043895210419c1
+size 275

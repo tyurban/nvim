@@ -1,19 +1,3 @@
-include(Platform/Windows-Clang)
-set(_COMPILE_CXX_MSVC " -TP")
-__windows_compiler_clang(CXX)
-
-if("x${MAKE_CXX_COMPILER_FRONTEND_VARIANT}" STREQUAL "xMSVC")
-  if((NOT DEFINED CMAKE_DEPENDS_USE_COMPILER OR CMAKE_DEPENDS_USE_COMPILER)
-      AND CMAKE_GENERATOR MATCHES "Makefiles|WMake"
-      AND CMAKE_DEPFILE_FLAGS_CXX)
-    set(CMAKE_CXX_DEPENDS_USE_COMPILER TRUE)
-  endif()
-elseif("x${CMAKE_CXX_COMPILER_FRONTEND_VARIANT}" STREQUAL "xGNU")
-  if((NOT DEFINED CMAKE_DEPENDS_USE_COMPILER OR CMAKE_DEPENDS_USE_COMPILER)
-      AND CMAKE_GENERATOR MATCHES "Makefiles|WMake"
-      AND CMAKE_DEPFILE_FLAGS_CXX)
-    # dependencies are computed by the compiler itself
-    set(CMAKE_CXX_DEPFILE_FORMAT gcc)
-    set(CMAKE_CXX_DEPENDS_USE_COMPILER TRUE)
-  endif()
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:68740bdc73dbf55a91b8c9f22f6f8f6fa4a0ff4f242ead434713fb82b874a7b0
+size 758

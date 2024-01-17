@@ -1,7 +1,3 @@
-include(Platform/Darwin-Initialize)
-
-if(NOT _CMAKE_OSX_SYSROOT_PATH MATCHES "/XR(OS|Simulator)")
-  message(FATAL_ERROR "${CMAKE_OSX_SYSROOT} is not an visionOS SDK")
-endif()
-
-set(_CMAKE_FEATURE_DETECTION_TARGET_TYPE STATIC_LIBRARY)
+version https://git-lfs.github.com/spec/v1
+oid sha256:188f5fde4f60c8e03aa697a12435db6ac356120619240092542590014e5d291a
+size 232

@@ -1,15 +1,3 @@
-" Vim filetype plugin file
-" Language:	bst
-" Author:	Tim Pope <vimNOSPAM@tpope.info>
-" $Id: bst.vim,v 1.1 2007/05/05 17:37:57 vimboss Exp $
-
-if exists("b:did_ftplugin")
-    finish
-endif
-let b:did_ftplugin = 1
-
-setlocal commentstring=%\ %s
-setlocal comments=:%
-setlocal fo-=t fo+=croql
-
-let b:undo_ftplugin = "setlocal com< cms< fo<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9f3cdeb909b6988fa0589e9f1f03b2d0cce9ea123eb9800a8c1037a12a843c1
+size 333

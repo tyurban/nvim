@@ -1,15 +1,3 @@
-" Vim filetype plugin file
-" Language:     fish
-" Maintainer:   Nicholas Boyle (github.com/nickeb96)
-" Repository:   https://github.com/nickeb96/fish.vim
-" Last Change:  February 1, 2023
-
-if exists("b:did_ftplugin")
-    finish
-endif
-let b:did_ftplugin = 1
-
-setlocal iskeyword=@,48-57,_,192-255,-,.
-setlocal comments=:#
-setlocal commentstring=#%s
-setlocal formatoptions+=crjq
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0de2ce6a550461698721d43a3d4ebee64a2ecc1cc2ea6270095245be58e121b
+size 375

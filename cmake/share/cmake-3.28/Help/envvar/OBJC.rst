@@ -1,16 +1,3 @@
-OBJC
-----
-
-.. versionadded:: 3.16.7
-
-.. include:: ENV_VAR.txt
-
-Preferred executable for compiling ``OBJC`` language files. Will only be used
-by CMake on the first configuration to determine ``OBJC`` compiler, after
-which the value for ``OBJC`` is stored in the cache as
-:variable:`CMAKE_OBJC_COMPILER <CMAKE_<LANG>_COMPILER>`. For any configuration
-run (including the first), the environment variable will be ignored if the
-:variable:`CMAKE_OBJC_COMPILER <CMAKE_<LANG>_COMPILER>` variable is defined.
-
-If ``OBJC`` is not defined, the :envvar:`CC` environment variable will
-be checked instead.
+version https://git-lfs.github.com/spec/v1
+oid sha256:460b10b63bc0fa3c9cf457c76072299bf2d7d6f8f2575d46b16a5c5ba7c036f9
+size 593

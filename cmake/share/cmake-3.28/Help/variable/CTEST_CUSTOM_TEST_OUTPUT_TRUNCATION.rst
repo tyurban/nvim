@@ -1,12 +1,3 @@
-CTEST_CUSTOM_TEST_OUTPUT_TRUNCATION
------------------------------------
-
-.. versionadded:: 3.24
-
-Set the test output truncation mode in case a maximum size is configured
-via the :variable:`CTEST_CUSTOM_MAXIMUM_PASSED_TEST_OUTPUT_SIZE` or
-:variable:`CTEST_CUSTOM_MAXIMUM_FAILED_TEST_OUTPUT_SIZE` variables.
-By default the ``tail`` of the output will be truncated. Other possible
-values are ``middle`` and ``head``.
-
-.. include:: CTEST_CUSTOM_XXX.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:0785aa4de7cb87160cf65fd2778ffb4015f1cc16d2df4cd852704b36109408c8
+size 449

@@ -1,14 +1,3 @@
-remove
-------
-
-.. deprecated:: 3.0
-
-  Use the :command:`list(REMOVE_ITEM)` command instead.
-
-.. code-block:: cmake
-
-  remove(VAR VALUE VALUE ...)
-
-Removes ``VALUE`` from the variable ``VAR``.  This is typically used to
-remove entries from a vector (e.g.  semicolon separated list).  ``VALUE``
-is expanded.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5995fa362122f19cb84d38463b00d6db1616b08d5aecc9c33951f4cd39d41dd9
+size 306

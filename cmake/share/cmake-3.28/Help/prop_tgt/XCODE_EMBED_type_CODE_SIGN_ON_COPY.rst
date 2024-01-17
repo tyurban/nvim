@@ -1,24 +1,3 @@
-XCODE_EMBED_<type>_CODE_SIGN_ON_COPY
-------------------------------------
-
-.. versionadded:: 3.20
-
-Boolean property used only by the :generator:`Xcode` generator.  It specifies
-whether to perform code signing for the items that are embedded using the
-:prop_tgt:`XCODE_EMBED_<type>` property.
-
-The supported values for ``<type>`` are:
-
-``FRAMEWORKS``
-
-``APP_EXTENSIONS``
-  .. versionadded:: 3.21
-
-``EXTENSIONKIT_EXTENSIONS``
-  .. versionadded:: 3.26
-
-``PLUGINS``
-  .. versionadded:: 3.23
-
-If a ``XCODE_EMBED_<type>_CODE_SIGN_ON_COPY`` property is not defined on the
-target, no code signing on copy will be performed for that ``<type>``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a78bed5bd1bf5086e3d09e48b7d059c425f39a3cc2e3fe37bd43bbf16be5059f
+size 636

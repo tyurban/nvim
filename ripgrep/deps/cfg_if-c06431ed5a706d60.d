@@ -1,7 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libcfg_if-c06431ed5a706d60.rmeta: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libcfg_if-c06431ed5a706d60.rlib: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/cfg_if-c06431ed5a706d60.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0/src/lib.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca5cc40579a1f709be5804f18d2f00c79a8dd13d74aa6e8dd9782e8905466c7e
+size 596

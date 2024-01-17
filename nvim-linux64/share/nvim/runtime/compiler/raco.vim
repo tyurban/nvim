@@ -1,14 +1,3 @@
-" Vim compiler file
-" Compiler:     raco (Racket command-line tools)
-" Maintainer:   D. Ben Knoble <ben.knoble+github@gmail.com>
-" URL:          https://github.com/benknoble/vim-racket
-" Last Change: 2022 Aug 12
-
-let current_compiler = 'raco'
-
-if exists(":CompilerSet") != 2
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=raco
-CompilerSet errorformat=%f:%l:%c:%m
+version https://git-lfs.github.com/spec/v1
+oid sha256:5972fbac3fc38b897c7e6c7d491a1f5a044782a641b1bb5268fbcf667e0e362c
+size 390

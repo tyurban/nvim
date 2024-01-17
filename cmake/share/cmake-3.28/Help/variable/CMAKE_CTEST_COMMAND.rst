@@ -1,8 +1,3 @@
-CMAKE_CTEST_COMMAND
--------------------
-
-Full path to :manual:`ctest(1)` command installed with CMake.
-
-This is the full path to the CTest executable :manual:`ctest(1)`
-that can be used for custom commands or tests to invoke
-CTest commands.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e12946c4aba6f4ab9a660fdd4360f150d742c1479651fe14407ef18721e91701
+size 241

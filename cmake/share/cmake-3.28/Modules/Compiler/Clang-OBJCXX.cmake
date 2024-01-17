@@ -1,11 +1,3 @@
-include(Compiler/Clang)
-__compiler_clang(OBJCXX)
-__compiler_clang_cxx_standards(OBJCXX)
-
-if((NOT DEFINED CMAKE_DEPENDS_USE_COMPILER OR CMAKE_DEPENDS_USE_COMPILER)
-    AND CMAKE_GENERATOR MATCHES "Makefiles|WMake"
-    AND CMAKE_DEPFILE_FLAGS_OBJCXX)
-  # dependencies are computed by the compiler itself
-  set(CMAKE_OBJCXX_DEPFILE_FORMAT gcc)
-  set(CMAKE_OBJCXX_DEPENDS_USE_COMPILER TRUE)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:0095a05508546e1a0405b8d3018e1f2dbeb01b28cef2eef91836f811b78d2db3
+size 395

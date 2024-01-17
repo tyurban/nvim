@@ -1,14 +1,3 @@
-" Vim compiler file
-" Compiler:     raco test (Racket command-line tools)
-" Maintainer:   D. Ben Knoble <ben.knoble+github@gmail.com>
-" URL:          https://github.com/benknoble/vim-racket
-" Last Change: 2022 Aug 12
-
-let current_compiler = 'racotest'
-
-if exists(":CompilerSet") != 2
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=raco\ test\ %
-CompilerSet errorformat=location:%f:%l:%c
+version https://git-lfs.github.com/spec/v1
+oid sha256:56b81c2df99e00c233a2d9f191939af9fa418613e7981916cd6751d0cc5d94e6
+size 414

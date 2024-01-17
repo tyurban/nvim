@@ -1,22 +1,3 @@
-" Vim compiler file
-" Compiler:             BDF to PCF Conversion
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2006-04-19
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "bdf"
-
-let s:cpo_save = &cpo
-set cpo-=C
-
-setlocal makeprg=bdftopcf\ $*
-
-setlocal errorformat=%ABDF\ %trror\ on\ line\ %l:\ %m,
-      \%-Z%p^,
-      \%Cbdftopcf:\ bdf\ input\\,\ %f\\,\ corrupt,
-      \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf1b49d84c1e4c30fcca513151afae4432b3803f5e887ebcc627af6e43b136e2
+size 473

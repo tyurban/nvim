@@ -1,12 +1,3 @@
-" Vim indent file
-" Language:         RAML (RESTful API Modeling Language)
-" Maintainer:       mucheng <leisurelicht@gmail.com>
-" License:          VIM LICENSE
-" Latest Revision:  2018-11-03
-
-if exists("b:did_indent")
-  finish
-endif
-
-" Same as yaml indenting.
-runtime! indent/yaml.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:f708a6c9e48b8418971f457294fa5c4a6fa129a6289173961148f76ea0f6f402
+size 285

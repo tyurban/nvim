@@ -1,14 +1,3 @@
-XCODE_XCCONFIG
---------------
-
-.. versionadded:: 3.24
-
-If set, the :generator:`Xcode` generator will register the specified
-file as a target-level XCConfig file. For global XCConfig files see
-the :variable:`CMAKE_XCODE_XCCONFIG` variable.
-
-This feature is intended to ease migration from native Xcode projects
-to CMake projects.
-
-Contents of ``XCODE_XCCONFIG`` may use
-:manual:`generator expressions <cmake-generator-expressions(7)>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5d108b84d3fca09cfb6f5c56113ca72b6419982bac55acf50e7bf4bca7ac08a
+size 435

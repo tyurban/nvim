@@ -1,15 +1,3 @@
-CMAKE_GLOBAL_AUTOGEN_TARGET_NAME
---------------------------------
-
-.. versionadded:: 3.14
-
-Change the name of the global ``autogen`` target.
-
-When :variable:`CMAKE_GLOBAL_AUTOGEN_TARGET` is enabled, a global custom target
-named ``autogen`` is created.  ``CMAKE_GLOBAL_AUTOGEN_TARGET_NAME``
-allows to set a different name for that target.
-
-By default ``CMAKE_GLOBAL_AUTOGEN_TARGET_NAME`` is unset.
-
-See the :manual:`cmake-qt(7)` manual for more information on using CMake
-with Qt.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7968f6e96aab80b0deb8ae99e2a33786fb4c63fc3e0837668b3f7c5bab76f87c
+size 480

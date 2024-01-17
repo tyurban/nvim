@@ -1,22 +1,3 @@
-CMAKE_HIP_PLATFORM
-------------------
-
-.. versionadded:: 3.28
-
-GPU platform for which HIP language sources are to be compiled.
-
-The value must be one of:
-
-``amd``
-  AMD GPUs
-
-``nvidia``
-  NVIDIA GPUs
-
-If not specified, a default is computed via ``hipconfig --platform``.
-
-:variable:`CMAKE_HIP_ARCHITECTURES` entries are interpreted with
-as architectures of the GPU platform.
-
-:variable:`CMAKE_HIP_COMPILER <CMAKE_<LANG>_COMPILER>` must target
-the same GPU platform.
+version https://git-lfs.github.com/spec/v1
+oid sha256:80671d34c43f66d0ead460da969dbce730742ad95da781c97fc45f8d9fa8a87e
+size 466

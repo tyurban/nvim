@@ -1,8 +1,3 @@
-CMAKE_INSTALL_NAME_DIR
-----------------------
-
-Directory name for installed targets on Apple platforms.
-
-``CMAKE_INSTALL_NAME_DIR`` is used to initialize the
-:prop_tgt:`INSTALL_NAME_DIR` property on all targets.  See that target
-property for more information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d8e8f65e38f00d5c3454214d74b26ba60bfc94d6b7fd3b9c35211d8d35acf57
+size 260

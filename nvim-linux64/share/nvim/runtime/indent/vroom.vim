@@ -1,21 +1,3 @@
-" Vim indent file
-" Language:	Vroom (vim testing and executable documentation)
-" Maintainer:	David Barnett (https://github.com/google/vim-ft-vroom)
-" Last Change:	2014 Jul 23
-
-if exists('b:did_indent')
-  finish
-endif
-let b:did_indent = 1
-
-let s:cpo_save = &cpo
-set cpo-=C
-
-
-let b:undo_indent = 'setlocal autoindent<'
-
-setlocal autoindent
-
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:71fb1ab65e630643c826a8262d50444567f95c895eb2369edea667c083ba0c17
+size 379

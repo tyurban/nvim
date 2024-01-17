@@ -1,10 +1,3 @@
-CMAKE_CODELITE_USE_TARGETS
---------------------------
-
-.. versionadded:: 3.7
-
-Change the way the CodeLite generator creates projectfiles.
-
-If this variable evaluates to ``ON`` at the end of the top-level
-``CMakeLists.txt`` file, the generator creates projectfiles based on targets
-rather than projects.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a55856f3a0bfe238fe6802edbed773b8bcbce3219ac0f5f286897390d190899
+size 303

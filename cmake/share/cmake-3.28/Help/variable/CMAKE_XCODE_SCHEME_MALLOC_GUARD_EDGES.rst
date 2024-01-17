@@ -1,14 +1,3 @@
-CMAKE_XCODE_SCHEME_MALLOC_GUARD_EDGES
--------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Malloc Guard Edges``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_MALLOC_GUARD_EDGES`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cffb44c0866f05340a48932064f4eeeabdcdc4947a43bd9d06fa5d88e6c8a3e
+size 429

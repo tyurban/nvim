@@ -1,10 +1,3 @@
-#if defined(__GNUC__) &&                                                      \
-  !(defined(__INTEL_COMPILER) || defined(__INTEL_LLVM_COMPILER))
-void THIS_IS_GNU();
-#endif
-#ifdef __MINGW32__
-void THIS_IS_MINGW();
-#endif
-#ifdef __CYGWIN__
-void THIS_IS_CYGWIN();
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:212f33909568e7a9f8c60584bc41a8249cb46e03d9829a31588fb1c6ccb377d1
+size 268

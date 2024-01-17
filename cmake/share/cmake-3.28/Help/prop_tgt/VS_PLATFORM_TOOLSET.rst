@@ -1,12 +1,3 @@
-VS_PLATFORM_TOOLSET
--------------------
-
-.. versionadded:: 3.18
-
-Overrides the platform toolset used to build a target.
-
-Only supported when the compiler used by the given toolset is the
-same as the compiler used to build the whole source tree.
-
-This is especially useful to create driver projects with the toolsets
-"WindowsUserModeDriver10.0" or "WindowsKernelModeDriver10.0".
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cc3a41b7a663bb534e327cf2b4e8205f625e4598ea462176e726d8218e4fc37
+size 378

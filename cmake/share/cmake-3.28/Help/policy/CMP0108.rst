@@ -1,21 +1,3 @@
-CMP0108
--------
-
-.. versionadded:: 3.18
-
-A target is not allowed to link to itself even through an ``ALIAS`` target.
-
-In CMake 3.17 and below, a target can link to a target aliased to itself.
-
-The ``OLD`` behavior for this policy is to allow a target to link to a target
-aliased to itself.
-
-The ``NEW`` behavior of this policy is to prevent a target to link to itself
-through an ``ALIAS`` target.
-
-This policy was introduced in CMake version 3.17.  Use the
-:command:`cmake_policy` command to set it to ``OLD`` or ``NEW`` explicitly.
-Unlike many policies, CMake version |release| does *not* warn
-when this policy is not set and simply uses ``OLD`` behavior.
-
-.. include:: DEPRECATED.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c81a90ce5aa36fa0af87e38b535286104457f82d620f95f5962458b7ea6c6f3
+size 686

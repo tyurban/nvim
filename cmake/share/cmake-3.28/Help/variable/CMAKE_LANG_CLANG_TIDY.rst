@@ -1,15 +1,3 @@
-CMAKE_<LANG>_CLANG_TIDY
------------------------
-
-.. versionadded:: 3.6
-
-Default value for :prop_tgt:`<LANG>_CLANG_TIDY` target property
-when ``<LANG>`` is ``C``, ``CXX``, ``OBJC`` or ``OBJCXX``.
-
-This variable is used to initialize the property on each target as it is
-created.  For example:
-
-.. code-block:: cmake
-
-  set(CMAKE_CXX_CLANG_TIDY clang-tidy -checks=-*,readability-*)
-  add_executable(foo foo.cxx)
+version https://git-lfs.github.com/spec/v1
+oid sha256:25d34c3dd2c8c7d6b8d016b5704b06f504103d56064415d232cb004e1f8ed839
+size 410

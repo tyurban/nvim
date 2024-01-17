@@ -1,19 +1,3 @@
-CMAKE_<LANG>_STANDARD
----------------------
-
-The variations are:
-
-* :variable:`CMAKE_C_STANDARD`
-* :variable:`CMAKE_CXX_STANDARD`
-* :variable:`CMAKE_CUDA_STANDARD`
-* :variable:`CMAKE_HIP_STANDARD`
-* :variable:`CMAKE_OBJC_STANDARD`
-* :variable:`CMAKE_OBJCXX_STANDARD`
-
-Default values for :prop_tgt:`<LANG>_STANDARD` target properties if set when a
-target is created.
-
-For supported CMake versions see the respective pages.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b437d021c5b6f451504bee70e36a75e2c7d9042e747cd2826064eb0e39dd505
+size 545

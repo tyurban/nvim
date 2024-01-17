@@ -1,6 +1,3 @@
-begin
-  require 'neovim/ruby_provider'
-rescue LoadError
-  warn('Your neovim RubyGem is missing or out of date.',
-       'Install the latest version using `gem install neovim`.')
-end
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe8a8a90ef583f125107b0d277eff5b968a7be13f024c4cda2d3d91bce009734
+size 182

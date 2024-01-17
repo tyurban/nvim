@@ -1,9 +1,3 @@
-MINGW
------
-
-.. versionadded:: 3.2
-
-Set to a true value when at least one language is enabled
-with a compiler targeting the GNU ABI on Windows (MinGW).
-
-Otherwise, this variable is not set by CMake.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4680bbfe7be247b59d1cd87c5ffffcbd434a3ca9cd359f07b541ef70647518d
+size 199

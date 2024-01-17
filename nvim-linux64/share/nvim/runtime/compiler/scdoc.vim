@@ -1,17 +1,3 @@
-" scdoc compiler for Vim
-" Compiler: scdoc
-" Maintainer: Gregory Anders <contact@gpanders.com>
-" Last Updated: 2019-10-24
-" Upstream: https://github.com/gpanders/vim-scdoc
-
-if exists('current_compiler')
-    finish
-endif
-let current_compiler = 'scdoc'
-
-if exists(':CompilerSet') != 2
-    command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=scdoc\ <\ %\ 2>&1
-CompilerSet errorformat=Error\ at\ %l:%c:\ %m,%-G%.%#
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d933fbebd2bbcf329088831e6e1f295099c827fb0237e61c9c26c0c0283ba5b
+size 431

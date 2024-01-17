@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             services(5) - Internet network services list
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=:# commentstring=#\ %s formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf692642e503217206d6660b72638ef4849081ad054aea38089e65a78703b07d
+size 452

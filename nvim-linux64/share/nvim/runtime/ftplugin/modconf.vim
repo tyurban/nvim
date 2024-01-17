@@ -1,20 +1,3 @@
-" Vim filetype plugin file
-" Language:             modules.conf(5) configuration file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< inc< fo<"
-
-setlocal comments=:# commentstring=#\ %s include=^\\s*include
-setlocal formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4d14a7c00cc8a7156cadc5c7f2973b54dfa227ba3777bbec4c2d304dcfc2933
+size 477

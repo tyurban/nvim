@@ -1,7 +1,3 @@
-CTEST_CUSTOM_TESTS_IGNORE
--------------------------
-
-A list of test names to be excluded from the set of tests run by the
-:command:`ctest_test` command.
-
-.. include:: CTEST_CUSTOM_XXX.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:955b381170bb85928c28b829a47b517c44ae0e8b8a51dd023d543f4815547135
+size 188

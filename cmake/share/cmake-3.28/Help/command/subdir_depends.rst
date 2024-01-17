@@ -1,13 +1,3 @@
-subdir_depends
---------------
-
-Disallowed since version 3.0.  See CMake Policy :policy:`CMP0029`.
-
-Does nothing.
-
-.. code-block:: cmake
-
-  subdir_depends(subdir dep1 dep2 ...)
-
-Does not do anything.  This command used to help projects order
-parallel builds correctly.  This functionality is now automatic.
+version https://git-lfs.github.com/spec/v1
+oid sha256:30bfebbe50d4563e0078d8816f00710fd709838b1db00119f687c7f700362c90
+size 306

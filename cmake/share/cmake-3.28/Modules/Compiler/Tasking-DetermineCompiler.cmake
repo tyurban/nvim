@@ -1,10 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-set(_compiler_id_pp_test "defined(__TASKING__)")
-
-set(_compiler_id_version_compute "
-  # define @PREFIX@COMPILER_VERSION_MAJOR @MACRO_DEC@(__VERSION__/1000)
-  # define @PREFIX@COMPILER_VERSION_MINOR @MACRO_DEC@(__VERSION__ % 100)")
-
-string(APPEND _compiler_id_version_compute "
-# define @PREFIX@COMPILER_VERSION_INTERNAL @MACRO_DEC@(__VERSION__)")
+version https://git-lfs.github.com/spec/v1
+oid sha256:43a7f277e416c5e25a389dd9fcefe14754c47e1d8ed51f66c3ecee0dd6276336
+size 490

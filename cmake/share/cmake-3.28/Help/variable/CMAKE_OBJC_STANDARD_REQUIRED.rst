@@ -1,10 +1,3 @@
-CMAKE_OBJC_STANDARD_REQUIRED
-----------------------------
-
-.. versionadded:: 3.16
-
-Default value for :prop_tgt:`OBJC_STANDARD_REQUIRED` target property if set
-when a target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:744d7839e6dc4b4a56632f58f9822a44641b6d930690c2e75061e2be8c88625f
+size 308

@@ -1,10 +1,3 @@
-CMAKE_AUTOUIC_EXECUTABLE
-------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`AUTOUIC_EXECUTABLE`
-property on all the targets. See that target property for additional
-information.
-
-By default it is empty.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5affd4171b932191979446e1d3d5dbd8fa432e551b3a29661bc6385ea93ca12b
+size 253

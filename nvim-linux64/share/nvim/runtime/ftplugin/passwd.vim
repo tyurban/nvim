@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             passwd(5) password file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments= commentstring= formatoptions-=tcroq formatoptions+=l
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:e789ebbec20a2df911f49b7852b14068a9a42112293a887e1b8864f808f03a72
+size 424

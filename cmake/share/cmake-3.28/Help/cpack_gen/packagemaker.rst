@@ -1,7 +1,3 @@
-CPack PackageMaker Generator
-----------------------------
-
-Removed.  This once generated PackageMaker installers, but the
-generator has been removed since CMake 3.24.  Xcode no longer distributes
-the PackageMaker tools.  Use the :cpack_gen:`CPack productbuild Generator`
-instead.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9400eb2413d779c3d4c4a0c5d04ceddb3df77d5ef81172210f6e9a55f0c407e0
+size 280

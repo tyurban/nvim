@@ -1,13 +1,3 @@
-" Vim filetype plugin file
-" Language: XDG desktop entry
-" Maintainer: Eisuke Kawashima ( e.kawaschima+vim AT gmail.com )
-" Last Change: 2022-07-26
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = v:true
-
-setl comments=:#
-setl commentstring=#%s
-let b:undo_ftplugin = 'setl com< cms<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:419f65fecd50c1eba076488f60a4747a51aca198aa976733a676641f3e5693d3
+size 300

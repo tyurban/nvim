@@ -1,15 +1,3 @@
-CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP
------------------------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Undefined Behavior Sanitizer`` option
-``Pause on issues``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER_STOP`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeabd77576b5e044ab174801985feb2fd03087d67dc0a1c77777f783ad8e39b3
+size 514

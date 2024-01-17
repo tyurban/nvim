@@ -1,13 +1,3 @@
-CMAKE_CUDA_COMPILE_FEATURES
----------------------------
-
-.. versionadded:: 3.17
-
-List of features known to the CUDA compiler
-
-These features are known to be available for use with the CUDA compiler. This
-list is a subset of the features listed in the
-:prop_gbl:`CMAKE_CUDA_KNOWN_FEATURES` global property.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c35a48e9809b8147fb6fdba152b5d22354681d2ec2034ba3043941f45f184f3d
+size 429

@@ -1,9 +1,3 @@
-
-set(_compiler_id_pp_test "defined(__NVCOMPILER)")
-
-set(_compiler_id_version_compute "
-# define @PREFIX@COMPILER_VERSION_MAJOR @MACRO_DEC@(__NVCOMPILER_MAJOR__)
-# define @PREFIX@COMPILER_VERSION_MINOR @MACRO_DEC@(__NVCOMPILER_MINOR__)
-# if defined(__NVCOMPILER_PATCHLEVEL__)
-#  define @PREFIX@COMPILER_VERSION_PATCH @MACRO_DEC@(__NVCOMPILER_PATCHLEVEL__)
-# endif")
+version https://git-lfs.github.com/spec/v1
+oid sha256:60caf9dc1f1c1d3d74b40a68a543b5ba8641ad46f1f147236147e731d8459afe
+size 365

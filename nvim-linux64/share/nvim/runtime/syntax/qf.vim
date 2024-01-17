@@ -1,24 +1,3 @@
-" Vim syntax file
-" Language:	Quickfix window
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2001 Jan 15
-
-" Quit when a syntax file was already loaded
-if exists("b:current_syntax")
-  finish
-endif
-
-" A bunch of useful C keywords
-syn match	qfFileName	"^[^|]*" nextgroup=qfSeparator
-syn match	qfSeparator	"|" nextgroup=qfLineNr contained
-syn match	qfLineNr	"[^|]*" contained contains=qfError
-syn match	qfError		"error" contained
-
-" The default highlighting.
-hi def link qfFileName	Directory
-hi def link qfLineNr	LineNr
-hi def link qfError	Error
-
-let b:current_syntax = "qf"
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:93302dad7c5107357decc1e6bf2a9a4760148d8eb52ba9518a5c7d93f6e82a94
+size 596

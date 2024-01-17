@@ -1,10 +1,3 @@
-CMAKE_<LANG>_LINK_LIBRARY_FILE_FLAG
------------------------------------
-
-.. versionadded:: 3.16
-
-Language-specific flag to be used to link a library specified by
-a path to its file.
-
-The flag will be used before a library file path is given to the
-linker.  This is needed only on very few platforms.
+version https://git-lfs.github.com/spec/v1
+oid sha256:15e3484c6a596e29b7f716a7f9eeb11b0989d6549468b0cd424c5e835cbd964b
+size 300

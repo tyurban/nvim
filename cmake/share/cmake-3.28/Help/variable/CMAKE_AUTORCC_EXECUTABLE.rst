@@ -1,10 +1,3 @@
-CMAKE_AUTORCC_EXECUTABLE
-------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`AUTORCC_EXECUTABLE`
-property on all the targets. See that target property for additional
-information.
-
-By default it is empty.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e2abad1c9e80a0026fbf51a8b412f249eec1fce727a2686ad98e2a6ce6d7182
+size 253

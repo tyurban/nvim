@@ -1,6 +1,3 @@
-UseJavaSymlinks
----------------
-
-.. versionchanged:: 3.20
-  This module was previously documented by mistake and was never meant for
-  direct inclusion by project code.  See the :module:`UseJava` module.
+version https://git-lfs.github.com/spec/v1
+oid sha256:492417aa3122e1475d3a853f89ff4def7ecb503cf3f7bcb32ac4230848096165
+size 204

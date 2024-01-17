@@ -1,11 +1,3 @@
-" This source file is part of the Swift.org open source project
-"
-" Copyright (c) 2014 - 2020 Apple Inc. and the Swift project authors
-" Licensed under Apache License v2.0 with Runtime Library Exception
-"
-" See https://swift.org/LICENSE.txt for license information
-" See https://swift.org/CONTRIBUTORS.txt for the list of Swift project authors
-"
-" Vim maintainer: Emir SARI <bitigchi@me.com>
-
-runtime! ftplugin/swift.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:874da1cd34bd17eb1e17fbc95509bcb9b6e5251e2ffbe4c2e3dd01e91ddb0886
+size 421

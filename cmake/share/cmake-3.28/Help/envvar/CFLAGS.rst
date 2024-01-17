@@ -1,12 +1,3 @@
-CFLAGS
-------
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``C`` files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_C_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``C``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_C_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:99772cf54b152336b5dfeb5c7aef3c2a0c3caa41974516ff1fea3ad083d2e637
+size 312

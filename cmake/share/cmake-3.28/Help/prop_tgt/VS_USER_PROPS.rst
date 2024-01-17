@@ -1,14 +1,3 @@
-VS_USER_PROPS
--------------
-
-.. versionadded:: 3.8
-
-Sets the user props file to be included in the visual studio
-C++ project file. The standard path is
-``$(UserRootDir)\\Microsoft.Cpp.$(Platform).user.props``, which is
-in most cases the same as
-``%LOCALAPPDATA%\\Microsoft\\MSBuild\\v4.0\\Microsoft.Cpp.Win32.user.props``
-or ``%LOCALAPPDATA%\\Microsoft\\MSBuild\\v4.0\\Microsoft.Cpp.x64.user.props``.
-
-The ``*.user.props`` files can be used for Visual Studio wide
-configuration which is independent from cmake.
+version https://git-lfs.github.com/spec/v1
+oid sha256:17325e17d657455303492886045cba89a2fe1c98b7303c172385632bcef04c84
+size 511

@@ -1,10 +1,3 @@
-INTERFACE_LINK_DIRECTORIES
---------------------------
-
-.. versionadded:: 3.13
-
-.. |property_name| replace:: link directories
-.. |command_name| replace:: :command:`target_link_directories`
-.. |PROPERTY_INTERFACE_NAME| replace:: ``INTERFACE_LINK_DIRECTORIES``
-.. |PROPERTY_LINK| replace:: :prop_tgt:`LINK_DIRECTORIES`
-.. include:: INTERFACE_BUILD_PROPERTY.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:712369facc641c908aec989054633e696b4d102a2e191a90a2394bad2a5684bc
+size 358

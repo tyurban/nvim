@@ -1,12 +1,3 @@
-XCODE_SCHEME_ARGUMENTS
-----------------------
-
-.. versionadded:: 3.13
-
-Specify command line arguments that should be added to the Arguments
-section of the generated Xcode scheme.
-
-If set to a list of arguments those will be added to the scheme.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf2edfcedadda2edcfe20580eaff1dd5c9e53321c9eeba54e2f6074bc00f11e0
+size 374

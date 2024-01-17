@@ -1,17 +1,3 @@
-----------------------------------------------------------------------------
--- LuaJIT MIPSEL disassembler wrapper module.
---
--- Copyright (C) 2005-2023 Mike Pall. All rights reserved.
--- Released under the MIT license. See Copyright Notice in luajit.h
-----------------------------------------------------------------------------
--- This module just exports the little-endian functions from the
--- MIPS disassembler module. All the interesting stuff is there.
-------------------------------------------------------------------------------
-
-local dis_mips = require((string.match(..., ".*%.") or "").."dis_mips")
-return {
-  create = dis_mips.create_el,
-  disass = dis_mips.disass_el,
-  regname = dis_mips.regname
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c29cda3423b8627d1ce8ecc187d7280d81c2c3fef4530b4d7e62a7368b5fcf4f
+size 715

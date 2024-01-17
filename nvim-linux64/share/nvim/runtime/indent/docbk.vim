@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:    	    DocBook Documentation Format
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2006-04-19
-
-if exists("b:did_indent")
-  finish
-endif
-
-" Same as XML indenting for now.
-runtime! indent/xml.vim
-
-if exists('*XmlIndentGet')
-  setlocal indentexpr=XmlIndentGet(v:lnum,0)
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6285485bb4aca52cb1a546e0bda141cba52ffb25affa0eb2958bd551d3c9a153
+size 336

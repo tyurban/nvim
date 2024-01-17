@@ -1,13 +1,3 @@
-CMAKE_<LANG>_SIMULATE_ID
-------------------------
-
-Identification string of the "simulated" compiler.
-
-Some compilers simulate other compilers to serve as drop-in
-replacements.  When CMake detects such a compiler it sets this
-variable to what would have been the :variable:`CMAKE_<LANG>_COMPILER_ID` for
-the simulated compiler.
-
-.. note::
-  In other words, this variable describes the ABI compatibility
-  of the generated code.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d5a5d1556cdb33b784bb817cf38725c5cfecc07d98cecb48a9d59a2c5772943
+size 428

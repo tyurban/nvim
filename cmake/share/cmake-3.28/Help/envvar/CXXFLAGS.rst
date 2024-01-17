@@ -1,12 +1,3 @@
-CXXFLAGS
---------
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``CXX`` (C++) files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_CXX_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``CXX``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_CXX_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fedaa50e509a90bffc109acdef7d193628df1b7ce2180364aca7ac4485fa8f4
+size 330

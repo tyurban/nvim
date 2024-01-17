@@ -1,25 +1,3 @@
-(h1) @text.title.1
-(h2) @text.title.2
-(h3) @text.title.3
-(column_heading) @text.title.4
-(column_heading
-   "~" @conceal (#set! conceal ""))
-(tag
-   "*" @conceal (#set! conceal "")
-   text: (_) @label)
-(taglink
-   "|" @conceal (#set! conceal "")
-   text: (_) @text.reference)
-(optionlink
-   text: (_) @text.reference)
-(codespan
-   "`" @conceal (#set! conceal "")
-   text: (_) @text.literal)
-(codeblock) @text.literal
-(codeblock
-   [">" (language)] @conceal (#set! conceal ""))
-(block
-   "<" @conceal (#set! conceal ""))
-(argument) @parameter
-(keycode) @string.special
-(url) @text.uri
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0aba42edc0c4b2e8484ba602fab32fd39e70daabeff639f169530cf48e3761e
+size 583

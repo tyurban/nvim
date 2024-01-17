@@ -1,17 +1,3 @@
-" Vim syntax file
-" Language:	Boundary Scan Description Language (BSDL)
-" Maintainer:	Daniel Kho <daniel.kho@logik.haus>
-" Last Changed:	2020 Mar 19 by Daniel Kho
-
-" quit when a syntax file was already loaded
-if exists("b:current_syntax")
-    finish
-endif
-
-" Read in VHDL syntax files
-runtime! syntax/vhdl.vim
-unlet b:current_syntax
-
-let b:current_syntax = "bsdl"
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:e65627d43988fdcfceb47629ff6f4dfdec4e0269c32fdc89d7853ca64910e870
+size 377

@@ -1,14 +1,3 @@
-CUDAFLAGS
----------
-
-.. versionadded:: 3.8
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``CUDA`` files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_CUDA_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``CUDA``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_CUDA_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e478f4346286046fa336a7dd56a9edd7704658adc929b339535bb45b659ac3b
+size 353

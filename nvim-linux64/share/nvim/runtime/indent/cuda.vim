@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:	CUDA
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2008 Nov 29
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-let b:did_indent = 1
-
-" It's just like C indenting
-setlocal cindent
-
-let b:undo_indent = "setl cin<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:aee3e1b012e9e76b4316675dfb49b32123bb877fceb2d97672c23834bf3a07dd
+size 305

@@ -1,9 +1,3 @@
-RUNTIME_OUTPUT_DIRECTORY
-------------------------
-
-.. |XXX| replace:: :ref:`RUNTIME <Runtime Output Artifacts>`
-.. |xxx| replace:: runtime
-.. |CMAKE_XXX_OUTPUT_DIRECTORY| replace:: :variable:`CMAKE_RUNTIME_OUTPUT_DIRECTORY`
-.. include:: XXX_OUTPUT_DIRECTORY.txt
-
-See also the :prop_tgt:`RUNTIME_OUTPUT_DIRECTORY_<CONFIG>` target property.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f244c4ff63096bc17754dd2c9507e95f5db060de93f1f0d8eb414a360ba04540
+size 339

@@ -1,13 +1,3 @@
-RULE_LAUNCH_LINK
-----------------
-
-Specify a launcher for link rules.
-
-.. note::
-  This property is intended for internal use by :manual:`ctest(1)`.  Projects
-  and developers should use the :prop_tgt:`<LANG>_LINKER_LAUNCHER` target
-  properties or the associated :variable:`CMAKE_<LANG>_LINKER_LAUNCHER`
-  variables instead.
-
-See the :prop_gbl:`global property <RULE_LAUNCH_LINK>` of the same name for
-details.  This overrides the global property for a directory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:440b57c8866ab502c6b954a576ff23adbc8ac4c55a48813e9ea70690a17fe6cd
+size 465

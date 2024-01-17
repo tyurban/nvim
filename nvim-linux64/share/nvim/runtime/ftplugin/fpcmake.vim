@@ -1,25 +1,3 @@
-" Vim filetype plugin file
-" Language:	Free Pascal Makefile Generator
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2021 Apr 23
-
-if exists("b:did_ftplugin")
-  finish
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-runtime! ftplugin/make.vim
-
-if (has("gui_win32") || has("gui_gtk")) && !exists("b:browsefilter")
-  let b:browsefilter = "Free Pascal Makefile Definition Files (*.fpc)\t*.fpc\n" ..
-		     \ "All Files (*.*)\t*.*\n"
-endif
-
-let b:undo_ftplugin = b:undo_ftplugin .. " | unlet! b:browsefilter"
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
-
-" vim: nowrap sw=2 sts=2 ts=8 noet:
+version https://git-lfs.github.com/spec/v1
+oid sha256:512f6e95a10d30e396a63cebd28eba8f2781492717c3996840ce1ae8e9bf29cc
+size 592

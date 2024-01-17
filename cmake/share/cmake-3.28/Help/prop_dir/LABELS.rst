@@ -1,15 +1,3 @@
-LABELS
-------
-
-.. versionadded:: 3.10
-
-Specify a list of text labels associated with a directory and all of its
-subdirectories. This is equivalent to setting the :prop_tgt:`LABELS` target
-property and the :prop_test:`LABELS` test property on all targets and tests in
-the current directory and subdirectories. Note: Launchers must enabled to
-propagate labels to targets.
-
-The :variable:`CMAKE_DIRECTORY_LABELS` variable can be used to initialize this
-property.
-
-The list is reported in dashboard submissions.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d8cc2b9befe20633d154978c19b7dd61edf62c99047d1ce09c601da938f417f
+size 508

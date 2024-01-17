@@ -1,18 +1,3 @@
-CMAKE_SYSTEM_IGNORE_PATH
-------------------------
-
-.. |CMAKE_IGNORE_VAR| replace:: ``CMAKE_SYSTEM_IGNORE_PATH``
-.. |CMAKE_IGNORE_PREFIX_VAR| replace:: :variable:`CMAKE_SYSTEM_IGNORE_PREFIX_PATH`
-.. |CMAKE_IGNORE_NONSYSTEM_VAR| replace:: :variable:`CMAKE_IGNORE_PATH`
-
-.. include:: IGNORE_SEARCH_PATH.txt
-.. include:: IGNORE_SEARCH_LOCATIONS.txt
-.. include:: IGNORE_SEARCH_SYSTEM.txt
-
-See also the following variables:
-
-- :variable:`CMAKE_SYSTEM_IGNORE_PREFIX_PATH`
-- :variable:`CMAKE_SYSTEM_PREFIX_PATH`
-- :variable:`CMAKE_SYSTEM_LIBRARY_PATH`
-- :variable:`CMAKE_SYSTEM_INCLUDE_PATH`
-- :variable:`CMAKE_SYSTEM_PROGRAM_PATH`
+version https://git-lfs.github.com/spec/v1
+oid sha256:d58468d2d6def7a5c642a9daa1075ed1309f522d3e289316e58bd2855241fe7e
+size 624

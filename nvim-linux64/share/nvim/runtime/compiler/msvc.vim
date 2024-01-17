@@ -1,13 +1,3 @@
-" Vim compiler file
-" Compiler:	Microsoft Visual C
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2014 Sep 20
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "msvc"
-
-" The errorformat for MSVC is the default.
-CompilerSet errorformat&
-CompilerSet makeprg=nmake
+version https://git-lfs.github.com/spec/v1
+oid sha256:617b60062187c9177e629d3f6defc9faaeac63558cc196b12b548fc29ed1dfdb
+size 293

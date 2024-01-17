@@ -1,16 +1,3 @@
-" Vim filetype plugin file
-" Language:		fetchmail(1) RC File
-" Maintainer:		Doug Kearns <dougkearns@gmail.com>
-" Previous Maintainer:	Nikolai Weibull <now@bitwi.se>
-" Latest Revision:	2022 Jun 30
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal comments=:# commentstring=#\ %s
-setlocal formatoptions-=t formatoptions+=croql
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c110532f180182445d02bfeded52d29e6709cfe2fa60f4c349d84a57b8177f18
+size 397

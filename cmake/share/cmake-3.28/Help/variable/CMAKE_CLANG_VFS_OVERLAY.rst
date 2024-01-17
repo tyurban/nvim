@@ -1,9 +1,3 @@
-CMAKE_CLANG_VFS_OVERLAY
------------------------
-
-.. versionadded:: 3.19
-
-When cross compiling for windows with clang-cl, this variable can be an
-absolute path pointing to a clang virtual file system yaml file, which
-will enable clang-cl to resolve windows header names on a case sensitive
-file system.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c31e0125388cb8f3379563363492f063644b1430ef79581a41d845ed8f3a4dd
+size 302

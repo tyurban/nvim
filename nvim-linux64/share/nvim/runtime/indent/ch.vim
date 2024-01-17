@@ -1,18 +1,3 @@
-" Vim indent file
-" Language:	Ch
-" Maintainer:	SoftIntegration, Inc. <info@softintegration.com>
-" URL:		http://www.softintegration.com/download/vim/indent/ch.vim
-" Last change:	2006 Apr 30
-"		Created based on cpp.vim
-"
-" Ch is a C/C++ interpreter with many high level extensions
-
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-let b:did_indent = 1
-
-" Ch indenting is built-in, thus this is very simple
-setlocal cindent
+version https://git-lfs.github.com/spec/v1
+oid sha256:5825cc766d63b526746cc9b5463e59123c7cd2f48433d25d50faab6922c3c3d7
+size 470

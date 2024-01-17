@@ -1,11 +1,3 @@
-XCODE_SCHEME_EXECUTABLE
------------------------
-
-.. versionadded:: 3.13
-
-Specify path to executable in the Info section of the generated
-Xcode scheme. If not set the schema generator will select the
-current target if it is actually executable.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0fe811010a38a0c3ff6a883cae1b8082a4cf9ef2343517d9c1b7796637f6784
+size 373

@@ -1,9 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libjobserver-6c50fdc22172ee07.rmeta: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/error.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/unix.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libjobserver-6c50fdc22172ee07.rlib: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/error.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/unix.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/jobserver-6c50fdc22172ee07.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/error.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/unix.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/lib.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/error.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/jobserver-0.1.27/src/unix.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:478b5082975e788371a5e45fdfb743867318519ae4703fc23c5b594a4362cfc6
+size 1387

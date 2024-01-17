@@ -1,19 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-function(cmake_cuda_architectures_validate lang)
-  if(DEFINED CMAKE_${lang}_ARCHITECTURES)
-    if(CMAKE_${lang}_ARCHITECTURES STREQUAL "")
-      message(FATAL_ERROR "CMAKE_${lang}_ARCHITECTURES must be non-empty if set.")
-    elseif(CMAKE_${lang}_ARCHITECTURES AND NOT CMAKE_${lang}_ARCHITECTURES MATCHES "^([0-9]+a?(-real|-virtual)?(;[0-9]+a?(-real|-virtual)?|;)*|all|all-major|native)$")
-      message(FATAL_ERROR
-        "CMAKE_${lang}_ARCHITECTURES:\n"
-        "  ${CMAKE_${lang}_ARCHITECTURES}\n"
-        "is not one of the following:\n"
-        "  * a semicolon-separated list of integers, each optionally\n"
-        "    followed by '-real' or '-virtual'\n"
-        "  * a special value: all, all-major, native\n"
-        )
-    endif()
-  endif()
-endfunction()
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdd1c38a75c26de40b882f4f0e7a166250a0e46cecddb7d51fcc9b0e0a9dc4e2
+size 910

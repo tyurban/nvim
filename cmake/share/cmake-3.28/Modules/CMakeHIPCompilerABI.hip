@@ -1,30 +1,3 @@
-#if !defined(__HIP__) && !defined(__NVCC__)
-#  error "A C or C++ compiler has been selected for HIP"
-#endif
-
-#include "CMakeCompilerABI.h"
-
-#if defined(__NVCC__)
-#  include "CMakeCompilerCUDAArch.h"
-#endif
-
-int main(int argc, char* argv[])
-{
-  int require = 0;
-  require += info_sizeof_dptr[argc];
-#if defined(ABI_ID)
-  require += info_abi[argc];
-#endif
-  static_cast<void>(argv);
-
-#if defined(__NVCC__)
-  if (!cmakeCompilerCUDAArch()) {
-    // Convince the compiler that the non-zero return value depends
-    // on the info strings so they are not optimized out.
-    return require ? -1 : 1;
-  }
-  return 0;
-#else
-  return require;
-#endif
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ffeae946a14b1a848949e97e5926fc3f0ae0aa21dfc98716d0581f23af35000
+size 642

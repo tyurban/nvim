@@ -1,10 +1,3 @@
-DISABLE_PRECOMPILE_HEADERS
---------------------------
-
-.. versionadded:: 3.16
-
-Disables the precompilation of header files specified by
-:prop_tgt:`PRECOMPILE_HEADERS` property.
-
-If the property is not set, CMake will use the value provided
-by :variable:`CMAKE_DISABLE_PRECOMPILE_HEADERS`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa141f028e40092a91356e18dee31435809d63fccb834d843366f4db205e0b38
+size 289

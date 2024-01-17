@@ -1,9 +1,3 @@
-CMAKE_XCODE_LINK_BUILD_PHASE_MODE
----------------------------------
-
-.. versionadded:: 3.19
-
-This variable is used to initialize the
-:prop_tgt:`XCODE_LINK_BUILD_PHASE_MODE` property on targets.
-It affects the methods that the :generator:`Xcode` generator uses to link
-different kinds of libraries.  Its default value is ``NONE``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:787ebc35e2dda700565f42de972e66c21d4142c559c64b635d47d6da73aa92a1
+size 330

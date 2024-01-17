@@ -1,16 +1,3 @@
-" Vim compiler file
-" Compiler:    ESLint for JavaScript
-" Maintainer:  Romain Lafourcade <romainlafourcade@gmail.com>
-" Last Change: 2020 August 20
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "eslint"
-
-if exists(":CompilerSet") != 2
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=npx\ eslint\ --format\ compact
-CompilerSet errorformat=%f:\ line\ %l\\,\ col\ %c\\,\ %m,%-G%.%#
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8278f4c7de89589275edd2482f1dfd688a7f36e123bd35cbb265810642e8f50
+size 429

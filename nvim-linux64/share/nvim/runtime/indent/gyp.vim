@@ -1,7 +1,3 @@
-" Vim indent file
-" Language:	GYP
-" Maintainer:	ObserverOfTime <chronobserver@disroot.org>
-" Last Change:	2022 Sep 27
-
-" JSON indent works well
-runtime! indent/json.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa5b35e7ebe6ab76217118af84a78dbd94d71f4336811621143dd175d4ff501f
+size 169

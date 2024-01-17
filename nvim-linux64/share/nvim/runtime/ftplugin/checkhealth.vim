@@ -1,18 +1,3 @@
-" Vim filetype plugin
-" Language:     Nvim :checkhealth buffer
-" Last Change:  2022 Nov 10
-
-if exists("b:did_ftplugin")
-  finish
-endif
-
-runtime! ftplugin/help.vim
-
-setlocal wrap breakindent linebreak
-let &l:iskeyword='!-~,^*,^|,^",192-255'
-
-if exists("b:undo_ftplugin")
-  let b:undo_ftplugin .= "|setl wrap< bri< lbr< kp< isk<"
-else
-  let b:undo_ftplugin = "setl wrap< bri< lbr< kp< isk<"
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:8beff57bb55bb5ed753f4f862c3888a0aee3a4c681922ef09ad54a1bf9901cf1
+size 395

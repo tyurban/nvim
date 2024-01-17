@@ -1,16 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-if(__AIX_COMPILER_IBMCLANG)
-  return()
-endif()
-set(__AIX_COMPILER_IBMCLANG 1)
-
-include(Platform/AIX-GNU)
-
-macro(__aix_compiler_ibmclang lang)
-  __aix_compiler_gnu(${lang})
-  unset(CMAKE_${lang}_COMPILE_OPTIONS_VISIBILITY)
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d1b45826f148d4873a5e046b4402978b47e3d7104e2ab9ca62e60dfbf7491af
+size 445

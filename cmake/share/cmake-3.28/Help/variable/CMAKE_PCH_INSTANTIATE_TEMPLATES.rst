@@ -1,7 +1,3 @@
-CMAKE_PCH_INSTANTIATE_TEMPLATES
--------------------------------
-
-.. versionadded:: 3.19
-
-This variable is used to initialize the :prop_tgt:`PCH_INSTANTIATE_TEMPLATES`
-property of targets when they are created.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa8b17a7891a87cdb2ada5557ed8b0b399fb72cfcc945809f0b27b874149a045
+size 210

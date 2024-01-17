@@ -1,12 +1,3 @@
-VERBOSE
--------
-
-.. versionadded:: 3.14
-
-Activates verbose output from CMake and your build tools of choice when
-you start to actually build your project.
-
-Note that any given value is ignored. It's just checked for existence.
-
-See also :ref:`Build Tool Mode <Build Tool Mode>` and
-:envvar:`CMAKE_NO_VERBOSE` environment variable
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec07e1d064b52a30e51cdfb05b4af43066380edb220664a0c96ec3238c78d927
+size 330

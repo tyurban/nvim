@@ -1,11 +1,3 @@
-CMAKE_LINK_DIRECTORIES_BEFORE
------------------------------
-
-.. versionadded:: 3.13
-
-Whether to append or prepend directories by default in
-:command:`link_directories`.
-
-This variable affects the default behavior of the :command:`link_directories`
-command.  Setting this variable to ``ON`` is equivalent to using the ``BEFORE``
-option in all uses of that command.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b85fb4d944813894969b1143961149c54ffc756d5ad07f1947aac3c710004eaf
+size 364

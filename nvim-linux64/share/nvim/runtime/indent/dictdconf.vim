@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:             dictd(8) configuration file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2006-12-20
-
-if exists("b:did_indent")
-  finish
-endif
-let b:did_indent = 1
-
-setlocal indentkeys=0{,0},!^F,o,O cinwords= autoindent smartindent
-setlocal nosmartindent
-inoremap <buffer> # X#
-
-let b:undo_indent = "setl ai< cinw< indk< si< | silent! iunmap <buffer> #"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bae951c87aad2719aedc764275e2aa80cf3b4fb61d0e553d5bc2a841134905b
+size 414

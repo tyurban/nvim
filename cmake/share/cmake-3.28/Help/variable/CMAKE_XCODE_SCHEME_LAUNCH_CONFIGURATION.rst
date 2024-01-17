@@ -1,12 +1,3 @@
-CMAKE_XCODE_SCHEME_LAUNCH_CONFIGURATION
----------------------------------------
-
-.. versionadded:: 3.25
-
-Set the build configuration to run the target.
-
-This variable initializes the :prop_tgt:`XCODE_SCHEME_LAUNCH_CONFIGURATION`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f065dcd450e40aebc77574cdbfdf7b54bf4ee1de8465c2001129fd45557f094a
+size 383

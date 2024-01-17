@@ -1,14 +1,3 @@
-HEADER_DIRS
------------
-
-.. versionadded:: 3.23
-
-Semicolon-separated list of base directories of the target's default
-header set (i.e. the file set with name and type ``HEADERS``). The property
-supports :manual:`generator expressions <cmake-generator-expressions(7)>`.
-
-This property is normally only set by :command:`target_sources(FILE_SET)`
-rather than being manipulated directly.
-
-See :prop_tgt:`HEADER_DIRS_<NAME>` for the list of base directories in
-other header sets.
+version https://git-lfs.github.com/spec/v1
+oid sha256:999e0597a855c47d1074cc2506e7f9bce0dddbd8fd9f5e4a86db4e74eba0e374
+size 475

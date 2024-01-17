@@ -1,5 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/build/serde_json-b24962d02bee77e1/build_script_build-b24962d02bee77e1: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.111/build.rs
-
-/home/turban/nvim/ripgrep/target/release/build/serde_json-b24962d02bee77e1/build_script_build-b24962d02bee77e1.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.111/build.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.111/build.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:e307ac75a597266187c7cbbfb6b46038fe357d3cf0dea3abddcbbc63ead7ea54
+size 511

@@ -1,9 +1,3 @@
-IMPORTED_CXX_MODULES_COMPILE_OPTIONS
-------------------------------------
-
-.. versionadded:: 3.28
-
-List of options to pass to the compiler for this ``IMPORTED`` target's C++
-modules.
-
-.. include:: ../command/OPTIONS_SHELL.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:d781a08f0830d1691ddafee43048dbc9d1551240f8617618eba5283de5ddce85
+size 226

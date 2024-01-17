@@ -1,8 +1,3 @@
-CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG
-------------------------------------
-
-.. versionadded:: 3.7.1
-
-When :ref:`Cross Compiling for Android with the NDK`, this variable
-provides the NDK's "host tag" used to construct the path to prebuilt
-toolchains that run on the host.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a75f36f6e753cd8893b9aeeefdf06b42d1bd3df3a01c1670dfd3143ee8f617a6
+size 270

@@ -1,10 +1,3 @@
-CMAKE_CUDA_STANDARD_REQUIRED
-----------------------------
-
-.. versionadded:: 3.8
-
-Default value for :prop_tgt:`CUDA_STANDARD_REQUIRED` target property if set
-when a target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c278494e13eb48209e04f8f67e245d6d3f67934afa8d5a5589ccab1213e59c21
+size 307

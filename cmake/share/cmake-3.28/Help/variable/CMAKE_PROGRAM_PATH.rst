@@ -1,11 +1,3 @@
-CMAKE_PROGRAM_PATH
-------------------
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of directories specifying a search path
-for the :command:`find_program` command.  By default it is empty, it is
-intended to be set by the project.
-
-There is also an environment variable :envvar:`CMAKE_PROGRAM_PATH`, which is used
-as an additional list of search directories.
-
-See also :variable:`CMAKE_SYSTEM_PROGRAM_PATH` and :variable:`CMAKE_PREFIX_PATH`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:00ddb77fbd7bb38cee261bf2553766247f00ba219454028beea97ad255d14d2f
+size 452

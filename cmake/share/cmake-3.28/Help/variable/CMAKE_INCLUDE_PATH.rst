@@ -1,12 +1,3 @@
-CMAKE_INCLUDE_PATH
-------------------
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of directories specifying a search path
-for the :command:`find_file` and :command:`find_path` commands.  By default it
-is empty, it is intended to be set by the project.
-
-
-There is also an environment variable :envvar:`CMAKE_INCLUDE_PATH`, which is used
-as an additional list of search directories.
-
-See also :variable:`CMAKE_SYSTEM_INCLUDE_PATH` and :variable:`CMAKE_PREFIX_PATH`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:601e9d4084d9a81718597c6285b82f8ddf7df34587a5df307406a9424336e273
+size 476

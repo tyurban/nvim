@@ -1,18 +1,3 @@
-" Vim indent file
-" Language:	bash
-" Maintainer:	Bram
-" Last Change:	2019 Sep 27
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-
-" The actual indenting is in sh.vim and controlled by buffer-local variables.
-unlet! b:is_sh
-unlet! b:is_kornshell
-let b:is_bash = 1
-
-runtime! indent/sh.vim
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:27da06208954da8f12fefdcbb4c4fcabc2c7e45aec98f3e06ec6a3655748fc41
+size 350

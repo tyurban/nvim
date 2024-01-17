@@ -1,10 +1,3 @@
-CMAKE_MACOSX_BUNDLE
--------------------
-
-Default value for :prop_tgt:`MACOSX_BUNDLE` of targets.
-
-This variable is used to initialize the :prop_tgt:`MACOSX_BUNDLE` property on
-all the targets.  See that target property for additional information.
-
-This variable is set to ``ON`` by default if :variable:`CMAKE_SYSTEM_NAME`
-equals to :ref:`iOS, tvOS, visionOS or watchOS <Cross Compiling for iOS, tvOS, visionOS, or watchOS>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a35ce4ff9c85de6eb3c7022301fcec149378984ff8135dc7bbe7fd53dc9005b4
+size 426

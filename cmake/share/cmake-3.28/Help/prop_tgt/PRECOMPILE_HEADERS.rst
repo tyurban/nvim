@@ -1,14 +1,3 @@
-PRECOMPILE_HEADERS
-------------------
-
-.. versionadded:: 3.16
-
-List of header files to precompile.
-
-This property holds a :ref:`semicolon-separated list <CMake Language Lists>`
-of header files to precompile specified so far for its target.
-Use the :command:`target_precompile_headers` command to append more header
-files.
-
-This property supports
-:manual:`generator expressions <cmake-generator-expressions(7)>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f67bf73450a1ab29a59530e5df4c23275f1b45964e92e2e5e8d9a78d645ba036
+size 412

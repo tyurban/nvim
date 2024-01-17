@@ -1,7 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libgrep-4c9d27d0445500c6.rmeta: crates/grep/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libgrep-4c9d27d0445500c6.rlib: crates/grep/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/grep-4c9d27d0445500c6.d: crates/grep/src/lib.rs
-
-crates/grep/src/lib.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:0308642b73b530bc0aa6851ae8fa92ee682f66f7fb0e5c1f4beafbddc9038b7e
+size 322

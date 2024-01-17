@@ -1,10 +1,3 @@
-CMAKE_OBJCXX_EXTENSIONS
------------------------
-
-.. versionadded:: 3.16
-
-Default value for :prop_tgt:`OBJCXX_EXTENSIONS` target property if set when a
-target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3afb419ffa6c7fbddebb0ca73fa2d560bf31ad6e888ff444b7adf1ec5e1678f8
+size 293

@@ -1,13 +1,3 @@
-RULE_LAUNCH_COMPILE
--------------------
-
-Specify a launcher for compile rules.
-
-.. note::
-  This property is intended for internal use by :manual:`ctest(1)`.  Projects
-  and developers should use the :prop_tgt:`<LANG>_COMPILER_LAUNCHER` target
-  properties or the associated :variable:`CMAKE_<LANG>_COMPILER_LAUNCHER`
-  variables instead.
-
-See the :prop_gbl:`global property <RULE_LAUNCH_COMPILE>` of the same name
-for details.  This overrides the global property for a directory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d10dce84b74cfef5e289883bedbb1ecd2c975a31cb9392e8ff4c0cbd074e438a
+size 481

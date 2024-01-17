@@ -1,7 +1,3 @@
-CMAKE_ANDROID_EXCEPTIONS
-------------------------
-
-.. versionadded:: 3.20
-
-When :ref:`Cross Compiling for Android with the NDK`, this variable may be set
-to specify whether exceptions are enabled.
+version https://git-lfs.github.com/spec/v1
+oid sha256:188ce18beda69c77b493d7e66ed215baab9b0063c41107dcb25113d281ef4fad
+size 197

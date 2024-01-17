@@ -1,10 +1,3 @@
-set(CMAKE_LINK_LIBRARY_SUFFIX "")
-set(CMAKE_STATIC_LIBRARY_SUFFIX ".l")
-set(CMAKE_IMPORT_LIBRARY_SUFFIX ".l")
-set(CMAKE_FIND_LIBRARY_PREFIXES "")
-set(CMAKE_FIND_LIBRARY_SUFFIXES ".l")
-
-macro(__windows_compiler_orangec lang)
-  set(CMAKE_${lang}_CREATE_WIN32_EXE "-Wg")
-  set(CMAKE_${lang}_CREATE_CONSOLE_EXE "-Wc")
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e2b3076761ca35e6d72e11a00c083ca3b6552e8fa6520ea9496cac6e225ec66
+size 325

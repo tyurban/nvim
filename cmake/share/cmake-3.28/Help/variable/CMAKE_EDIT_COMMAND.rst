@@ -1,9 +1,3 @@
-CMAKE_EDIT_COMMAND
-------------------
-
-Full path to :manual:`cmake-gui(1)` or :manual:`ccmake(1)`.  Defined only for
-:ref:`Makefile Generators` and :ref:`Ninja Generators` when not using any
-:ref:`Extra Generators`.
-
-This is the full path to the CMake executable that can graphically
-edit the cache.  For example, :manual:`cmake-gui(1)` or :manual:`ccmake(1)`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f16eb05d75101a8ce7fed3177f179258fd25987374a702d74c192c9fac5782f8
+size 361

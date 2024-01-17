@@ -1,10 +1,3 @@
-CMAKE_HIP_STANDARD
-------------------
-
-.. versionadded:: 3.21
-
-Default value for :prop_tgt:`HIP_STANDARD` target property if set when a target
-is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a1644cfb69c71a5d1910b7ea716d4ceba57219c39f6546daff7a64dd068b2e6
+size 278

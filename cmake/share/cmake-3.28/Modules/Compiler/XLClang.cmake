@@ -1,23 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-if(__COMPILER_XLCLANG)
-  return()
-endif()
-set(__COMPILER_XLCLANG 1)
-
-include(Compiler/XL)
-
-macro(__compiler_xlclang lang)
-  __compiler_xl(${lang})
-
-  # Feature flags.
-  set(CMAKE_${lang}_VERBOSE_FLAG "-V")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_PIC "-fPIC")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_PIE "-fPIC")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_WARNING_AS_ERROR "-Werror")
-  set(CMAKE_${lang}_RESPONSE_FILE_FLAG "@")
-  set(CMAKE_${lang}_RESPONSE_FILE_LINK_FLAG "@")
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:4293b609faff1a37d1c71cb47a84737a2f628366aa70a3b9d78fe6df6c8c2263
+size 684

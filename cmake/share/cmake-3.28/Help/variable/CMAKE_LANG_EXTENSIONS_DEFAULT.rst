@@ -1,10 +1,3 @@
-CMAKE_<LANG>_EXTENSIONS_DEFAULT
--------------------------------
-
-.. versionadded:: 3.22
-
-Compiler's default extensions mode. Used as the default for the
-:prop_tgt:`<LANG>_EXTENSIONS` target property when
-:variable:`CMAKE_<LANG>_EXTENSIONS` is not set (see :policy:`CMP0128`).
-
-This variable is read-only.  Modifying it is undefined behavior.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb6be5855c067b1f15b3f331e030570362501f0c656db8c41a7bad2c9614e827
+size 342

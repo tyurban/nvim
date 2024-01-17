@@ -1,9 +1,3 @@
-PRECOMPILE_HEADERS_REUSE_FROM
------------------------------
-
-.. versionadded:: 3.16
-
-Target from which to reuse the precompiled headers build artifact.
-
-See the second signature of :command:`target_precompile_headers` command
-for more detailed information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:830b7f7b6707bb887cfffc85421e38f7f2dd3898f17406d2868bb431902dc347
+size 257

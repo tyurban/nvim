@@ -1,16 +1,3 @@
-" Vim compiler file
-" Compiler:    Yamllint for YAML
-" Maintainer:  Romain Lafourcade <romainlafourcade@gmail.com>
-" Last Change: 2021 July 21
-
-if exists("current_compiler")
-    finish
-endif
-let current_compiler = "yamllint"
-
-if exists(":CompilerSet") != 2
-    command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=yamllint\ -f\ parsable
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:19a4595a4a72475af5a21c124864cdd6a483403748b7983ad29029803f6cb27f
+size 357

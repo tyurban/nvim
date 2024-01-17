@@ -1,13 +1,3 @@
-" Vim filetype plugin
-" Language:	SCSS
-" Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
-" Last Change:	2016 Aug 29
-
-if exists("b:did_ftplugin")
-  finish
-endif
-
-runtime! ftplugin/sass.vim
-setlocal comments=s1:/*,mb:*,ex:*/,://
-
-" vim:set sw=2:
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fcba8eb7319e53d53d90e9c6e31456ec10aa6a0979844627e928edab1a61880
+size 239

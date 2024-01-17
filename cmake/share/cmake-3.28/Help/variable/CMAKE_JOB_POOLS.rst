@@ -1,8 +1,3 @@
-CMAKE_JOB_POOLS
----------------
-
-.. versionadded:: 3.11
-
-If the :prop_gbl:`JOB_POOLS` global property is not set, the value
-of this variable is used in its place.  See :prop_gbl:`JOB_POOLS`
-for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4be9ef66a234528b6dc71f0e22085acb724155b64f7f7cbd56cf26321f53415d
+size 218

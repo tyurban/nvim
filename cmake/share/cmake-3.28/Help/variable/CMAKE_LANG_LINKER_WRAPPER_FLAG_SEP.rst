@@ -1,11 +1,3 @@
-CMAKE_<LANG>_LINKER_WRAPPER_FLAG_SEP
-------------------------------------
-
-.. versionadded:: 3.13
-
-This variable is used with :variable:`CMAKE_<LANG>_LINKER_WRAPPER_FLAG`
-variable to format ``LINKER:`` prefix in the link options
-(see :command:`add_link_options` and :command:`target_link_options`).
-
-When specified, arguments of the ``LINKER:`` prefix will be concatenated using
-this value as separator.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5c772dec3ad04d03956b1889fac069885c6bcbfece52baa5bfe98affc2de1ce
+size 404

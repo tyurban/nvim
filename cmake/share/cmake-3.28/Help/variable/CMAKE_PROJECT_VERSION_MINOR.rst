@@ -1,11 +1,3 @@
-CMAKE_PROJECT_VERSION_MINOR
----------------------------
-
-.. versionadded:: 3.12
-
-The minor version of the top level project.
-
-This variable holds the minor version of the project as specified in the top
-level CMakeLists.txt file by a :command:`project` command. Please see
-:variable:`CMAKE_PROJECT_VERSION` documentation for the behavior when
-multiple :command:`project` commands are used in the sources.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ade81e8c43f742faf0be79cb213e0c8f8a563879964e971aacf8196cfcaab0b3
+size 405

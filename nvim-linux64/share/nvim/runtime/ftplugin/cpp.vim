@@ -1,18 +1,3 @@
-" Vim filetype plugin file
-" Language:	C++
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2020 Jul 26
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Behaves mostly just like C
-runtime! ftplugin/c.vim ftplugin/c_*.vim ftplugin/c/*.vim
-runtime! ftplugin/c.lua ftplugin/c_*.lua ftplugin/c/*.lua
-
-" C++ uses templates with <things>
-" Disabled, because it gives an error for typing an unmatched ">".
-" set matchpairs+=<:>
-" let b:undo_ftplugin ..= ' | setl matchpairs<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b81597296257ed56bd6e13dcb6b1b18ce8933cdc6ff65f77ff08923fe2f5ed3
+size 526

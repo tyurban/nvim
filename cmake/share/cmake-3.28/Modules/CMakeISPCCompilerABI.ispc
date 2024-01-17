@@ -1,20 +1,3 @@
-
-export void ispcCompilerABI() {
-
-#if defined(__GNU__) && defined(__ELF__) && defined(__ARM_EABI__)
-  print("INFO:abi[ELF ARMEABI]");
-  static char const info_abi[] =
-#elif defined(__GNU__) && defined(__ELF__) && defined(__ARMEB__)
-  print("INFO:abi[ELF ARM]");
-#elif defined(__GNU__) && defined(__ELF__) && defined(__ARMEL__)
-  print("INFO:abi[ELF ARM]");
-
-#elif defined(__linux__) && defined(__ELF__) && defined(__amd64__) &&         \
-  defined(__ILP32__)
-print("INFO:abi[ELF X32]");
-
-#elif defined(__ELF__)
-print("INFO:abi[ELF]");
-#endif
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:121cb76a874a262c0f89b8a046df2af9692d5a2d603b554c48d5eb0597efc2c4
+size 545

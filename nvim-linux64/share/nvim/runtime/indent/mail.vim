@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:	Mail
-" Maintainer:	Bram Moolenaar
-" Last Change:	2021 Sep 26
-
-if exists("b:did_indent")
-  finish
-endif
-let b:did_indent = 1
-
-" What works best is auto-indenting, disable other indenting.
-" For formatting see the ftplugin.
-setlocal autoindent nosmartindent nocindent indentexpr=
-
-let b:undo_indent = "setl ai< cin< inde< si<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:afedaf9cac813e639320dbdc430d7423212118d5aba004199e1f9b0307604fdc
+size 355

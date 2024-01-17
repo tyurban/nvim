@@ -1,12 +1,3 @@
-CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE
-------------------------------------
-
-A CMake language file or module to be included as the last step of any
-:command:`project` command calls that specify ``<PROJECT-NAME>`` as the project
-name.  This is intended for injecting custom code into project builds without
-modifying their source.  See :ref:`Code Injection` for a more detailed
-discussion of files potentially included during a :command:`project` call.
-
-See also the :variable:`CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE_BEFORE`,
-:variable:`CMAKE_PROJECT_INCLUDE`, :variable:`CMAKE_PROJECT_INCLUDE_BEFORE`,
-and :variable:`CMAKE_PROJECT_TOP_LEVEL_INCLUDES` variables.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7088d8ce6a01256cc15d61c85e186e2766f35723a7dca53db72f7ffbc7a11a7
+size 658

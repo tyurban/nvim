@@ -1,14 +1,3 @@
-" Vim syntax file
-" Language:	Haskell supporting c2hs binding hooks
-" Maintainer:	Armin Sander <armin@mindwalker.org>
-" Last Change:	2001 November 1
-"
-" 2001 November 1: Changed commands for sourcing haskell.vim
-
-" Enable binding hooks
-let b:hs_chs=1
-
-" Include standard Haskell highlighting
-runtime! syntax/haskell.vim
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:d025293b8673679a4375091bdebc10b5b7674b2bcffb7abed57cedd3414f9232
+size 333

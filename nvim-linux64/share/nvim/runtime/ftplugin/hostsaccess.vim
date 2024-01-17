@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             hosts_access(5) control file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=:# commentstring=#\ %s formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:d67169785cdfa2b70e39c46d9b4a45b62e30d594ce83c5ec76d65493a32a3cca
+size 436

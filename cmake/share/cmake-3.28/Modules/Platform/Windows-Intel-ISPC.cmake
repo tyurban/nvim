@@ -1,8 +1,3 @@
-
-if(CMAKE_VERBOSE_MAKEFILE)
-  set(CMAKE_CL_NOLOGO)
-else()
-  set(CMAKE_CL_NOLOGO "/nologo")
-endif()
-
-set(CMAKE_ISPC_CREATE_STATIC_LIBRARY  "<CMAKE_AR> ${CMAKE_CL_NOLOGO} <LINK_FLAGS> /out:<TARGET> <OBJECTS> ")
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bfbcc52ad8568a36e4fa5ca00f992ff7ee7f4d22e8c999b3c196348e112097c
+size 209

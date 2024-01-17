@@ -1,9 +1,3 @@
-CMAKE_SUBLIME_TEXT_2_EXCLUDE_BUILD_TREE
----------------------------------------
-
-.. versionadded:: 3.8
-
-If this variable evaluates to ``ON`` at the end of the top-level
-``CMakeLists.txt`` file, the :generator:`Sublime Text 2` extra generator
-excludes the build tree from the ``.sublime-project`` if it is inside the
-source tree.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d66c8ff1de80be55f5b2e79000375969f61d69fc0f6f0fa0e99944e67710940
+size 329

@@ -1,22 +1,3 @@
-CMAKE_DOTNET_TARGET_FRAMEWORK_VERSION
--------------------------------------
-
-.. versionadded:: 3.12
-
-Default value for :prop_tgt:`DOTNET_TARGET_FRAMEWORK_VERSION`
-property of targets.
-
-This variable is used to initialize the
-:prop_tgt:`DOTNET_TARGET_FRAMEWORK_VERSION` property on all
-targets. See that target property for additional information. When set,
-:variable:`CMAKE_DOTNET_TARGET_FRAMEWORK` takes precednece over this
-variable. See that variable or the associated target property
-:prop_tgt:`DOTNET_TARGET_FRAMEWORK` for additional information.
-
-
-Setting ``CMAKE_DOTNET_TARGET_FRAMEWORK_VERSION`` may be necessary
-when working with ``C#`` and newer .NET framework versions to
-avoid referencing errors with the ``ALL_BUILD`` CMake target.
-
-This variable is only evaluated for :ref:`Visual Studio Generators`
-VS 2010 and above.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f7210b6499475cd397918d49f92cc091de323167b1f5540137ace64e6a5a799
+size 833

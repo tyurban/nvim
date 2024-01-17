@@ -1,17 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-# This module is shared by multiple languages; use include blocker.
-if(__COMPILER_CRAYCLANG)
-  return()
-endif()
-set(__COMPILER_CRAYCLANG 1)
-
-include(Compiler/Clang)
-
-macro (__compiler_cray_clang lang)
-  set(__crayclang_ver "${CMAKE_${lang}_COMPILER_VERSION}")
-  set("CMAKE_${lang}_COMPILER_VERSION" "${CMAKE_${lang}_COMPILER_VERSION_INTERNAL}")
-  __compiler_clang(${lang})
-  set("CMAKE_${lang}_COMPILER_VERSION" "${__crayclang_ver}")
-endmacro ()
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbb69455b8c154683823e4215c5d576fed483350b25f06993165c1361159ba18
+size 589

@@ -1,13 +1,3 @@
-CMAKE_AUTOUIC_SEARCH_PATHS
---------------------------
-
-.. versionadded:: 3.9
-
-Search path list used by :variable:`CMAKE_AUTOUIC` to find included
-``.ui`` files.
-
-This variable is used to initialize the :prop_tgt:`AUTOUIC_SEARCH_PATHS`
-property on all the targets. See that target property for additional
-information.
-
-By default it is empty.
+version https://git-lfs.github.com/spec/v1
+oid sha256:119265fcb8638100535168845433f5c0adc14d2bca6daa7e107ec46e105ec17c
+size 342

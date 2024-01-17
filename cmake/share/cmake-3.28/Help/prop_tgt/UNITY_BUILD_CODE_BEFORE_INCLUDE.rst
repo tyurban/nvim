@@ -1,21 +1,3 @@
-UNITY_BUILD_CODE_BEFORE_INCLUDE
--------------------------------
-
-.. versionadded:: 3.16
-
-Code snippet which is included verbatim by the :prop_tgt:`UNITY_BUILD`
-feature just before every ``#include`` statement in the generated unity
-source files.  For example:
-
-.. code-block:: cmake
-
-  set(before [[
-  #if !defined(NOMINMAX)
-  #define NOMINMAX
-  #endif
-  ]])
-  set_target_properties(myTarget PROPERTIES
-    UNITY_BUILD_CODE_BEFORE_INCLUDE "${before}"
-  )
-
-See also :prop_tgt:`UNITY_BUILD_CODE_AFTER_INCLUDE`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e17cf3891cfaef81a63699811e6d31dd1ee6befa7e0f4ff3f957e813633a2b5
+size 509

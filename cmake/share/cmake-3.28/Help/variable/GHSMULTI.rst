@@ -1,9 +1,3 @@
-GHSMULTI
---------
-
-.. versionadded:: 3.3
-
-``1`` when using :generator:`Green Hills MULTI` generator.
-
-Also, Set to ``1`` when the target system is a Green Hills platform
-(i.e. When :variable:`CMAKE_SYSTEM_NAME` is ``GHS-MULTI``).
+version https://git-lfs.github.com/spec/v1
+oid sha256:76a2b974f5cbc1446a161471b203ac12d9c8a5c24a9291e4c2f3e5291de3a191
+size 230

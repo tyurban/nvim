@@ -1,13 +1,3 @@
-CMAKE_NETRC_FILE
-----------------
-
-.. versionadded:: 3.11
-
-This variable is used to initialize the ``NETRC_FILE`` option for the
-:command:`file(DOWNLOAD)` and :command:`file(UPLOAD)` commands.
-See those commands for additional information.
-
-This variable is also used by the :module:`ExternalProject` and
-:module:`FetchContent` modules for internal calls to :command:`file(DOWNLOAD)`.
-
-The local option takes precedence over this variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4390047b6297254f12fac5264b12961fd4ae1d4986f07703baa6041d80553ea0
+size 440

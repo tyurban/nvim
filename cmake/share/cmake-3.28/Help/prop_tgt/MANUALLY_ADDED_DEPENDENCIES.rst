@@ -1,10 +1,3 @@
-MANUALLY_ADDED_DEPENDENCIES
----------------------------
-
-.. versionadded:: 3.8
-
-Get manually added dependencies to other top-level targets.
-
-This read-only property can be used to query all dependencies that
-were added for this target with the :command:`add_dependencies`
-command.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ef250def9a6787fcaed4e63189b00df07ce28f2393f0d53783d86caad76ddc0
+size 281

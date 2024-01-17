@@ -1,10 +1,3 @@
-VS_PROJECT_IMPORT
------------------
-
-.. versionadded:: 3.15
-
-Visual Studio managed project imports
-
-Adds to a generated Visual Studio project one or more semicolon-delimited paths
-to .props files needed when building projects from some NuGet packages.
-For example, ``my_packages_path/MyPackage.1.0.0/build/MyPackage.props``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c62e036e4adccccfdc8262a6d388e565f9011cf14a3ac2d53ea6312febc060f6
+size 325

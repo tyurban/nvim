@@ -1,16 +1,3 @@
-OBJCXX
-------
-
-.. versionadded:: 3.16.7
-
-.. include:: ENV_VAR.txt
-
-Preferred executable for compiling ``OBJCXX`` language files. Will only be used
-by CMake on the first configuration to determine ``OBJCXX`` compiler, after
-which the value for ``OBJCXX`` is stored in the cache as
-:variable:`CMAKE_OBJCXX_COMPILER <CMAKE_<LANG>_COMPILER>`. For any configuration
-run (including the first), the environment variable will be ignored if the
-:variable:`CMAKE_OBJCXX_COMPILER <CMAKE_<LANG>_COMPILER>` variable is defined.
-
-If ``OBJCXX`` is not defined, the :envvar:`CXX` environment variable will
-be checked instead.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea2d63471a879434442de521f6857f54b45a5260fc35de19156c5216259382ae
+size 610

@@ -1,14 +1,3 @@
-" Vim indent file
-" Language:             Zsh shell script
-" Maintainer:           Christian Brabandt <cb@256bit.org>
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2015-05-29
-" License:              Vim (see :h license)
-" Repository:           https://github.com/chrisbra/vim-zsh
-
-if exists("b:did_indent")
-  finish
-endif
-
-" Same as sh indenting for now.
-runtime! indent/sh.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:279786214bba7fcbd0c1314884a7a160638bffbe5912da9e832ed7d6f760d805
+size 411

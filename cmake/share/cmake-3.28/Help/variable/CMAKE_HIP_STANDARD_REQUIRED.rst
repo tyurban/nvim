@@ -1,10 +1,3 @@
-CMAKE_HIP_STANDARD_REQUIRED
----------------------------
-
-.. versionadded:: 3.21
-
-Default value for :prop_tgt:`HIP_STANDARD_REQUIRED` target property if set when
-a target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7a671ddccde606d6fee3492d4657e69a639380df5596fe0d3c2ada60ad53107
+size 305

@@ -1,8 +1,3 @@
-Visual Studio 10 2010
----------------------
-
-Removed.  This once generated Visual Studio 10 2010 project files, but
-the generator has been removed since CMake 3.25.  It is still possible
-to build with VS 10 2010 tools using the :generator:`Visual Studio 14 2015`
-(or above) generator with :variable:`CMAKE_GENERATOR_TOOLSET` set to
-``v100``, or by using the :generator:`NMake Makefiles` generator.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1e3a20d3980493868a9890e9dbc581cdb6e7003dbb99d56442dab987f1c378b
+size 398

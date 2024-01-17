@@ -1,11 +1,3 @@
-CMAKE_KATE_MAKE_ARGUMENTS
--------------------------
-
-.. versionadded:: 3.0
-
-This cache variable is used by the Kate project generator.  See
-:manual:`cmake-generators(7)`.
-
-This variable holds arguments which are used when Kate invokes the make
-tool. By default it is initialized to hold flags to enable parallel builds
-(using -j typically).
+version https://git-lfs.github.com/spec/v1
+oid sha256:aab43fc2f64a115c2a386572703df7b2b229fbb2db3711a9814600a60b889484
+size 341

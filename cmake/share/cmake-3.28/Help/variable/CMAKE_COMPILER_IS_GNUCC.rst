@@ -1,7 +1,3 @@
-CMAKE_COMPILER_IS_GNUCC
------------------------
-
-True if the ``C`` compiler is GNU.
-
-This variable is deprecated.  Use
-:variable:`CMAKE_C_COMPILER_ID <CMAKE_<LANG>_COMPILER_ID>` instead.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1447644db9c8fe09852601830567bdd95daa0c9903cd7ff96fba0dfa9c734f3c
+size 187

@@ -1,10 +1,3 @@
-CMAKE_<LANG>_COMPILER_ARCHITECTURE_ID
--------------------------------------
-
-.. versionadded:: 3.10
-
-An internal variable subject to change.
-
-This is used to identify the variant of a compiler based on its target
-architecture.  For some compilers this is needed to determine the correct
-usage.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca819e3f37b80016be329b5f48313ccbeaa43863b7702f3592fda5828a4d413e
+size 294

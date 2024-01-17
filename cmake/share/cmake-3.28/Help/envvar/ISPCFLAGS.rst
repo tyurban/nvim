@@ -1,14 +1,3 @@
-ISPCFLAGS
----------
-
-.. versionadded:: 3.19
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``ISPC`` files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_ISPC_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``ISPC``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_ISPC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e45400e8dacbbed89042f2d990f3d94706a8d3edd9505c8ad179e32f9e8e7f0c
+size 354

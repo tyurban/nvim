@@ -1,14 +1,3 @@
-" Created	: Tue 09 May 2006 02:07:31 PM CDT
-" Modified	: Tue 09 May 2006 02:07:31 PM CDT
-" Author	: Gautam Iyer <gi1242@users.sourceforge.net>
-" Description	: ftplugin for fvwm config files
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=:# commentstring=#\ %s
-setlocal formatoptions-=t formatoptions+=croql
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ecc16ea6a5226633288e233bf76c913f3dcc6a04b626e86db1b6659392238c2
+size 390

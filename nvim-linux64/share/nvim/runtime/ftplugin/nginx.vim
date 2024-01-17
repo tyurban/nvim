@@ -1,6 +1,3 @@
-" Vim filetype plugin
-" Language: nginx.conf
-" Maintainer: Chris Aumann <me@chr4.org>
-" Last Change: Apr 15, 2017
-
-setlocal commentstring=#\ %s
+version https://git-lfs.github.com/spec/v1
+oid sha256:441abc2b7c771d66af689fa72c85ecebe7d29e7b09277921aed0626f7a4a39d4
+size 144

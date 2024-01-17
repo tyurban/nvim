@@ -1,14 +1,3 @@
-FIND_LIBRARY_USE_LIB32_PATHS
-----------------------------
-
-.. versionadded:: 3.7
-
-Whether the :command:`find_library` command should automatically search
-``lib32`` directories.
-
-``FIND_LIBRARY_USE_LIB32_PATHS`` is a boolean specifying whether the
-:command:`find_library` command should automatically search the ``lib32``
-variant of directories called ``lib`` in the search path when building 32-bit
-binaries.
-
-See also the :variable:`CMAKE_FIND_LIBRARY_CUSTOM_LIB_SUFFIX` variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fd0f03d71e144d8d6eb924b51eed47a80efad824a81d66f93f88eab2366d46b
+size 482

@@ -1,10 +1,3 @@
-VS_RESOURCE_GENERATOR
----------------------
-
-.. versionadded:: 3.8
-
-This property allows to specify the resource generator to be used
-on this file. It defaults to ``PublicResXFileCodeGenerator`` if
-not set.
-
-This property only applies to C# projects.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd005613599bbd09368cfca6183b3ed9b582886b9e3eff4ba27260ec398bc9e2
+size 251

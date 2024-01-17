@@ -1,13 +1,3 @@
-CMAKE_SYSTEM_PROCESSOR
-----------------------
-
-When not cross-compiling, this variable has the same value as the
-:variable:`CMAKE_HOST_SYSTEM_PROCESSOR` variable.  In many cases,
-this will correspond to the target architecture for the build, but
-this is not guaranteed.  (E.g. on Windows, the host may be ``AMD64``
-even when using a MSVC ``cl`` compiler with a 32-bit target.)
-
-When cross-compiling, a :variable:`CMAKE_TOOLCHAIN_FILE` should set
-the ``CMAKE_SYSTEM_PROCESSOR`` variable to match target architecture
-that it specifies (via :variable:`CMAKE_<LANG>_COMPILER` and perhaps
-:variable:`CMAKE_<LANG>_COMPILER_TARGET`).
+version https://git-lfs.github.com/spec/v1
+oid sha256:962d168087ffabd85efd8ac11b84d6e438a86063c5425467548b4bfa40af1154
+size 627

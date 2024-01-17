@@ -1,10 +1,3 @@
-SYSTEM
-------
-
-.. versionadded:: 3.25
-
-This directory property is used to initialize the :prop_tgt:`SYSTEM`
-target property for non-imported targets created in that directory.
-It is set to true by :command:`add_subdirectory` and
-:command:`FetchContent_Declare` when the ``SYSTEM`` option is given
-as an argument to those commands.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3e387e062b17b1175ec01ea9c4e01f829f12ff01fd0c2e8f845f187d232e503
+size 331

@@ -1,15 +1,3 @@
-" Vim filetype plugin file
-" Language:     sbt
-" Maintainer:   Steven Dobay <stevendobay at protonmail.com>
-" License:      Same as Vim
-" Last Change:  2017.04.30
-" ----------------------------------------------------------------------------
-
-if exists('b:did_ftplugin') || &cp
-  finish
-endif
-
-let b:did_ftplugin = 1
-
-runtime! ftplugin/scala.vim
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2cfdd1859b2ddba847883b314f7cd24051c3d0f7c1b823edbbe2c7c8281e688
+size 347

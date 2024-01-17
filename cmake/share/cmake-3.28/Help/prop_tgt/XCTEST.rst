@@ -1,15 +1,3 @@
-XCTEST
-------
-
-.. versionadded:: 3.3
-
-This target is a XCTest CFBundle on the Mac.
-
-This property will usually get set via the :command:`xctest_add_bundle`
-macro in :module:`FindXCTest` module.
-
-If a module library target has this property set to true it will be
-built as a CFBundle when built on the Mac.  It will have the directory
-structure required for a CFBundle.
-
-This property depends on :prop_tgt:`BUNDLE` to be effective.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bbd4d3850e321751bf3b458114b8e05af37077bf18f42b8bf21109e8a7ca68c
+size 431

@@ -1,10 +1,3 @@
-" VIM syntax file
-" Language:	groff
-" Maintainer:	John Marshall <jmarshall@hey.com>
-" Previous Maintainer:	Pedro Alejandro López-Valencia <palopezv@gmail.com>
-" Last Change:	2003-05-08-12:41:13 GMT-5.
-
-" This uses the nroff.vim syntax file.
-let b:main_syntax = "nroff"
-let b:nroff_is_groff = 1
-runtime! syntax/nroff.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc24522b71b03f112c3d055c1d9361e3b35ce41d782972fc77acec0598461e3f
+size 321

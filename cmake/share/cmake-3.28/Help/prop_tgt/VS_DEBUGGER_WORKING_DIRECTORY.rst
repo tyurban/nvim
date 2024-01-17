@@ -1,15 +1,3 @@
-VS_DEBUGGER_WORKING_DIRECTORY
------------------------------
-
-.. versionadded:: 3.8
-
-Sets the local debugger working directory for Visual Studio C++ targets.
-The property value may use
-:manual:`generator expressions <cmake-generator-expressions(7)>`.
-This is defined in ``<LocalDebuggerWorkingDirectory>`` in the Visual Studio
-project file.  This property is initialized by the value of the variable
-:variable:`CMAKE_VS_DEBUGGER_WORKING_DIRECTORY` if it is set when a target is
-created.
-
-This property only works for Visual Studio 12 2013 and above;
-it is ignored on other generators.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ed3b9244af711acaa5df8ef2332eda81f5b16ed03c211c5d24664e340da411d
+size 584

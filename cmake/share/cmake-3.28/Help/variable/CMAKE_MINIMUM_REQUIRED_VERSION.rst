@@ -1,6 +1,3 @@
-CMAKE_MINIMUM_REQUIRED_VERSION
-------------------------------
-
-The ``<min>`` version of CMake given to the most recent call to the
-:command:`cmake_minimum_required(VERSION)` command in the current
-variable scope or any parent variable scope.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8addb4c14240eab8a63fa6638d98e92430f98a2937aa8c1f187e7fa6dc4b117e
+size 242

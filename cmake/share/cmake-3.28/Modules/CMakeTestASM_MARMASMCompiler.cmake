@@ -1,13 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This file is used by EnableLanguage in cmGlobalGenerator to
-# determine that the selected ASM_MARMASM "compiler" (should be marmasm or marmasm64)
-# works. For assembler this can only check whether the compiler has been found,
-# because otherwise there would have to be a separate assembler source file
-# for each assembler on every architecture.
-
-set(ASM_DIALECT "_MARMASM")
-include(CMakeTestASMCompiler)
-set(ASM_DIALECT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fd3beb80eea859960495804d5063ec70d1375ee17b36235c31d4a0e9b960f33
+size 568

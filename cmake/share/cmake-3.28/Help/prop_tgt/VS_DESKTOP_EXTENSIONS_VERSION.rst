@@ -1,12 +1,3 @@
-VS_DESKTOP_EXTENSIONS_VERSION
------------------------------
-
-.. versionadded:: 3.4
-
-Visual Studio Windows 10 Desktop Extensions Version
-
-Specifies the version of the Desktop Extensions that should be included in the
-target. For example ``10.0.10240.0``. If the value is not specified, the Desktop
-Extensions will not be included. To use the same version of the extensions as
-the Windows 10 SDK that is being used, you can use the
-:variable:`CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION` variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5174b4ab9286154e2da4f362acc2a30b0964fd460a69c53070d78753d356c7
+size 493

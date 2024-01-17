@@ -1,9 +1,3 @@
-include(Platform/Linux-LCC)
-__linux_compiler_lcc(Fortran)
-if (CMAKE_Fortran_COMPILER_VERSION VERSION_GREATER_EQUAL "1.26.03")
-  set(CMAKE_SHARED_LIBRARY_LINK_Fortran_FLAGS "-lgfortran")
-elseif (CMAKE_Fortran_COMPILER_VERSION VERSION_GREATER_EQUAL "1.24.01")
-  set(CMAKE_SHARED_LIBRARY_LINK_Fortran_FLAGS "-llfortran")
-else()
-  unset(CMAKE_Fortran_CREATE_PREPROCESSED_SOURCE)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:15c82259ff5d1a235e337f4c8a8634228b8a7a88a90f1a686bad73951a6fe1af
+size 383

@@ -1,20 +1,3 @@
-" Vim compiler file
-" Compiler:	Apple Project Builder
-" Maintainer:	Alexander von Below (public@vonBelow.Com)
-" Last Change:	2004 Mar 27
-
-if exists("current_compiler")
-   finish
-endif
-let current_compiler = "pbx"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-" The compiler actually is gcc, so the errorformat is unchanged
-CompilerSet errorformat&
-
-" default make
-CompilerSet makeprg=pbxbuild
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c5b88559669056d62c81b9833d6c5d1c9d564494e42e2aee3598252b4ed4f5b
+size 469

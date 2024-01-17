@@ -1,14 +1,3 @@
-" Vim indent file placeholder
-" Language:	Vue
-" Maintainer:	None, please volunteer if you have a real Vue indent script
-" Last Change:	2022 Dec 24
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-" don't set b:did_indent, otherwise html indenting won't be activated
-" let b:did_indent = 1
-
-" Html comes closest
-runtime! indent/html.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:82e6b7bcec73f4e36cf082396f03fa6d985a76de3b9b2e437f6a4c102955afd9
+size 385

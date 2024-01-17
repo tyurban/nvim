@@ -1,14 +1,3 @@
-CMP0153
--------
-
-.. versionadded:: 3.28
-
-The :command:`exec_program` command should not be called.
-
-This command has long been superseded by the :command:`execute_process`
-command and has been deprecated since CMake 3.0.
-
-.. |disallowed_version| replace:: 3.28
-.. include:: DISALLOWED_COMMAND.txt
-
-.. include:: DEPRECATED.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:bedb70711ffd232a4939241cb9d7eb38d887d4d3d571c2191cc1ec5d50cc2f67
+size 326

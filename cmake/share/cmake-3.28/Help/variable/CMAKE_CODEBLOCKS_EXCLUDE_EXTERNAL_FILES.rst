@@ -1,9 +1,3 @@
-CMAKE_CODEBLOCKS_EXCLUDE_EXTERNAL_FILES
----------------------------------------
-
-.. versionadded:: 3.10
-
-Change the way the CodeBlocks generator creates project files.
-
-If this variable evaluates to ``ON`` the generator excludes from
-the project file any files that are located outside the project root.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff3c7fd1bef4b71de04b94326cc93ecf479f4c99bad04510b2f196e0ca98eb1d
+size 304

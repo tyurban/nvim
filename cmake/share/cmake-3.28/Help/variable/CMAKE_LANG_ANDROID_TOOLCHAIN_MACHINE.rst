@@ -1,11 +1,3 @@
-CMAKE_<LANG>_ANDROID_TOOLCHAIN_MACHINE
---------------------------------------
-
-.. versionadded:: 3.7.1
-
-When :ref:`Cross Compiling for Android` this variable contains the
-toolchain binutils machine name (e.g. ``gcc -dumpmachine``).  The
-binutils typically have a ``<machine>-`` prefix on their name.
-
-See also :variable:`CMAKE_<LANG>_ANDROID_TOOLCHAIN_PREFIX`
-and :variable:`CMAKE_<LANG>_ANDROID_TOOLCHAIN_SUFFIX`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:37198fe542ac5b5dc7f3e350a7fbea1f2afbffe87c4a2381eb8f1b0d8c9bb03c
+size 415

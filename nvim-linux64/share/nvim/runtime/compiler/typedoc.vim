@@ -1,28 +1,3 @@
-" Vim compiler file
-" Compiler:	TypeDoc
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2020 Feb 10
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "typedoc"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-" CompilerSet makeprg=npx\ typedoc
-
-CompilerSet makeprg=typedoc
-CompilerSet errorformat=%EError:\ %f(%l),
-		       \%WWarning:\ %f(%l),
-		       \%+IDocumentation\ generated\ at\ %f,
-		       \%Z\ %m,
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:84f43210b5ddf46f92b143acfb758687bf29456b95354254d0594ee355821f25
+size 610

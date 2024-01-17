@@ -1,20 +1,3 @@
-CMAKE_<LANG>_BYTE_ORDER
------------------------
-
-.. versionadded:: 3.20
-
-Byte order of ``<LANG>`` compiler target architecture, if known.
-If defined and not empty, the value is one of:
-
-``BIG_ENDIAN``
-  The target architecture is Big Endian.
-
-``LITTLE_ENDIAN``
-  The target architecture is Little Endian.
-
-This is defined for languages ``C``, ``CXX``, ``OBJC``, ``OBJCXX``,
-and ``CUDA``.
-
-If :variable:`CMAKE_OSX_ARCHITECTURES` specifies multiple architectures, the
-value of ``CMAKE_<LANG>_BYTE_ORDER`` is non-empty only if all architectures
-share the same byte order.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7c0e41468022334d48abd2b20ce1834b592dfdff3cb44c2b86b123f7e08b20b
+size 569

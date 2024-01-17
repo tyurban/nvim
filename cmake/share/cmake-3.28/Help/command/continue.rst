@@ -1,16 +1,3 @@
-continue
---------
-
-.. versionadded:: 3.2
-
-Continue to the top of enclosing foreach or while loop.
-
-.. code-block:: cmake
-
-  continue()
-
-The ``continue()`` command allows a cmake script to abort the rest of the
-current iteration of a :command:`foreach` or :command:`while` loop, and start
-at the top of the next iteration.
-
-See also the :command:`break` command.
+version https://git-lfs.github.com/spec/v1
+oid sha256:35d494049c39b93ca86ee34d5aceda22e19831b269c616d6d6d08257ee33340a
+size 362

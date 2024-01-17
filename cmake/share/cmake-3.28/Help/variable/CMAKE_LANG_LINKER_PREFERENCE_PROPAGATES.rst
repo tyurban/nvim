@@ -1,11 +1,3 @@
-CMAKE_<LANG>_LINKER_PREFERENCE_PROPAGATES
------------------------------------------
-
-An internal variable subject to change.
-
-True if :variable:`CMAKE_<LANG>_LINKER_PREFERENCE` propagates across targets.
-
-This is used when CMake selects a linker language for a target.
-Languages compiled directly into the target are always considered.  A
-language compiled into static libraries linked by the target is
-considered if this variable is true.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7b27f1ecc7b2d2a72f74f023104328997bc976eff267a8f48b83eb45df59411
+size 440

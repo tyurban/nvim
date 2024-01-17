@@ -1,9 +1,3 @@
-Swift_LANGUAGE_VERSION
-----------------------
-
-.. versionadded:: 3.16
-
-This property sets the language version for the Swift sources in the target.  If
-one is not specified, it will default to
-:variable:`CMAKE_Swift_LANGUAGE_VERSION` if specified, otherwise it is the
-latest version supported by the compiler.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cae86047ab9522f9715c9d5dab528c0aa03404da07dd0d6dc64a781a4eb01762
+size 310

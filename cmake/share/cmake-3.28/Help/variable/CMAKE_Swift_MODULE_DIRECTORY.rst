@@ -1,10 +1,3 @@
-CMAKE_Swift_MODULE_DIRECTORY
-----------------------------
-
-.. versionadded:: 3.15
-
-Swift module output directory.
-
-This variable is used to initialize the :prop_tgt:`Swift_MODULE_DIRECTORY`
-property on all the targets.  See the target property for additional
-information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d8b12f6bd0301ba8126bf6da46769b0887ef77176193325c8825dd9c6b3dc59
+size 272

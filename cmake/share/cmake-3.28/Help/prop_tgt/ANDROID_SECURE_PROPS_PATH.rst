@@ -1,10 +1,3 @@
-ANDROID_SECURE_PROPS_PATH
--------------------------
-
-.. versionadded:: 3.4
-
-Set the Android property that states the location of the secure properties file.
-This is a string property that contains the file path.
-This property is initialized by the value of the
-:variable:`CMAKE_ANDROID_SECURE_PROPS_PATH` variable
-if it is set when a target is created.
+version https://git-lfs.github.com/spec/v1
+oid sha256:37568207dd6a8590f18301fce85e3a4e8823a496025b646aaa6bff49e19079c9
+size 353

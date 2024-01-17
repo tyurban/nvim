@@ -1,13 +1,3 @@
-" Vim indent file
-" Language: dune
-" Maintainers:  Markus Mottl         <markus.mottl@gmail.com>
-" URL:          https://github.com/ocaml/vim-ocaml
-" Last Change:  2021 Jan 01
-
-if exists("b:did_indent")
- finish
-endif
-let b:did_indent = 1
-
-" dune format-dune-file uses 1 space to indent
-setlocal softtabstop=1 shiftwidth=1 expandtab
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9299b52a221f306ea8df98424ba18155acb38317ae3ad44a22795eab655ffe7
+size 332

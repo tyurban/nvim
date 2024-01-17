@@ -1,13 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libtextwrap-9ee3efc3d6cc48a5.rmeta: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/indentation.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_separators.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_splitters.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/wrap_algorithms.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/line_ending.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/core.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libtextwrap-9ee3efc3d6cc48a5.rlib: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/indentation.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_separators.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_splitters.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/wrap_algorithms.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/line_ending.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/core.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/textwrap-9ee3efc3d6cc48a5.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/indentation.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_separators.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_splitters.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/wrap_algorithms.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/line_ending.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/core.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/lib.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/indentation.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_separators.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/word_splitters.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/wrap_algorithms.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/line_ending.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0/src/core.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb640116cf58c3b9f9f527fca7fe80f94de0a81db00ed20f306bc7ccc9be27cb
+size 3060

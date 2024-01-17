@@ -1,7 +1,3 @@
-CMAKE_ANDROID_API_MIN
----------------------
-
-.. versionadded:: 3.2
-
-Default value for the :prop_tgt:`ANDROID_API_MIN` target property.
-See that target property for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ddcc63447eb311d2b4e1b0f6977fce7e4ff77f8278ed6560ded3dc9a9d8f114
+size 188

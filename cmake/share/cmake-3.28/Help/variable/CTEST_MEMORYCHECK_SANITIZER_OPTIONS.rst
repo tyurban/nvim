@@ -1,12 +1,3 @@
-CTEST_MEMORYCHECK_SANITIZER_OPTIONS
------------------------------------
-
-.. versionadded:: 3.1
-
-Specify the CTest ``MemoryCheckSanitizerOptions`` setting
-in a :manual:`ctest(1)` dashboard client script.
-
-CTest prepends correct sanitizer options ``*_OPTIONS``
-environment variable to executed command. CTests adds
-its own ``log_path`` to sanitizer options, don't provide your
-own ``log_path``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab52bb94b614293a6d8ce26ee976a440335c9bc307fa440034e5f8538a0f8461
+size 393

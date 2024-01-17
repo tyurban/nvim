@@ -1,30 +1,3 @@
-" Vim compiler file
-" Compiler:	Sass
-" Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
-" Last Change:	2016 Aug 29
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "sass"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo-=C
-
-CompilerSet makeprg=sass
-
-CompilerSet errorformat=
-      \%f:%l:%m\ (Sass::Syntax%trror),
-      \%ESyntax\ %trror:%m,
-      \%C%\\s%\\+on\ line\ %l\ of\ %f,
-      \%Z%.%#,
-      \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
-
-" vim:set sw=2 sts=2:
+version https://git-lfs.github.com/spec/v1
+oid sha256:e59a98b4df81c8fa5655751f158ac65fabdec2769ba74f6f9d213cfd9de58a51
+size 590

@@ -1,8 +1,3 @@
-SOURCE_DIR
-----------
-
-.. versionadded:: 3.4
-
-This read-only property reports the value of the
-:variable:`CMAKE_CURRENT_SOURCE_DIR` variable in the directory in which
-the target was defined.
+version https://git-lfs.github.com/spec/v1
+oid sha256:979027b9dcd00f237969337ec34f2226e6c1965d3b2f3309b7626a7bef627c82
+size 191

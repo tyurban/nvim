@@ -1,14 +1,3 @@
-CMAKE_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED
---------------------------------------------
-
-.. versionadded:: 3.24
-
-Set to ``TRUE`` if the ``<FEATURE>``, as defined by variable
-:variable:`CMAKE_LINK_LIBRARY_USING_<FEATURE>`, is supported regardless the
-linker language.
-
-.. note::
-
-  This variable is evaluated if, and only if, the variable
-  :variable:`CMAKE_<LANG>_LINK_LIBRARY_USING_<FEATURE>_SUPPORTED` is not
-  defined.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a689747529d3087f4482699ee9c6bf480524716222fb94cb898cfd90be7ab63f
+size 424

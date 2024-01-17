@@ -1,16 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-macro(cmake_nvcc_filter_implicit_info lang lang_var_)
-  # Remove the CUDA Toolkit include directories from the set of
-  # implicit system include directories.
-  # This resolves the issue that NVCC doesn't specify these
-  # includes as SYSTEM includes when compiling device code, and sometimes
-  # they contain headers that generate warnings, so let users mark them
-  # as SYSTEM explicitly
-  if(${lang_var_}TOOLKIT_INCLUDE_DIRECTORIES)
-    list(REMOVE_ITEM CMAKE_${lang}_IMPLICIT_INCLUDE_DIRECTORIES
-      ${${lang_var_}TOOLKIT_INCLUDE_DIRECTORIES}
-      )
-  endif()
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f1cb543bc111f8c6df75f6f8ffe9a0d76fe6e6205a2accd6c8941b1bf65f584
+size 721

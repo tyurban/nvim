@@ -1,14 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libignore-b66831dea912c82c.rmeta: crates/ignore/src/lib.rs crates/ignore/src/default_types.rs crates/ignore/src/dir.rs crates/ignore/src/gitignore.rs crates/ignore/src/overrides.rs crates/ignore/src/pathutil.rs crates/ignore/src/types.rs crates/ignore/src/walk.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libignore-b66831dea912c82c.rlib: crates/ignore/src/lib.rs crates/ignore/src/default_types.rs crates/ignore/src/dir.rs crates/ignore/src/gitignore.rs crates/ignore/src/overrides.rs crates/ignore/src/pathutil.rs crates/ignore/src/types.rs crates/ignore/src/walk.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/ignore-b66831dea912c82c.d: crates/ignore/src/lib.rs crates/ignore/src/default_types.rs crates/ignore/src/dir.rs crates/ignore/src/gitignore.rs crates/ignore/src/overrides.rs crates/ignore/src/pathutil.rs crates/ignore/src/types.rs crates/ignore/src/walk.rs
-
-crates/ignore/src/lib.rs:
-crates/ignore/src/default_types.rs:
-crates/ignore/src/dir.rs:
-crates/ignore/src/gitignore.rs:
-crates/ignore/src/overrides.rs:
-crates/ignore/src/pathutil.rs:
-crates/ignore/src/types.rs:
-crates/ignore/src/walk.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:72d33fc389a775482a6f7d6b404a076c236e0da1ae40aea94f83e192274db56c
+size 1163

@@ -1,14 +1,3 @@
-" Vim filetype plugin
-" Language:	Valve Data Format
-" Maintainer:	ObserverOfTime <chronobserver@disroot.org>
-" Last Change:	2022 Sep 15
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-setl comments=:// commentstring=//\ %s
-setl foldmethod=syntax
-
-let b:undo_ftplugin = 'setl com< cms< fdm<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:e41e35939d97ceeb8697e68cd5a26af67f1bb23c68c93e28969b438ecb6a5a95
+size 311

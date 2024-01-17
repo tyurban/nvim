@@ -1,13 +1,3 @@
-" Vim filetype plugin
-" Language:	SubStation Alpha
-" Maintainer:	ObserverOfTime <chronobserver@disroot.org>
-" Last Change:	2022 Oct 10
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal comments=:;,:!: commentstring=;\ %s
-
-let b:undo_ftplugin = 'setl com< cms<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc97ebb792859733ae0b8eb850db1706867dd4e7b45bde00fec0c8e28c2a4480
+size 288

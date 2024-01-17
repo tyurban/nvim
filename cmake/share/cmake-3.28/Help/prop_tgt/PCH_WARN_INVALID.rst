@@ -1,12 +1,3 @@
-PCH_WARN_INVALID
-----------------
-
-.. versionadded:: 3.18
-
-When this property is set to true, the precompile header compiler options
-will contain a compiler flag which should warn about invalid precompiled
-headers e.g. ``-Winvalid-pch`` for GNU compiler.
-
-This property is initialized by the value of the
-:variable:`CMAKE_PCH_WARN_INVALID` variable if it is set when a target is
-created.  If that variable is not set, the property defaults to ``ON``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:894cba3627189629f4e6e653f98e5bfe8c9c0001a8ba8d032be1063f852829d1
+size 451

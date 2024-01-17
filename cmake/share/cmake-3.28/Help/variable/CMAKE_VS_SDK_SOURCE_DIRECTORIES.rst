@@ -1,6 +1,3 @@
-CMAKE_VS_SDK_SOURCE_DIRECTORIES
--------------------------------
-
-.. versionadded:: 3.12
-
-This variable allows to override Visual Studio default Source Directories.
+version https://git-lfs.github.com/spec/v1
+oid sha256:912af0929da523d63cea62e22b9493bc257f9d89e6bbfe1e8c9322cb57050b91
+size 164

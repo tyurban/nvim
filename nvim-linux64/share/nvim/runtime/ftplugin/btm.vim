@@ -1,12 +1,3 @@
-" Vim filetype plugin file
-" Language:	BTM
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2004 Jul 06
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Behaves just like dosbatch
-runtime! ftplugin/dosbatch.vim ftplugin/dosbatch_*.vim ftplugin/dosbatch/*.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:58c4bfc1cb8b349e23d33873e59a78a8a9ac9474ad6b3faabe8150d1d1541df6
+size 316

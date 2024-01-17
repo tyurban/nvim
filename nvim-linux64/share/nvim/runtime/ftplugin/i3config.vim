@@ -1,13 +1,3 @@
-" Vim filetype plugin file
-" Language: i3 config file
-" Original Author: Mohamed Boughaba <mohamed dot bgb at gmail dot com>
-" Maintainer: Quentin Hibon
-" Version: 0.4
-" Last Change: 2021 Dec 14
-
-if exists("b:did_ftplugin") | finish | endif
-let b:did_ftplugin = 1
-
-let b:undo_ftplugin = "setlocal cms<"
-
-setlocal commentstring=#\ %s
+version https://git-lfs.github.com/spec/v1
+oid sha256:44b65152ac8b1decf604b83669203780a5ce3a622946d3e3ba3d03425e03a297
+size 333

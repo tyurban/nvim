@@ -1,8 +1,3 @@
-CMAKE_JOB_POOL_PRECOMPILE_HEADER
---------------------------------
-
-.. versionadded:: 3.17
-
-This variable is used to initialize the :prop_tgt:`JOB_POOL_PRECOMPILE_HEADER`
-property on all the targets. See :prop_tgt:`JOB_POOL_PRECOMPILE_HEADER`
-for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f893f43b23b84b1247c9601a024cd035884297ceb9eb846476df12dee33b65aa
+size 270

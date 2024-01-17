@@ -1,17 +1,3 @@
-" Vim filetype indent file
-" Language:    JSP files
-" Maintainer:  David Fishburn <fishburn@ianywhere.com>
-" Version:     1.0
-" Last Change: Wed Nov 08 2006 11:08:05 AM
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-    finish
-endif
-
-" If there has been no specific JSP indent script created, 
-" use the default html indent script which will handle
-" html, javascript and most of the JSP constructs.
-runtime! indent/html.vim
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:991b0c915f3e476e3cd1a456992fd129f86de30098dc7237bc023d655f4a7d12
+size 462

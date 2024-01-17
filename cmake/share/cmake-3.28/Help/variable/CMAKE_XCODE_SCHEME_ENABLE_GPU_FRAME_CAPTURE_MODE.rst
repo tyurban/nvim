@@ -1,15 +1,3 @@
-CMAKE_XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE
-------------------------------------------------
-
-.. versionadded:: 3.23
-
-Property value for ``GPU Frame Capture`` in the Options section of
-the generated Xcode scheme. Example values are `Metal` and
-`Disabled`.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_ENABLE_GPU_FRAME_CAPTURE_MODE`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9dd60b411de72beee34e9f211c7fae7755ac5a4697ea727c57764586e015ed0
+size 501

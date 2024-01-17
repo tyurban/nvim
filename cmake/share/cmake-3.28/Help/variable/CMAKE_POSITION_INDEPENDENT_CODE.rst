@@ -1,9 +1,3 @@
-CMAKE_POSITION_INDEPENDENT_CODE
--------------------------------
-
-Default value for :prop_tgt:`POSITION_INDEPENDENT_CODE` of targets.
-
-This variable is used to initialize the
-:prop_tgt:`POSITION_INDEPENDENT_CODE` property on all the targets.
-See that target property for additional information.  If set, its
-value is also used by the :command:`try_compile` command.
+version https://git-lfs.github.com/spec/v1
+oid sha256:39b565ea85b18c120f89e54b7be6b17193cd0e1d10cde33b862364c16ca4d669
+size 365

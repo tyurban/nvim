@@ -1,10 +1,3 @@
-CMAKE_CPACK_COMMAND
--------------------
-
-.. versionadded:: 3.13
-
-Full path to :manual:`cpack(1)` command installed with CMake.
-
-This is the full path to the CPack executable :manual:`cpack(1)`
-that can be used for custom commands or tests to invoke
-CPack commands.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3fc32d3f81ffd39e7b3ba2225ecb7088956ee1ca203c245066ddaba28c0151e
+size 265

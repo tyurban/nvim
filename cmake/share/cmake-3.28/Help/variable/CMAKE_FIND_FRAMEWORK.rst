@@ -1,24 +1,3 @@
-CMAKE_FIND_FRAMEWORK
---------------------
-
-.. versionadded:: 3.4
-
-This variable affects how ``find_*`` commands choose between
-macOS Frameworks and unix-style package components.
-
-On Darwin or systems supporting macOS Frameworks, the
-``CMAKE_FIND_FRAMEWORK`` variable can be set to empty or
-one of the following:
-
-``FIRST``
-  Try to find frameworks before standard libraries or headers.
-  This is the default on Darwin.
-
-``LAST``
-  Try to find frameworks after standard libraries or headers.
-
-``ONLY``
-  Only try to find frameworks.
-
-``NEVER``
-  Never try to find frameworks.
+version https://git-lfs.github.com/spec/v1
+oid sha256:66672a2c9d8e5715226cd3794d24ae23895253a19fe3a85b7f72aabeac0ea488
+size 576

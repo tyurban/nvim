@@ -1,10 +1,3 @@
-LABELS
-------
-
-Specify a list of text labels associated with a test.  The labels are
-reported in both the :program:`ctest` output summary and in dashboard submissions.
-They can also be used to filter the set of tests to be executed (see the
-:option:`ctest -L` and :option:`ctest -LE` options).
-
-See :ref:`Additional Labels` for adding labels to a test dynamically during
-test execution.
+version https://git-lfs.github.com/spec/v1
+oid sha256:505f511812b37a62dbdba8042acbc4548efafdf46884318bd0f145c86056383a
+size 387

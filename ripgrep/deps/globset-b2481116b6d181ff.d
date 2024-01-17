@@ -1,10 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libglobset-b2481116b6d181ff.rmeta: crates/globset/src/lib.rs crates/globset/src/fnv.rs crates/globset/src/glob.rs crates/globset/src/pathutil.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libglobset-b2481116b6d181ff.rlib: crates/globset/src/lib.rs crates/globset/src/fnv.rs crates/globset/src/glob.rs crates/globset/src/pathutil.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/globset-b2481116b6d181ff.d: crates/globset/src/lib.rs crates/globset/src/fnv.rs crates/globset/src/glob.rs crates/globset/src/pathutil.rs
-
-crates/globset/src/lib.rs:
-crates/globset/src/fnv.rs:
-crates/globset/src/glob.rs:
-crates/globset/src/pathutil.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:499da4181cc05f22d495da77569ceeaeae11d04998f521eccbfd63bc6dc808f3
+size 682

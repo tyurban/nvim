@@ -1,17 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-include_guard()
-
-macro(__apple_compiler_intel_llvm lang)
-  set(CMAKE_${lang}_VERBOSE_FLAG "-v -Wl,-v") # also tell linker to print verbose output
-  set(CMAKE_SHARED_LIBRARY_CREATE_${lang}_FLAGS "-dynamiclib -Wl,-headerpad_max_install_names")
-  set(CMAKE_SHARED_MODULE_CREATE_${lang}_FLAGS "-bundle -Wl,-headerpad_max_install_names")
-
-  set(CMAKE_${lang}_LINKER_WRAPPER_FLAG "-Wl,")
-  set(CMAKE_${lang}_LINKER_WRAPPER_FLAG_SEP ",")
-
-  set(CMAKE_${lang}_COMPILE_OPTIONS_VISIBILITY "-fvisibility=")
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:3155cd4b2d08fec6b1557889607a8c2597a847ce94d7aa6138cf97ed147b81a3
+size 719

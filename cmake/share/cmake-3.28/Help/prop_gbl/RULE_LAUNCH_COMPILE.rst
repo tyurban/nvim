@@ -1,17 +1,3 @@
-RULE_LAUNCH_COMPILE
--------------------
-
-Specify a launcher for compile rules.
-
-.. note::
-  This property is intended for internal use by :manual:`ctest(1)`.  Projects
-  and developers should use the :prop_tgt:`<LANG>_COMPILER_LAUNCHER` target
-  properties or the associated :variable:`CMAKE_<LANG>_COMPILER_LAUNCHER`
-  variables instead.
-
-:ref:`Makefile Generators` and the :generator:`Ninja` generator prefix
-compiler commands with the given launcher command line.
-This is intended to allow launchers to intercept build problems
-with high granularity.  Other generators ignore this property
-because their underlying build systems provide no hook to wrap
-individual commands with a launcher.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1dcccc60458c8a6ae5e0deef681010a4a7a2147c89c9fa3c1b9bd1483eb17649
+size 693

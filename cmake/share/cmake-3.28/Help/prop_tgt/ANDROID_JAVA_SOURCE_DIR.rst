@@ -1,10 +1,3 @@
-ANDROID_JAVA_SOURCE_DIR
------------------------
-
-.. versionadded:: 3.4
-
-Set the Android property that defines the Java source code root directories.
-This a string property that contains the directory paths separated by semicolon.
-This property is initialized by the value of the
-:variable:`CMAKE_ANDROID_JAVA_SOURCE_DIR` variable if it is set
-when a target is created.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c923e00b7f9fd67f4ef7b4a7a9f36f904f9cd7bb1f62dca37d3b5df45103c057
+size 369

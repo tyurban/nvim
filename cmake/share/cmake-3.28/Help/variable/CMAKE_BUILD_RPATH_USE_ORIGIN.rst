@@ -1,9 +1,3 @@
-CMAKE_BUILD_RPATH_USE_ORIGIN
-----------------------------
-
-.. versionadded:: 3.14
-
-Whether to use relative paths for the build ``RPATH``.
-
-This is used to initialize the :prop_tgt:`BUILD_RPATH_USE_ORIGIN` target
-property for all targets, see that property for more details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2e5311451e01b5b58166b06fbadc36271b06ab5840dabeacb442569c71ee20b
+size 274

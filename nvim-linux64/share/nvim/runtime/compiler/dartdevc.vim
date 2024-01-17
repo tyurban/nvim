@@ -1,28 +1,3 @@
-" Vim compiler file
-" Compiler:	Dart Development Compiler
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2019 May 08
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "dartdevc"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-CompilerSet makeprg=dartdevc
-CompilerSet errorformat=%E%f:%l:%c:\ Error:\ %m,
-		       \%CTry\ %.%#,
-		       \%Z\ %#^%\\+,
-		       \%Z%$,
-		       \%C%.%#,
-		       \%E%f:\ %trror:\ %m,
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5d4bb454d24f05541e46d36181e12c9a0cf68394a255901a5b035cb2087100c
+size 616

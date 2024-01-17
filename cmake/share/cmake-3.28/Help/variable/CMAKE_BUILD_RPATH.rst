@@ -1,12 +1,3 @@
-CMAKE_BUILD_RPATH
------------------
-
-.. versionadded:: 3.8
-
-:ref:`Semicolon-separated list <CMake Language Lists>` specifying runtime path (``RPATH``)
-entries to add to binaries linked in the build tree (for platforms that
-support it).  The entries will *not* be used for binaries in the install
-tree.  See also the :variable:`CMAKE_INSTALL_RPATH` variable.
-
-This is used to initialize the :prop_tgt:`BUILD_RPATH` target property
-for all targets.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d73b15b89ece12a8de7ebbe2c421e01c03c5e70612430e9d0c63efc53b1acf2
+size 447

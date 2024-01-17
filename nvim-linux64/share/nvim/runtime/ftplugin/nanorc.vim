@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             nanorc(5) - GNU nano configuration file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=:# commentstring=#\ %s formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:9838b1bebfa3baaaaadc848ed2b2031be8e6720ae1f546cd39742735d43b5d05
+size 447

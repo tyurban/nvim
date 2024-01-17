@@ -1,7 +1,3 @@
-<PROJECT-NAME>_DESCRIPTION
---------------------------
-
-.. versionadded:: 3.12
-
-Value given to the ``DESCRIPTION`` option of the most recent call to the
-:command:`project` command with project name ``<PROJECT-NAME>``, if any.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7253ed6f9aa3cbe4c94b9cec8101411f457e8e64a4a9bfaca50c61d1efc22aaa
+size 225

@@ -1,14 +1,3 @@
-CTEST_NO_TESTS_ACTION
----------------------
-
-.. versionadded:: 3.26
-
-.. include:: ENV_VAR.txt
-
-Environment variable that controls how :manual:`ctest <ctest(1)>` handles
-cases when there are no tests to run. Possible values are: ``error``,
-``ignore``, empty or unset.
-
-The :option:`--no-tests=\<action\> <ctest --no-tests>` option to
-:manual:`ctest <ctest(1)>` overrides this environment variable if both
-are given.
+version https://git-lfs.github.com/spec/v1
+oid sha256:036355b97f61393162528a58fcf3fcc0132dde77a907c671d1eaabf3b9800c65
+size 415

@@ -1,11 +1,3 @@
-include(Compiler/CMakeCommonCompilerMacros)
-include(Compiler/ADSP)
-
-__compiler_adsp(C)
-
-set(CMAKE_C90_STANDARD_COMPILE_OPTION -c89)
-set(CMAKE_C90_STANDARD__HAS_FULL_SUPPORT ON)
-
-set(CMAKE_C99_STANDARD__HAS_FULL_SUPPORT ON)
-
-__compiler_check_default_language_standard(C 8.0.0.0 99)
+version https://git-lfs.github.com/spec/v1
+oid sha256:97fb01dc8d7b3723421e482341b0430e03e6d6a33d5e970fda55f1d80866723a
+size 281

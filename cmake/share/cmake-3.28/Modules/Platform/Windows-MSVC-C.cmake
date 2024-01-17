@@ -1,12 +1,3 @@
-include(Platform/Windows-MSVC)
-if(NOT CMAKE_C_COMPILER_VERSION VERSION_LESS 18.0)
-  set(_FS_C " /FS")
-endif()
-__windows_compiler_msvc(C)
-
-if((NOT DEFINED CMAKE_DEPENDS_USE_COMPILER OR CMAKE_DEPENDS_USE_COMPILER)
-    AND CMAKE_GENERATOR MATCHES "Makefiles|WMake"
-    AND CMAKE_DEPFILE_FLAGS_C)
-  # dependencies are computed by the compiler itself
-  set(CMAKE_C_DEPENDS_USE_COMPILER TRUE)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0aff2a13f28c26961063aeac97625e61a93953b1e560e447bfa63c4c8f8bc7c
+size 395

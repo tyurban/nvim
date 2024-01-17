@@ -1,15 +1,3 @@
-" Vim filetype plugin file
-" Language: 	tmux(1) configuration file
-" URL: 		https://github.com/ericpruitt/tmux.vim/
-" Maintainer: 	Eric Pruitt <eric.pruitt@gmail.com>
-" Last Changed: 2017 Mar 10
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let b:undo_ftplugin = "setlocal comments< commentstring<"
-
-setlocal comments=:#
-setlocal commentstring=#\ %s
+version https://git-lfs.github.com/spec/v1
+oid sha256:d519b78af3018938fa886bd76f9c27029378675c92baf5e07b7db390f0d5dd7a
+size 372

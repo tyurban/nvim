@@ -1,6 +1,3 @@
-if exists('g:loaded_tutor_mode_plugin') || &compatible
-    finish
-endif
-let g:loaded_tutor_mode_plugin = 1
-
-command! -nargs=? -complete=custom,tutor#TutorCmdComplete Tutor call tutor#TutorCmd(<q-args>)
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd285b175b7dc1abe69fb7f095b552bd9a143e58707c69e46d47b0aadabf9695
+size 202

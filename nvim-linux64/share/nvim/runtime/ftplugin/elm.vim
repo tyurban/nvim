@@ -1,20 +1,3 @@
-" Elm filetype plugin file
-" Language: Elm
-" Maintainer: Andreas Scharf <as@99n.de>
-" Latest Revision: 2022-04-25
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-setlocal comments=s1fl:{-,mb:\ ,ex:-},:--
-setlocal commentstring=--\ %s
-
-let b:undo_ftplugin = "setl com< cms<"
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:018d97639d73b8746b9cf5006ff4c8b17149ba3a7c4b4050c421669835a368ba
+size 369

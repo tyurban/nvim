@@ -1,14 +1,3 @@
-ctest_read_custom_files
------------------------
-
-read CTestCustom files.
-
-.. code-block:: cmake
-
-  ctest_read_custom_files(<directory>...)
-
-Read all the CTestCustom.ctest or CTestCustom.cmake files from the
-given directory.
-
-By default, invoking :manual:`ctest(1)` without a script will read custom
-files from the binary directory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:84fcb16666cc711311ec6fa663c92ba285b11d102800d1b5b99b3155020608dd
+size 332

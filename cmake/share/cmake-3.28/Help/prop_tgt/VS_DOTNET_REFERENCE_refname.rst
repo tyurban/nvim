@@ -1,14 +1,3 @@
-VS_DOTNET_REFERENCE_<refname>
------------------------------
-
-.. versionadded:: 3.8
-
-Visual Studio managed project .NET reference with name ``<refname>``
-and hint path.
-
-Adds one .NET reference to generated Visual Studio project. The
-reference will have the name ``<refname>`` and will point to the
-assembly given as value of the property.
-
-See also :prop_tgt:`VS_DOTNET_REFERENCES` and
-:prop_tgt:`VS_DOTNET_REFERENCES_COPY_LOCAL`
+version https://git-lfs.github.com/spec/v1
+oid sha256:da8a464b013f812d8cfc731e8d30f8e4597d476d31cdb2fde80821bece33b6b5
+size 430

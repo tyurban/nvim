@@ -1,13 +1,3 @@
-CMAKE_VS_TARGET_FRAMEWORK_IDENTIFIER
-------------------------------------
-
-.. versionadded:: 3.22
-
-Visual Studio target framework identifier.
-
-In some cases, the :ref:`Visual Studio Generators` may use an explicit value
-for the MSBuild ``TargetFrameworkIdentifier`` setting in ``.csproj`` files.
-CMake provides the chosen value in this variable.
-
-See also :variable:`CMAKE_VS_TARGET_FRAMEWORK_VERSION` and
-:variable:`CMAKE_VS_TARGET_FRAMEWORK_TARGETS_VERSION`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:767eb64e0b6fe5b3beb2df7adfe19385ed207e9905e53406a4b2541a606a0df1
+size 461

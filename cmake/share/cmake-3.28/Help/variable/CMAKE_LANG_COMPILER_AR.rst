@@ -1,9 +1,3 @@
-CMAKE_<LANG>_COMPILER_AR
-------------------------
-
-.. versionadded:: 3.9
-
-A wrapper around ``ar`` adding the appropriate ``--plugin`` option for the
-compiler.
-
-See also :variable:`CMAKE_AR`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9b605930f9170adfc862ac489f3bb0e12b583a634fa4ba4a3e4021ca14354c2
+size 191

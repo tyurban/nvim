@@ -1,10 +1,3 @@
-CMAKE_LINK_WHAT_YOU_USE_CHECK
------------------------------
-
-.. versionadded:: 3.22
-
-Defines the command executed after the link step to check libraries usage.
-This check is currently only defined on ``ELF`` platforms with value
-``ldd -u -r``.
-
-See also :variable:`CMAKE_<LANG>_LINK_WHAT_YOU_USE_FLAG` variables.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdeadff12a88b43f51a7f18ef3bf26166ca0177baf298a02a0d2516822240ef4
+size 313

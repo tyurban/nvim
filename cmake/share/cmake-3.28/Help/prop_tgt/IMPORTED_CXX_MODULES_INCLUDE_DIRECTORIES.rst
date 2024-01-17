@@ -1,10 +1,3 @@
-IMPORTED_CXX_MODULES_INCLUDE_DIRECTORIES
-----------------------------------------
-
-.. versionadded:: 3.28
-
-List of preprocessor include file search directories when compiling C++
-modules for ``IMPORTED`` targets.
-
-The value of this property is used by the generators to set the include
-paths for the compiler.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dbf63bb025c67b36a0ab7aa1f1f0caf46b1faa66a0f41794c13f78112eb6aad
+size 310

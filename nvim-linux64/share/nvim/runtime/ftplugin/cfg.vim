@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:		Configuration File
-" Maintainer:		Christian Brabandt <cb@256bit.org>
-" Latest Revision:	2018-12-24
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl cms< fo<"
-
-setlocal commentstring=#\ %s formatoptions-=t formatoptions+=croql
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a3c6e9fb58274e03cda31493f93365d82d195ea4781d4f08fa925a69fe52232
+size 388

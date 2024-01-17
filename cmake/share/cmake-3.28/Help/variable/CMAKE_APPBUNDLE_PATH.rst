@@ -1,9 +1,3 @@
-CMAKE_APPBUNDLE_PATH
---------------------
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of directories specifying a search path
-for macOS application bundles used by the :command:`find_program`, and
-:command:`find_package` commands.
-
-There is also an environment variable :envvar:`CMAKE_APPBUNDLE_PATH`, which is used
-as an additional list of search directories.
+version https://git-lfs.github.com/spec/v1
+oid sha256:97c1adcd5ccb7f34c152aa1b91b35ef24b802c505178edfb9ecdd0c166299dbc
+size 373

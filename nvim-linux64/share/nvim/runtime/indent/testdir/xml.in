@@ -1,32 +1,3 @@
-<!-- vim: set ft=xml ts=8 sw=0 sts=-1 et : -->
-<!-- START_INDENT -->
-<?xml version="1.0" encoding="utf-8"?>
-<tag0>
-  <tag1>
-<!-- comment -->
-<tag2>
-  <tag3/>
-</tag2>
-<!-- text comment -->
-
-<!--
-text comment
--->
-</tag1>
-<!--
-text comment
-end comment -->
-</tag0>
-<!-- END_INDENT -->
-
-<!-- START_INDENT -->
-<?xml version="1.0" encoding="utf-8"?>
-<tag0>
-  <tag1>
-<!-- comment -->
-<tag2>
-  <tag3/>
-</tag2>
-</tag1>
-</tag0>
-<!-- END_INDENT -->
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2b66c6921cc3f12066a67d665980ec4e3efd14794bc3cb4ea2d69d979b93aa4
+size 437

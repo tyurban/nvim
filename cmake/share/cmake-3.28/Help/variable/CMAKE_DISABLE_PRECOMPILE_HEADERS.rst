@@ -1,8 +1,3 @@
-CMAKE_DISABLE_PRECOMPILE_HEADERS
---------------------------------
-
-.. versionadded:: 3.16
-
-Default value for :prop_tgt:`DISABLE_PRECOMPILE_HEADERS` of targets.
-
-By default ``CMAKE_DISABLE_PRECOMPILE_HEADERS`` is ``OFF``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e48efe7b2a6f464de95850cb96f2255372a056adb5e71f858f5f3b2ee939cab3
+size 221

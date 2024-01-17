@@ -1,13 +1,3 @@
-VS_WINRT_COMPONENT
-------------------
-
-.. versionadded:: 3.1
-
-Mark a target as a Windows Runtime component for the Visual Studio generator.
-Compile the target with ``C++/CX`` language extensions for Windows Runtime.
-For ``SHARED`` and ``MODULE`` libraries, this also defines the
-``_WINRT_DLL`` preprocessor macro.
-
-.. note::
-  Currently this is implemented only by Visual Studio generators.
-  Support may be added to other generators in the future.
+version https://git-lfs.github.com/spec/v1
+oid sha256:391db88613a6767e7d1ca3dcb23b0286cd2e34d4266525b9f54654bfc08ae3b3
+size 449

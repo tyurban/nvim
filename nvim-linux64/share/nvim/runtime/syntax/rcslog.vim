@@ -1,25 +1,3 @@
-" Vim syntax file
-" Language:	RCS log output
-" Maintainer:	Joe Karthauser <joe@freebsd.org>
-" Last Change:	2001 May 09
-
-" quit when a syntax file was already loaded
-if exists("b:current_syntax")
-  finish
-endif
-
-syn match rcslogRevision	"^revision.*$"
-syn match rcslogFile		"^RCS file:.*"
-syn match rcslogDate		"^date: .*$"
-
-" Define the default highlighting.
-" Only when an item doesn't have highlighting yet
-
-hi def link rcslogFile		Type
-hi def link rcslogRevision	Constant
-hi def link rcslogDate		Identifier
-
-
-let b:current_syntax = "rcslog"
-
-" vim: ts=8
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd47786a479e34b20e6ba354da80950d92cd49c2b0eb27aea84f8db9b8eabd0f
+size 557

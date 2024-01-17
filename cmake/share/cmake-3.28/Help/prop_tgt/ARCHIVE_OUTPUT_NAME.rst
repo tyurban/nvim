@@ -1,11 +1,3 @@
-ARCHIVE_OUTPUT_NAME
--------------------
-
-.. |XXX| replace:: :ref:`ARCHIVE <Archive Output Artifacts>`
-.. |xxx| replace:: archive
-.. include:: XXX_OUTPUT_NAME.txt
-
-.. |IDEM| replace:: with the same name
-.. include:: MACOS_IMPORT_FILES.txt
-
-See also the :prop_tgt:`ARCHIVE_OUTPUT_NAME_<CONFIG>` target property.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a39e26efce1676612ba749dd10565ca712febef6c4656966a5d1904f4bbd4222
+size 310

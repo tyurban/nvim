@@ -1,7 +1,3 @@
-VS_SHADER_VARIABLE_NAME
------------------------
-
-.. versionadded:: 3.10
-
-Set name of variable in header file containing object code of a ``.hlsl``
-source file.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b3135bb0b19c10269ee3560038deb233c36d21186ebc64a9e1e8b15289248b5
+size 160

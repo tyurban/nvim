@@ -1,24 +1,3 @@
-" Vim syntax file
-" Language:	HTML with Cheetah tags
-" Maintainer:	Max Ischenko <mfi@ukr.net>
-" Last Change: 2003-05-11
-
-" quit when a syntax file was already loaded
-if exists("b:current_syntax")
-  finish
-endif
-
-if !exists("main_syntax")
-  let main_syntax = 'html'
-endif
-
-runtime! syntax/cheetah.vim
-runtime! syntax/html.vim
-unlet b:current_syntax
-
-syntax cluster htmlPreproc add=cheetahPlaceHolder
-syntax cluster htmlString add=cheetahPlaceHolder
-
-let b:current_syntax = "htmlcheetah"
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5cce9f6855809116969a60af8d7d057bde43cfecb2e0474895ebb4cf1e853eb
+size 488

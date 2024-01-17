@@ -1,7 +1,3 @@
-CTEST_CUSTOM_ERROR_MATCH
-------------------------
-
-A list of regular expressions which will be used to detect error messages in
-build outputs by the :command:`ctest_build` command.
-
-.. include:: CTEST_CUSTOM_XXX.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca65adcbf7e8bb88bd814df2b39b83fdcd36df4332567ab13d1affc44a467bf8
+size 216

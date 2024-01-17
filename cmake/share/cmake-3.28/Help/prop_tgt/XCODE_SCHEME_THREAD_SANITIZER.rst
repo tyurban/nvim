@@ -1,14 +1,3 @@
-XCODE_SCHEME_THREAD_SANITIZER
------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Thread Sanitizer`` in the Diagnostics
-section of the generated Xcode scheme.
-
-This property is initialized by the value of the variable
-:variable:`CMAKE_XCODE_SCHEME_THREAD_SANITIZER` if it is set
-when a target is created.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d57c2ac6ec5b275ad69e248fcd03cd3bcf80a87c4c87c0e56411cfa1f2eb7dd7
+size 457

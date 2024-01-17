@@ -1,13 +1,3 @@
-" Vim indent file
-" Language:	less
-" Maintainer:	Alessandro Vioni <jenoma@gmail.com>
-" URL: https://github.com/genoma/vim-less
-" Last Change:	2014 November 24
-
-if exists("b:did_indent")
-  finish
-endif
-
-runtime! indent/css.vim
-
-" vim:set sw=2:
+version https://git-lfs.github.com/spec/v1
+oid sha256:c384646b61673d7238ff96d87dfb520c59004382e3ae605c06d82095a6a24432
+size 243

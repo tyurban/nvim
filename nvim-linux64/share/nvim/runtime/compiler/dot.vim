@@ -1,15 +1,3 @@
-" Vim compiler file
-" Compiler:     ATT dot
-" Maintainer:	Marcos Macedo <bar4ka@bol.com.br>
-" Last Change:	2004 May 16
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "dot"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=dot\ -T$*\ \"%:p\"\ -o\ \"%:p:r.$*\"
+version https://git-lfs.github.com/spec/v1
+oid sha256:2571ee3438ed40315d97b10fbba97f674c6442fc75d816c25c851ed22e257f48
+size 372

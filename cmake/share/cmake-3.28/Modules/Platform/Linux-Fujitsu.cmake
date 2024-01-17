@@ -1,17 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-if(__LINUX_COMPILER_FUJITSU)
-  return()
-endif()
-set(__LINUX_COMPILER_FUJITSU 1)
-
-macro(__linux_compiler_fujitsu lang)
-  set(CMAKE_${lang}_COMPILE_OPTIONS_PIC "-fPIC")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_PIE "-fPIE")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_VISIBILITY "-fvisibility=")
-  set(CMAKE_SHARED_LIBRARY_${lang}_FLAGS "-fPIC")
-  set(CMAKE_SHARED_LIBRARY_CREATE_${lang}_FLAGS "-shared")
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2664e3e3c6f16bc986019dd8b112c03ed5ef5a9fcbecb7f67594a66b9a8e97b
+size 612

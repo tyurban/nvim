@@ -1,28 +1,3 @@
-" Vim compiler file
-" Compiler: Zig Compiler
-" Upstream: https://github.com/ziglang/zig.vim
-
-if exists("current_compiler")
-    finish
-endif
-let current_compiler = "zig"
-
-let s:save_cpo = &cpo
-set cpo&vim
-
-if exists(":CompilerSet") != 2
-    command -nargs=* CompilerSet setlocal <args>
-endif
-
-" a subcommand must be provided for the this compiler (test, build-exe, etc)
-if has('patch-7.4.191')
-    CompilerSet makeprg=zig\ \$*\ \%:S
-else
-    CompilerSet makeprg=zig\ \$*\ \"%\"
-endif
-
-" TODO: improve errorformat as needed.
-
-let &cpo = s:save_cpo
-unlet s:save_cpo
-" vim: tabstop=8 shiftwidth=4 softtabstop=4 expandtab
+version https://git-lfs.github.com/spec/v1
+oid sha256:3715dc5d8b8cee63574753d04687f4f1c7d9d0b1b88fa1566c0bb8ecf2004502
+size 617

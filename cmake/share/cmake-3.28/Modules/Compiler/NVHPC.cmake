@@ -1,17 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-if(__COMPILER_NVHPC)
-  return()
-endif()
-set(__COMPILER_NVHPC 1)
-
-include(Compiler/PGI)
-
-macro(__compiler_nvhpc lang)
-  # Logic specific to NVHPC.
-  set(CMAKE_INCLUDE_SYSTEM_FLAG_${lang} "-isystem ")
-  set(CMAKE_${lang}_COMPILE_OPTIONS_WARNING_AS_ERROR "-Werror")
-endmacro()
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f038c3ecb3177cab5ecad1c2a6b0c58e89c237afd928a2557494efdf95727d2
+size 486

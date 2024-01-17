@@ -1,17 +1,3 @@
-CMAKE_TLS_VERIFY
-----------------
-
-Specify the default value for the :command:`file(DOWNLOAD)` and
-:command:`file(UPLOAD)` commands' ``TLS_VERIFY`` options.
-If not set, the default is *off*.
-
-This variable is also used by the :module:`ExternalProject` and
-:module:`FetchContent` modules for internal calls to :command:`file(DOWNLOAD)`.
-
-TLS verification can help provide confidence that one is connecting
-to the desired server.  When downloading known content, one should
-also use file hashes to verify it.
-
-.. code-block:: cmake
-
-  set(CMAKE_TLS_VERIFY TRUE)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d7f2dd43348ff4d8f233272c0538bde2bc88eec1e51fa37052e5d3c82368b06
+size 560

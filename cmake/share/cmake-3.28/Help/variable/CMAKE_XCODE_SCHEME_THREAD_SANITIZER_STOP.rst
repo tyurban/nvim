@@ -1,14 +1,3 @@
-CMAKE_XCODE_SCHEME_THREAD_SANITIZER_STOP
-----------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Thread Sanitizer - Pause on issues``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_THREAD_SANITIZER_STOP`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c3d21da3b4ac973576ac041cfbfa0d100f82ad2fd3440322d189ecd382a653f7
+size 454

@@ -1,23 +1,3 @@
-" Vim filetype plugin
-" Language:    TOML
-" Homepage:    https://github.com/cespare/vim-toml
-" Maintainer:  Aman Verma
-" Author:      Kevin Ballard <kevin@sb.org>
-" Last Change: Sep 21, 2021
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:save_cpo = &cpo
-set cpo&vim
-let b:undo_ftplugin = 'setlocal commentstring< comments<'
-
-setlocal commentstring=#\ %s
-setlocal comments=:#
-
-let &cpo = s:save_cpo
-unlet s:save_cpo
-
-" vim: et sw=2 sts=2
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a112fdeaeb65f91f8cbe67ce7499349532d41f0cd35fbeaf38772c0e307af52
+size 464

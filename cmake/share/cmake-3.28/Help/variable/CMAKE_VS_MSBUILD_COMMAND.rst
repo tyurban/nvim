@@ -1,13 +1,3 @@
-CMAKE_VS_MSBUILD_COMMAND
-------------------------
-
-The generators for :generator:`Visual Studio 12 2013` and above set this
-variable to the ``MSBuild.exe`` command installed with the corresponding
-Visual Studio version.
-
-This variable is not defined by other generators even if ``MSBuild.exe``
-is installed on the computer.
-
-The :variable:`CMAKE_VS_DEVENV_COMMAND` is also provided for the
-non-Express editions of Visual Studio.
-See also the :variable:`CMAKE_MAKE_PROGRAM` variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cb8818692702117dcc1b5e85a6f25e003f1feba48d667efd088698be27b85a3
+size 483

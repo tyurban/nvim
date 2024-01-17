@@ -1,8 +1,3 @@
-CMAKE_ANDROID_STANDALONE_TOOLCHAIN
-----------------------------------
-
-.. versionadded:: 3.7
-
-When :ref:`Cross Compiling for Android with a Standalone Toolchain`, this
-variable holds the absolute path to the root directory of the toolchain.
-The specified directory must contain a ``sysroot`` subdirectory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c502b321195a421ea81e434bddfc954a17a42b308f844e4c5eedc1b4aa64e3e5
+size 306

@@ -1,7 +1,3 @@
-include(Compiler/PGI-Fortran)
-include(Compiler/NVHPC)
-__compiler_nvhpc(Fortran)
-if(CMAKE_Fortran_COMPILER_VERSION VERSION_LESS 21.7)
-  # Before NVHPC 21.7 nvfortran didn't support isystem
-  unset(CMAKE_INCLUDE_SYSTEM_FLAG_Fortran)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:d32428ba4cce2c95d0ec9066d491e2d0c7553a4d74e2fe1271e43ca997255d25
+size 239

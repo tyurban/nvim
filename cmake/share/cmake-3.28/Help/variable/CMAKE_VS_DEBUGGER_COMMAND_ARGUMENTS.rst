@@ -1,8 +1,3 @@
-CMAKE_VS_DEBUGGER_COMMAND_ARGUMENTS
------------------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`VS_DEBUGGER_COMMAND_ARGUMENTS`
-property on each target as it is created.  See that target property
-for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:85c52f0ba0f367e97a091b90a77d0ed5f9512f16bf3298150b33b97f162394cb
+size 275

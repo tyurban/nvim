@@ -1,14 +1,3 @@
-CSFLAGS
--------
-
-.. versionadded:: 3.9.2
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``CSharp`` files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_CSharp_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``CSharp``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_CSharp_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:401e1fa6428a3dc0b98e93d7baf3202e87fb2e335da0045551bc2882b8e80873
+size 359

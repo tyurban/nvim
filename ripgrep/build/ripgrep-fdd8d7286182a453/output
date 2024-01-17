@@ -1,1 +1,3 @@
-cargo:rustc-env=RIPGREP_BUILD_GIT_HASH=648a65f197
+version https://git-lfs.github.com/spec/v1
+oid sha256:09c22850bd27358a8a3fb0185b641182dad4fbd84b849049d69a6409b3884f50
+size 50

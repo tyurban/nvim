@@ -1,16 +1,3 @@
-" Vim compiler file
-" Compiler:	Unit testing tool for Python
-" Maintainer:	Max Ischenko <mfi@ukr.net>
-" Last Change: 2004 Mar 27
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "pyunit"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cbd4fb02df73a90e3ce3bd5ded2de0c6e62248c3553de0c7270b18c7c73b8a7
+size 407

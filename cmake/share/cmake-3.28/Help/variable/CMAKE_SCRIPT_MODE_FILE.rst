@@ -1,9 +1,3 @@
-CMAKE_SCRIPT_MODE_FILE
-----------------------
-
-Full path to the :option:`cmake -P` script file currently being
-processed.
-
-When run in :option:`cmake -P` script mode, CMake sets this variable to
-the full path of the script file.  When run to configure a ``CMakeLists.txt``
-file, this variable is not set.
+version https://git-lfs.github.com/spec/v1
+oid sha256:59ff0201460a52ac39740f05062dbd5e2c801dc895c2dcd6ac6e6e03d0727dd6
+size 305

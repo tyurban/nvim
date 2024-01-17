@@ -1,23 +1,3 @@
-" Vim syntax file
-" Language:	git send-email message
-" Maintainer:	Tim Pope
-" Filenames:	.gitsendemail.*
-" Last Change:	2016 Aug 29
-
-if exists("b:current_syntax")
-  finish
-endif
-
-runtime! syntax/mail.vim
-unlet! b:current_syntax
-syn include @gitsendemailDiff syntax/diff.vim
-syn region gitsendemailDiff start=/\%(^diff --\%(git\|cc\|combined\) \)\@=/ end=/^-- %/ fold contains=@gitsendemailDiff
-
-syn case match
-
-syn match   gitsendemailComment "\%^From.*#.*"
-syn match   gitsendemailComment "^GIT:.*"
-
-hi def link gitsendemailComment Comment
-
-let b:current_syntax = "gitsendemail"
+version https://git-lfs.github.com/spec/v1
+oid sha256:d019c0671c3adf34913dda061e7ad16617ec43fed8140d220ce016bd47c8231b
+size 580

@@ -1,20 +1,3 @@
-CMAKE_VS_NO_COMPILE_BATCHING
-----------------------------
-
-.. versionadded:: 3.24
-
-Turn off compile batching when using :ref:`Visual Studio Generators`.
-
-This variable is used to initialize the :prop_tgt:`VS_NO_COMPILE_BATCHING`
-property on all targets when they are created.  See that target property for
-additional information.
-
-Example
-^^^^^^^
-
-This shows setting the property for the target ``foo`` using the variable.
-
-.. code-block:: cmake
-
-  set(CMAKE_VS_NO_COMPILE_BATCHING ON)
-  add_library(foo SHARED foo.cpp)
+version https://git-lfs.github.com/spec/v1
+oid sha256:87d174e68b98a3df65eb03814dd9730516755bd3ec4d6abb3d356a5d7af6cf63
+size 520

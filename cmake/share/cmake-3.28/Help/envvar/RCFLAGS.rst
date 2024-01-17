@@ -1,12 +1,3 @@
-RCFLAGS
--------
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``RC`` (resource) files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_RC_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``RC``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_RC_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:af46a3f243e903ceae45f6e7dc4d7833d9394daeb277ec64d818746ae9179064
+size 329

@@ -1,25 +1,3 @@
-" Vim compiler file
-" Compiler:	JSHint
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2019 Jul 10
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "jshint"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-" CompilerSet makeprg=npx\ jshint\ --verbose
-
-CompilerSet makeprg=jshint\ --verbose
-CompilerSet errorformat=%f:\ line\ %l\\,\ col\ %c\\,\ %m\ (%t%n),
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8c2a7e79db9d6499f89b8de8f719af8a4d562d2a6d0188ce9109b3b9d7a1971
+size 557

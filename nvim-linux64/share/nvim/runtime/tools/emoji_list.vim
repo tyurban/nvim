@@ -1,21 +1,3 @@
-" Script to fill the window with emoji characters, one per line.
-" Source this script: :source %
-
-if &modified
-  new
-else
-  enew
-endif
-
-lua << EOF
-  local lnum = 1
-  for c = 0x100, 0x1ffff do
-    local cs = vim.fn.nr2char(c)
-    if vim.fn.charclass(cs) == 3 then
-      vim.fn.setline(lnum, '|' .. cs .. '| ' .. vim.fn.strwidth(cs))
-      lnum = lnum + 1
-    end
-  end
-EOF
-
-set nomodified
+version https://git-lfs.github.com/spec/v1
+oid sha256:d65fc08d9b94512ed0b20f51ed6973a5876627d6393be8bc34945b3dae1bb47a
+size 388

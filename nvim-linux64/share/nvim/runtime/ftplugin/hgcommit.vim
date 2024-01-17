@@ -1,16 +1,3 @@
-" Vim filetype plugin file
-" Language:	hg (Mercurial) commit file
-" Maintainer:	Ken Takata <kentkt at csc dot jp>
-" Last Change:	2016 Jan 6
-" Filenames:	hg-editor-*.txt
-" License:	VIM License
-" URL:		https://github.com/k-takata/hg-vim
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal nomodeline
-
-let b:undo_ftplugin = 'setl modeline<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:99bce433aceeeae5ce779b1a75800e5654540797599735b09f854369100131d0
+size 363

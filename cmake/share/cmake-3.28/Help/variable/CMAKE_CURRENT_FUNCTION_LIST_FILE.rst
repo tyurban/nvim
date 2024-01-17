@@ -1,11 +1,3 @@
-CMAKE_CURRENT_FUNCTION_LIST_FILE
---------------------------------
-
-.. versionadded:: 3.17
-
-When executing code inside a :command:`function`, this variable
-contains the full path to the listfile that defined the current function.
-
-See also :variable:`CMAKE_CURRENT_FUNCTION`,
-:variable:`CMAKE_CURRENT_FUNCTION_LIST_DIR` and
-:variable:`CMAKE_CURRENT_FUNCTION_LIST_LINE`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:03798a25069e4613bb4d4f08dcca341d0ccf0601207f3a15778c6203febe7dca
+size 369

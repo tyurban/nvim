@@ -1,8 +1,3 @@
-EXECUTABLE_OUTPUT_PATH
-----------------------
-
-Old executable location variable.
-
-The target property :prop_tgt:`RUNTIME_OUTPUT_DIRECTORY` supersedes this
-variable for a target if it is set.  Executable targets are otherwise placed in
-this directory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9952b257b77f5ae4a50083dc519dff1fffa61b2324fd2b67f220d95b0e2c6a15
+size 251

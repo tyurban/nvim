@@ -1,8 +1,3 @@
-CMAKE_MODULE_PATH
------------------
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of directories,
-represented using forward slashes, specifying a search path for CMake modules
-to be loaded by the :command:`include` or :command:`find_package` commands
-before checking the default modules that come with CMake. By default it is
-empty.  It is intended to be set by the project.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d160b546e924c3a23c6703fe8d4340023edcffac45a971e8a3dde1336d6e4582
+size 385

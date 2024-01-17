@@ -1,10 +1,3 @@
-CMAKE_BUILD_TYPE
-----------------
-
-.. versionadded:: 3.22
-
-.. include:: ENV_VAR.txt
-
-The ``CMAKE_BUILD_TYPE`` environment variable specifies a default value
-for the :variable:`CMAKE_BUILD_TYPE` variable when there is no explicit
-configuration given on the first run while creating a new build tree.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1095b213964d2de399c11e70861dd5b570b0838fa9ae54e832f264e1dc66513f
+size 299

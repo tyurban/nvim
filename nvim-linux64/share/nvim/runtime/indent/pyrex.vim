@@ -1,13 +1,3 @@
-" Vim indent file
-" Language:	Pyrex
-" Maintainer:	Marco Barisione <marco.bari@people.it>
-" URL:		http://marcobari.altervista.org/pyrex_vim.html
-" Last Change:	2005 Jun 24
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-
-" Use Python formatting rules
-runtime! indent/python.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:04a879f68c1791073063933cd70576c6fd17c1f281f6afb77fb6ebbba9f7c92b
+size 326

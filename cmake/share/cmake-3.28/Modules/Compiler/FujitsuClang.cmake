@@ -1,11 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-if(__COMPILER_FUJITSUCLANG)
-  return()
-endif()
-set(__COMPILER_FUJITSUCLANG 1)
-
-include(Compiler/Clang)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4812da8326c79e8e9579f9f5f5db3f6f057e6fe1e62bff4dbe56df75f15cb449
+size 315

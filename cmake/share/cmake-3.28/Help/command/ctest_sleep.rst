@@ -1,16 +1,3 @@
-ctest_sleep
------------
-
-sleeps for some amount of time
-
-.. code-block:: cmake
-
-  ctest_sleep(<seconds>)
-
-Sleep for given number of seconds.
-
-.. code-block:: cmake
-
-  ctest_sleep(<time1> <duration> <time2>)
-
-Sleep for t=(time1 + duration - time2) seconds if t > 0.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b1f978318cad94be0ade80cbd1f81f425675a15b07c44d768b0fa095a67375e
+size 265

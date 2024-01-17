@@ -1,9 +1,3 @@
-CMAKE_BUILD_WITH_INSTALL_NAME_DIR
----------------------------------
-
-.. versionadded:: 3.9
-
-Whether to use :prop_tgt:`INSTALL_NAME_DIR` on targets in the build tree.
-
-This variable is used to initialize the :prop_tgt:`BUILD_WITH_INSTALL_NAME_DIR`
-property on all targets.
+version https://git-lfs.github.com/spec/v1
+oid sha256:db8f1d8fe993bed51c71199e8008e09bbe1c73e26b0ff94f60ce2e19035ff9cf
+size 272

@@ -1,18 +1,3 @@
-" Vim filetype plugin file
-" Language:     Fennel
-" Maintainer:   Gregory Anders <greg[NOSPAM]@gpanders.com>
-" Last Update:  2022 Apr 20
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal commentstring=;%s
-setlocal comments=:;;,:;
-setlocal formatoptions-=t
-setlocal suffixesadd=.fnl
-setlocal lisp
-setlocal lispwords=accumulate,collect,do,doto,each,eval-compiler,fn,for,icollect,lambda,let,macro,macros,match,match-try,when,while,with-open
-
-let b:undo_ftplugin = 'setlocal commentstring< comments< formatoptions< suffixesadd< lisp< lispwords<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7569ed6b06c4abd801e6e55f1d27725b399a571d45aa44d806cc8ce7d7a27f3
+size 569

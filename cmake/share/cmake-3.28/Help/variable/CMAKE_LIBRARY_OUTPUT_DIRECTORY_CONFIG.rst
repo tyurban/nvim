@@ -1,11 +1,3 @@
-CMAKE_LIBRARY_OUTPUT_DIRECTORY_<CONFIG>
----------------------------------------
-
-.. versionadded:: 3.3
-
-Where to put all the :ref:`LIBRARY <Library Output Artifacts>`
-target files when built for a specific configuration.
-
-This variable is used to initialize the
-:prop_tgt:`LIBRARY_OUTPUT_DIRECTORY_<CONFIG>` property on all the targets.
-See that target property for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:73d134dcf59471f5203eae2bc17f1238c2c06dd81cd46d1a50c39cae191b61fd
+size 390

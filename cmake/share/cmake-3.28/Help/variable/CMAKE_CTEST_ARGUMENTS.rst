@@ -1,8 +1,3 @@
-CMAKE_CTEST_ARGUMENTS
----------------------
-
-.. versionadded:: 3.17
-
-Set this to a :ref:`semicolon-separated list <CMake Language Lists>` of
-command-line arguments to pass to :manual:`ctest(1)` when running tests
-through the ``test`` (or ``RUN_TESTS``) target of the generated build system.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2305836977c97b8c8991d3410655caabc43055baac2a80f0fd1d48814f265020
+size 291

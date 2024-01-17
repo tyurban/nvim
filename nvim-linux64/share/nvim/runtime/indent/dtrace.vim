@@ -1,17 +1,3 @@
-" Vim indent file
-" Language: D script as described in "Solaris Dynamic Tracing Guide",
-"           http://docs.sun.com/app/docs/doc/817-6223
-" Last Change: 2008/03/20
-" Version: 1.2
-" Maintainer: Nicolas Weber <nicolasweber@gmx.de>
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-let b:did_indent = 1
-
-" Built-in C indenting works nicely for dtrace.
-setlocal cindent
-
-let b:undo_indent = "setl cin<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ada6f46fa44872b65c797e346dfbe7d3bc68365a00a6459a1e94ecb26c71de2
+size 451

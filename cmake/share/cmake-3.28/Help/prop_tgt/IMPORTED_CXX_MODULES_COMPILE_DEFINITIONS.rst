@@ -1,10 +1,3 @@
-IMPORTED_CXX_MODULES_COMPILE_DEFINITIONS
-----------------------------------------
-
-.. versionadded:: 3.28
-
-Preprocessor definitions for compiling an ``IMPORTED`` target's C++ module
-sources.
-
-CMake will automatically drop some definitions that are not supported
-by the native build tool.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac6a18fd89b76428507e37db202851d2eac46e73e03af85efe6a7a2962db58a3
+size 288

@@ -1,12 +1,3 @@
-CMAKE_GENERATOR
----------------
-
-The generator used to build the project.  See :manual:`cmake-generators(7)`.
-
-The name of the generator that is being used to generate the build
-files.  (e.g.  ``Unix Makefiles``, ``Ninja``, etc.)
-
-The value of this variable should never be modified by project code.
-A generator may be selected via the :option:`cmake -G` option,
-interactively in :manual:`cmake-gui(1)`, or via the :envvar:`CMAKE_GENERATOR`
-environment variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c378165d9f7406fa463df9132e894cd4d08134e270a48774176c2e793170be4
+size 463

@@ -1,19 +1,3 @@
-include(Compiler/GNU)
-__compiler_gnu(OBJCXX)
-
-if((NOT DEFINED CMAKE_DEPENDS_USE_COMPILER OR CMAKE_DEPENDS_USE_COMPILER)
-    AND CMAKE_GENERATOR MATCHES "Makefiles|WMake"
-    AND CMAKE_DEPFILE_FLAGS_OBJCXX)
-  # dependencies are computed by the compiler itself
-  set(CMAKE_OBJCXX_DEPFILE_FORMAT gcc)
-  set(CMAKE_OBJCXX_DEPENDS_USE_COMPILER TRUE)
-endif()
-
-
-if(NOT CMAKE_OBJCXX_COMPILER_VERSION VERSION_LESS 4.2)
-  set(CMAKE_OBJCXX_COMPILE_OPTIONS_VISIBILITY_INLINES_HIDDEN "-fvisibility-inlines-hidden")
-endif()
-
-if(NOT CMAKE_OBJCXX_LINK_FLAGS)
-  set(CMAKE_OBCXX_LINK_FLAGS "-lstdc++")
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:532b3e4f6acd772167fb2420507e23b3d3b7c5162b95999e9150b7b9a76998d7
+size 591

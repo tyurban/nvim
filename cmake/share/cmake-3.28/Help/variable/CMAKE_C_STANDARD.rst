@@ -1,10 +1,3 @@
-CMAKE_C_STANDARD
-----------------
-
-.. versionadded:: 3.1
-
-Default value for :prop_tgt:`C_STANDARD` target property if set when a target
-is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc2dad60ae0cad117457eff12103d073d644ff522c50012a4dbd93d4f6675901
+size 271

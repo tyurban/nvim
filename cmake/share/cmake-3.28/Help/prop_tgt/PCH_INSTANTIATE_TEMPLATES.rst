@@ -1,13 +1,3 @@
-PCH_INSTANTIATE_TEMPLATES
--------------------------
-
-.. versionadded:: 3.19
-
-When this property is set to true, the precompiled header compiler options
-will contain a flag to instantiate templates during the generation of the PCH
-if supported. This can significantly improve compile times. Supported in Clang
-since version 11.
-
-This property is initialized by the value of the
-:variable:`CMAKE_PCH_INSTANTIATE_TEMPLATES` variable if it is set when a target
-is created.  If that variable is not set, the property defaults to ``ON``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:04ba82b8bfb99cc624d7232b40747621a29476151dce7e8d06455b550c09af8b
+size 532

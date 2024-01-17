@@ -1,8 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/libsame_file-36c8446ef0cd2573.rmeta: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/unix.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/libsame_file-36c8446ef0cd2573.rlib: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/unix.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/same_file-36c8446ef0cd2573.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/lib.rs /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/unix.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/lib.rs:
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/same-file-1.0.6/src/unix.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9498e58446bab40651d8000cda4cae2d5e042573a9512c04d6cff575f0e4ec7
+size 994

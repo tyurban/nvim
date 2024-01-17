@@ -1,8 +1,3 @@
-INTERFACE_COMPILE_OPTIONS
--------------------------
-
-.. |property_name| replace:: compile options
-.. |command_name| replace:: :command:`target_compile_options`
-.. |PROPERTY_INTERFACE_NAME| replace:: ``INTERFACE_COMPILE_OPTIONS``
-.. |PROPERTY_LINK| replace:: :prop_tgt:`COMPILE_OPTIONS`
-.. include:: INTERFACE_BUILD_PROPERTY.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0c4688bbfe1ab3dd484daf991c3ba4f9e5a64a82b4b15e4233ede8beaa4ffb0
+size 328

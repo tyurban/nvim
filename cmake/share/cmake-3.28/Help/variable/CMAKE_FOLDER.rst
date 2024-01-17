@@ -1,9 +1,3 @@
-CMAKE_FOLDER
-------------
-
-.. versionadded:: 3.12
-
-Set the folder name. Use to organize targets in an IDE.
-
-This variable is used to initialize the :prop_tgt:`FOLDER` property on all the
-targets.  See that target property for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e46a2a9064395e8d92b45307e51004f3d39a40a53492202c674b6c50668fe71
+size 250

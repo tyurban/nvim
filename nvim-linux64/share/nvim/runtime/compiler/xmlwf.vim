@@ -1,23 +1,3 @@
-" Vim Compiler File
-" Compiler:	xmlwf
-" Maintainer:	Robert Rowsome <rowsome@wam.umd.edu>
-" Last Change:	2019 Jul 23
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "xmlwf"
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=xmlwf\ %:S
-
-CompilerSet errorformat=%f:%l%c:%m
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c26717e1b607dcedf630bf1bf963e489a7135889e5c85b62dd68a2fc01a7962
+size 456

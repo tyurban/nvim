@@ -1,15 +1,3 @@
-" Vim filetype plugin file
-" Language:      TT2 embedded with HTML
-" Maintainer:    vim-perl <vim-perl@googlegroups.com>
-" Homepage:      https://github.com/vim-perl/vim-perl
-" Bugs/requests: https://github.com/vim-perl/vim-perl/issues
-" License:       Vim License (see :help license)
-" Last Change:   2018 Mar 28
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-    finish
-endif
-
-" Just use the HTML plugin for now.
-runtime! ftplugin/html.vim ftplugin/html_*.vim ftplugin/html/*.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:552374f40b280a9d21a357894a71f7e213057b12520b6003e0c5dca596f8c3dd
+size 513

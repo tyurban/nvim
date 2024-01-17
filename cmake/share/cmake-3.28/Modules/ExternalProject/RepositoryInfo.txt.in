@@ -1,9 +1,3 @@
-# This is a generated file and its contents are an internal implementation detail.
-# The download step will be re-executed if anything in this file changes.
-# No other meaning or use of this file is supported.
-
-method=@method@
-command=@cmd@
-source_dir=@source_dir@
-work_dir=@work_dir@
-@extra_repo_info@
+version https://git-lfs.github.com/spec/v1
+oid sha256:232134378831e454bf05c5e8d2707166ec41ea31c6c4c327ba76b1b6789861c6
+size 303

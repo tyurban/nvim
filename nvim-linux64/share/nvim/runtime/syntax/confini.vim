@@ -1,12 +1,3 @@
-" Vim syntax file
-" Language: confini
-
-" Quit if a syntax file was already loaded
-if exists("b:current_syntax")
-  finish
-endif
-
-" Use the cfg syntax for now, it's similar.
-runtime! syntax/cfg.vim
-
-let b:current_syntax = 'confini'
+version https://git-lfs.github.com/spec/v1
+oid sha256:18f01fc0706ac5b1dbb85174c3d786a7b3eb99f2b64b806c594b8b3d85dc6ad6
+size 230

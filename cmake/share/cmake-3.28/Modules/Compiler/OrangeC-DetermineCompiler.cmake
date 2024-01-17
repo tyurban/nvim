@@ -1,7 +1,3 @@
-
-set(_compiler_id_pp_test "defined(__ORANGEC__)")
-
-set(_compiler_id_version_compute "
-# define @PREFIX@COMPILER_VERSION_MAJOR @MACRO_DEC@(__ORANGEC_MAJOR__)
-# define @PREFIX@COMPILER_VERSION_MINOR @MACRO_DEC@(__ORANGEC_MINOR__)
-# define @PREFIX@COMPILER_VERSION_PATCH @MACRO_DEC@(__ORANGEC_PATCHLEVEL__)")
+version https://git-lfs.github.com/spec/v1
+oid sha256:57752dfe4fec6efd9274f90884f2da25248149d2d0fcf73ead519c98370eeb99
+size 306

@@ -1,14 +1,3 @@
-CMAKE_DLL_NAME_WITH_SOVERSION
------------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`DLL_NAME_WITH_SOVERSION`
-property on shared library targets for the Windows platform, which is selected
-when the :variable:`WIN32` variable is set.
-
-See this target property for additional information.
-
-Please note that setting this variable has no effect if versioned filenames
-are globally disabled with the :variable:`CMAKE_PLATFORM_NO_VERSIONED_SONAME`
-variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff58515f3b540fabb251d0da9e283e62782adeb0ba4c93c3f2c7ea29101bbff0
+size 503

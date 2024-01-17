@@ -1,6 +1,3 @@
-" Vim filetype plugin
-" Language:	git send-email message
-" Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
-" Last Change:	2009 Dec 24
-
-runtime! ftplugin/mail.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:cee9fa9c1e107930535bf451bd246dba99a05313c50e2844edb10207aa3f691d
+size 157

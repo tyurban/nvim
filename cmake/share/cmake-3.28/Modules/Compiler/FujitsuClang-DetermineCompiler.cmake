@@ -1,9 +1,3 @@
-
-set(_compiler_id_pp_test "defined(__CLANG_FUJITSU)")
-
-set(_compiler_id_version_compute "
-# define @PREFIX@COMPILER_VERSION_MAJOR @MACRO_DEC@(__FCC_major__)
-# define @PREFIX@COMPILER_VERSION_MINOR @MACRO_DEC@(__FCC_minor__)
-# define @PREFIX@COMPILER_VERSION_PATCH @MACRO_DEC@(__FCC_patchlevel__)
-# define @PREFIX@COMPILER_VERSION_INTERNAL_STR __clang_version__
-")
+version https://git-lfs.github.com/spec/v1
+oid sha256:d277a602aa98283fcd587ac0d57d1fcb78ca2d0c7a0178940c7833b758687135
+size 364

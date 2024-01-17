@@ -1,10 +1,3 @@
-CTEST_CONFIGURATION_TYPE
-------------------------
-
-.. versionadded:: 3.1
-
-Specify the CTest ``DefaultCTestConfigurationType`` setting
-in a :manual:`ctest(1)` dashboard client script.
-
-If the configuration type is set via :option:`-C \<cfg\> <ctest -C>` from the command line
-then this variable is populated accordingly.
+version https://git-lfs.github.com/spec/v1
+oid sha256:348925c90004ec6759eee0fdac5760395903f21177d694dd36bf86be82a25af4
+size 320

@@ -1,8 +1,3 @@
-CMAKE_UNITY_BUILD_UNIQUE_ID
----------------------------
-
-.. versionadded:: 3.20
-
-This variable is used to initialize the :prop_tgt:`UNITY_BUILD_UNIQUE_ID`
-property of targets when they are created.  It specifies the name of the
-unique identifier generated per file in a unity build.
+version https://git-lfs.github.com/spec/v1
+oid sha256:84df9deabe1c7dd196cd084d08771efd81bf44996890ad4b3328459e4ccc78b9
+size 283

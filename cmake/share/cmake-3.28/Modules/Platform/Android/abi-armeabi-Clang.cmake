@@ -1,16 +1,3 @@
-string(APPEND _ANDROID_ABI_INIT_CFLAGS
-  " -march=armv5te"
-  )
-
-if(CMAKE_ANDROID_ARM_MODE)
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -marm")
-else()
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -mthumb")
-endif()
-
-string(APPEND _ANDROID_ABI_INIT_CFLAGS
-  " -msoft-float"
-  " -mtune=xscale"
-  )
-
-include(Platform/Android/abi-common-Clang)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5187e8083573fb67a387071484542993f351ec968c4854e9593a0e957bcd425
+size 335

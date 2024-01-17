@@ -1,8 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-include(Platform/Apple-IntelLLVM)
-__apple_compiler_intel_llvm(Fortran)
-
-set(CMAKE_Fortran_OSX_COMPATIBILITY_VERSION_FLAG "-compatibility_version ")
-set(CMAKE_Fortran_OSX_CURRENT_VERSION_FLAG "-current_version ")
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7d8499eea68d2b6ed654c052583851d07ae16f46de064c1626006c43c1e6471
+size 355

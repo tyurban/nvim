@@ -1,12 +1,3 @@
-CMAKE_VS_PLATFORM_TOOLSET_HOST_ARCHITECTURE
--------------------------------------------
-
-.. versionadded:: 3.8
-
-Visual Studio preferred tool architecture.
-
-The :ref:`Visual Studio Generators` for VS 2013 and above support using
-either the 32-bit or 64-bit host toolchains by specifying a ``host=x86``
-or ``host=x64`` value in the :variable:`CMAKE_GENERATOR_TOOLSET` option.
-CMake provides the selected toolchain architecture preference in this
-variable (``x86``, ``x64``, ``ARM64`` or empty).
+version https://git-lfs.github.com/spec/v1
+oid sha256:c63fdeb82f2991b4cacd016094433946f4d806b028e5f7e10d0685c2990e921f
+size 493

@@ -1,13 +1,3 @@
-XCODE_EMBED_FRAMEWORKS_CODE_SIGN_ON_COPY
-----------------------------------------
-
-.. versionadded:: 3.20
-
-Tell the :generator:`Xcode` generator to perform code signing for all the
-frameworks and libraries that are embedded using the
-:prop_tgt:`XCODE_EMBED_FRAMEWORKS <XCODE_EMBED_<type>>` property.
-
-.. versionadded:: 3.21
-
-This property was generalized to other types of embedded items.  See
-:prop_tgt:`XCODE_EMBED_<type>_CODE_SIGN_ON_COPY` for the more general form.
+version https://git-lfs.github.com/spec/v1
+oid sha256:13351b098121e46c999b9df75c2fa8a161632dd3719986ab13d46b3dea4c9d4d
+size 470

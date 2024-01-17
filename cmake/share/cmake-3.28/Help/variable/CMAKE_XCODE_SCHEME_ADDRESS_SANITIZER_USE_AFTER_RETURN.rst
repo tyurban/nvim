@@ -1,14 +1,3 @@
-CMAKE_XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN
------------------------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Detect use of stack after return``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_ADDRESS_SANITIZER_USE_AFTER_RETURN`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:61ba8de7286632ce219b0efdea5b290bd3e482dd7bfc2271da752e734ccac656
+size 491

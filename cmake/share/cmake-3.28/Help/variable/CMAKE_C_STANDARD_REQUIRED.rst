@@ -1,10 +1,3 @@
-CMAKE_C_STANDARD_REQUIRED
--------------------------
-
-.. versionadded:: 3.1
-
-Default value for :prop_tgt:`C_STANDARD_REQUIRED` target property if set when
-a target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffe8e5245c4ab0c7a1c75447457d7650b7ef9ed5b6a79839396b237a0c0588ce
+size 298

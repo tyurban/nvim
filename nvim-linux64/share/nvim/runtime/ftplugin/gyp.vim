@@ -1,14 +1,3 @@
-" Vim filetype plugin
-" Language:	GYP
-" Maintainer:	ObserverOfTime <chronobserver@disroot.org>
-" Last Change:	2022 Sep 27
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal formatoptions-=t
-setlocal commentstring=#\ %s comments=b:#,fb:-
-
-let b:undo_ftplugin = 'setlocal fo< cms< com<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:64c26bac754102ae8b6b1ea3454a64746f9f1337645d7e9aae5ebf0f28e60f07
+size 311

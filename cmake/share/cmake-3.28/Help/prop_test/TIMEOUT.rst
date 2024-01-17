@@ -1,15 +1,3 @@
-TIMEOUT
--------
-
-How many seconds to allow for this test.
-
-This property if set will limit a test to not take more than the
-specified number of seconds to run.  If it exceeds that the test
-process will be killed and ctest will move to the next test.  This
-setting takes precedence over :variable:`CTEST_TEST_TIMEOUT`.
-
-An explicit ``0`` value means the test has no timeout, except as
-necessary to honor :option:`ctest --stop-time`.
-
-See also :prop_test:`TIMEOUT_AFTER_MATCH` and
-:prop_test:`TIMEOUT_SIGNAL_NAME`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:89e31e9fad2ce7bed2b78dbfa1a3983674d92c7a3c333635fffaef4d50a18ea8
+size 513

@@ -1,14 +1,3 @@
-CMAKE_VS_VERSION_BUILD_NUMBER
------------------------------
-
-.. versionadded:: 3.26
-
-Visual Studio version.
-
-:ref:`Visual Studio Generators` for VS 2017 and above set this
-variable to the Visual Studio version build number in the format
-``<major>.<minor>.<date>.<build>``.
-
-.. include:: CMAKE_VS_VERSION_BUILD_NUMBER_COMPONENTS.txt
-
-See also the :variable:`CMAKE_GENERATOR_INSTANCE` variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d2fe1e431bc253df6e4b573c4d3c5aacf2920268e99bc6f26d33a9fdc90efe9
+size 393

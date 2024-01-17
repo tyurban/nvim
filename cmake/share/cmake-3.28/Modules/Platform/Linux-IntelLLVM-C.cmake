@@ -1,3 +1,3 @@
-include(Platform/Linux-IntelLLVM)
-__linux_compiler_intel_llvm(C)
-set(CMAKE_INCLUDE_SYSTEM_FLAG_C "-isystem ")
+version https://git-lfs.github.com/spec/v1
+oid sha256:f712fd0eff3d49870cb919966e16ffbfbb692425e652629998bf96540f299e3d
+size 110

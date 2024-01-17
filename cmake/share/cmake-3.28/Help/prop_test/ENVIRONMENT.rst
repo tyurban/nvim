@@ -1,9 +1,3 @@
-ENVIRONMENT
------------
-
-Specify environment variables that should be defined for running a test.
-
-Set to a :ref:`semicolon-separated list <CMake Language Lists>` list
-of environment variables and values of the form ``MYVAR=value``.
-Those environment variables will be defined while running the test.
-The environment changes from this property do not affect other tests.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf2c60106e42db9d9ea6ba2f2bad15081ba183e2e9c3f0626ad6dd9b4f3fcfe4
+size 371

@@ -1,20 +1,3 @@
-PASS_REGULAR_EXPRESSION
------------------------
-
-The output must match this regular expression for the test to pass.
-The process exit code is ignored.
-
-If set, the test output will be checked against the specified regular
-expressions and at least one of the regular expressions has to match,
-otherwise the test will fail.  Example:
-
-.. code-block:: cmake
-
-  set_tests_properties(mytest PROPERTIES
-    PASS_REGULAR_EXPRESSION "TestPassed;All ok"
-  )
-
-``PASS_REGULAR_EXPRESSION`` expects a list of regular expressions.
-
-See also the :prop_test:`FAIL_REGULAR_EXPRESSION` and
-:prop_test:`SKIP_REGULAR_EXPRESSION` test properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:303cbe7dbb1df1ad5971b732ea6560b19b8218b3445527577adbbc342f92835c
+size 626

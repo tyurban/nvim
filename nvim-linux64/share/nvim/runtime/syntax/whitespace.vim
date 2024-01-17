@@ -1,13 +1,3 @@
-" Simplistic way to make spaces and Tabs visible
-
-" This can be added to an already active syntax.
-
-syn match Space " "
-syn match Tab "\t"
-if &background == "dark"
-  hi def Space ctermbg=darkred guibg=#500000
-  hi def Tab ctermbg=darkgreen guibg=#003000
-else
-  hi def Space ctermbg=lightred guibg=#ffd0d0
-  hi def Tab ctermbg=lightgreen guibg=#d0ffd0
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cf170d0ddc67a72d3e96cc73313c33cf2c353f86b4e4ede5d8b9a71e17dc5a7
+size 357

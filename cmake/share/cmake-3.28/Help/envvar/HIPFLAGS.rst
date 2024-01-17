@@ -1,14 +1,3 @@
-HIPFLAGS
---------
-
-.. versionadded:: 3.21
-
-.. include:: ENV_VAR.txt
-
-Add default compilation flags to be used when compiling ``HIP`` files.
-
-.. |CMAKE_LANG_FLAGS| replace:: :variable:`CMAKE_HIP_FLAGS <CMAKE_<LANG>_FLAGS>`
-.. |LANG| replace:: ``HIP``
-.. include:: LANG_FLAGS.txt
-
-See also :variable:`CMAKE_HIP_FLAGS_INIT <CMAKE_<LANG>_FLAGS_INIT>`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aaff6c918a58c68c282c0d6dbce06bab78693838097684d589c73f2a9e3d7f0
+size 348

@@ -1,6 +1,3 @@
-UseJavaClassFilelist
---------------------
-
-.. versionchanged:: 3.20
-  This module was previously documented by mistake and was never meant for
-  direct inclusion by project code.  See the :module:`UseJava` module.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bec8aaa1f7cac8327822efbe3c5158ef0b7488c07a846f70c942258ffbc1dbce
+size 214

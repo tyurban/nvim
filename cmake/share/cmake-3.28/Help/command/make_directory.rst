@@ -1,14 +1,3 @@
-make_directory
---------------
-
-.. deprecated:: 3.0
-
-  Use the :command:`file(MAKE_DIRECTORY)` command instead.
-
-.. code-block:: cmake
-
-  make_directory(directory)
-
-Creates the specified directory.  Full paths should be given.  Any
-parent directories that do not exist will also be created.  Use with
-care.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b43d6e31b7ac16da7b295e37a9dbe40938d37decb60108555a82a6d755cbfca3
+size 306

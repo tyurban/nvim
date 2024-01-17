@@ -1,14 +1,3 @@
-CMAKE_XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER
-----------------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to disable the ``Main Thread Checker``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_DISABLE_MAIN_THREAD_CHECKER`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dafe48429efccfb3f694608db6b55ab658898fb17052978a79e8522d0ff07ca
+size 462

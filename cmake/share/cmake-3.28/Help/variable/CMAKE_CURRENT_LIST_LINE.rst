@@ -1,11 +1,3 @@
-CMAKE_CURRENT_LIST_LINE
------------------------
-
-The line number of the current file being processed.
-
-This is the line number of the file currently being processed by
-cmake.
-
-If CMake is currently processing deferred calls scheduled by
-the :command:`cmake_language(DEFER)` command, this variable
-evaluates to ``DEFERRED`` instead of a specific line number.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbab6b996d883aff1fcb3c149f5b4caf306b90e585382b32e8832ced0b5df9e1
+size 358

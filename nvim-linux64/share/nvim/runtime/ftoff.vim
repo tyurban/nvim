@@ -1,11 +1,3 @@
-" Vim support file to switch off detection of file types
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2001 Jun 11
-
-if exists("did_load_filetypes")
-  unlet did_load_filetypes
-endif
-
-" Remove all autocommands in the filetypedetect group
-silent! au! filetypedetect *
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa327face3b42aa667f61f49843a556c84ccc25c331fe88061688b4589e16b93
+size 280

@@ -1,12 +1,3 @@
-CMAKE_AUTOGEN_PARALLEL
-----------------------
-
-.. versionadded:: 3.11
-
-Number of parallel ``moc`` or ``uic`` processes to start when using
-:prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC`.
-
-This variable is used to initialize the :prop_tgt:`AUTOGEN_PARALLEL` property
-on all the targets.  See that target property for additional information.
-
-By default ``CMAKE_AUTOGEN_PARALLEL`` is unset.
+version https://git-lfs.github.com/spec/v1
+oid sha256:071ec0faab8de4390e3eea135eff80f27b845f1222c8017d510741bce67f667c
+size 386

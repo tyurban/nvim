@@ -1,15 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# This module is shared by multiple languages; use include blocker.
-
-if(__GHSMULTI)
-  return()
-endif()
-set(__GHSMULTI 1)
-
-set(GHSMULTI 1)
-
-set(CMAKE_FIND_LIBRARY_PREFIXES "")
-set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4b3865a9d82a8b0ae0f0795c36888c77713c1fc4fa4c443f2133e164bcb25d6
+size 357

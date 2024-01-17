@@ -1,14 +1,3 @@
-" Vim filetype plugin
-" Language:	OpenVPN
-" Maintainer:	ObserverOfTime <chronobserver@disroot.org>
-" Last Change:	2022 Oct 16
-
-if exists('b:did_ftplugin')
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal iskeyword+=-,.,/
-setlocal comments=:#,:; commentstring=#%s
-
-let b:undo_ftplugin = 'setl isk< com< cms<'
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d5fdd300b48d2a13ecbe56adca3d528b74d7457a181b665496fb315932a777e
+size 307

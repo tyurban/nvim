@@ -1,19 +1,3 @@
-ALIAS_GLOBAL
-------------
-
-.. versionadded:: 3.18
-
-Read-only property indicating of whether an :ref:`ALIAS target <Alias Targets>`
-is globally visible.
-
-The boolean value of this property is ``TRUE`` for aliases to
-:ref:`IMPORTED targets <Imported Targets>` created
-with the ``GLOBAL`` options to :command:`add_executable()` or
-:command:`add_library()`, ``FALSE`` otherwise. It is undefined for
-targets built within the project.
-
-.. note::
-
-  Promoting an :ref:`IMPORTED target <Imported Targets>` from ``LOCAL``
-  to ``GLOBAL`` scope by changing the value or :prop_tgt:`IMPORTED_GLOBAL`
-  target property do not change the scope of local aliases.
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcc1f20c9c841841726348b6342d06e151edf1a48e1b406c014462aa2b081c9e
+size 648

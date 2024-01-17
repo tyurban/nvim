@@ -1,10 +1,3 @@
-#include <sstream>
-int main(int, char*[])
-{
-  std::ostringstream os;
-  os << "12345";
-  if (os.str().size() == 5) {
-    return 0;
-  }
-  return -1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1db18118541363bd956b13ff466cf7882ac66ec3304427652e468ac4d9cb32d4
+size 149

@@ -1,17 +1,3 @@
-" Vim indent file
-" Language:    Windows PowerShell
-" URL:         https://github.com/PProvost/vim-ps1
-" Last Change: 2017 Oct 19
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-	finish
-endif
-let b:did_indent = 1
-
-" smartindent is good enough for powershell
-setlocal smartindent
-" disable the indent removal for # marks
-inoremap <buffer> # X#
-
-let b:undo_indent = "setl si<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:531c15ea34d9e7c972e62e6bcf93d12f9c0de4a3763750a452be48dfbba104e0
+size 410

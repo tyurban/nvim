@@ -1,14 +1,3 @@
-VS_DEPLOYMENT_CONTENT
----------------------
-
-.. versionadded:: 3.1
-
-Mark a source file as content for deployment with a Windows Phone or
-Windows Store application when built with a
-:manual:`Visual Studio generators <cmake-generators(7)>`.
-The value must evaluate to either ``1`` or ``0`` and may use
-:manual:`generator expressions <cmake-generator-expressions(7)>`
-to make the choice based on the build configuration.
-The ``.vcxproj`` file entry for the source file will be
-marked either ``DeploymentContent`` or ``ExcludedFromBuild``
-for values ``1`` and ``0``, respectively.
+version https://git-lfs.github.com/spec/v1
+oid sha256:329323e781f0707769eb0aead7ecbec30a3f6ef8104310ffbac62843f0392c1c
+size 577

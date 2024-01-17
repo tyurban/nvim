@@ -1,14 +1,3 @@
-CMAKE_PLATFORM_NO_VERSIONED_SONAME
-----------------------------------
-
-.. versionadded:: 3.1
-
-This variable is used to globally control whether the
-:prop_tgt:`VERSION` and :prop_tgt:`SOVERSION` target
-properties should be used for shared libraries.
-When set to true, adding version information to each
-shared library target is disabled.
-
-By default this variable is set only on platforms where
-CMake knows it is needed.   On other platforms, the
-specified properties will be used for shared libraries.
+version https://git-lfs.github.com/spec/v1
+oid sha256:458b211ca8a88620f746a9ee8348e3bc05cae149ba15a34d3aa59986eb0c8e90
+size 502

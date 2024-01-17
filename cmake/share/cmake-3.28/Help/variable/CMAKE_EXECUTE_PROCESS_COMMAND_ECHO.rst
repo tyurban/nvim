@@ -1,8 +1,3 @@
-CMAKE_EXECUTE_PROCESS_COMMAND_ECHO
-----------------------------------
-
-.. versionadded:: 3.15
-
-If this variable is set to ``STDERR``, ``STDOUT`` or ``NONE`` then commands
-in :command:`execute_process` calls will be printed to either stderr or
-stdout or not at all.
+version https://git-lfs.github.com/spec/v1
+oid sha256:372f5a0cad20a72967c5850aa564f3fef42253de92660b655953fb1a4b0cd034
+size 265

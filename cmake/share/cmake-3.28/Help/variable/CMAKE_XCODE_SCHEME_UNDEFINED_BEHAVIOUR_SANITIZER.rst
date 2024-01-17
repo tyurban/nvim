@@ -1,14 +1,3 @@
-CMAKE_XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER
-------------------------------------------------
-
-.. versionadded:: 3.13
-
-Whether to enable ``Undefined Behavior Sanitizer``
-in the Diagnostics section of the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_UNDEFINED_BEHAVIOUR_SANITIZER`
-property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7910874898f59bb705f1b792e08f502472323b37aeff4047f30479df18ffb271
+size 472

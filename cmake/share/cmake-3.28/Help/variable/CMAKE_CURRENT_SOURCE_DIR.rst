@@ -1,12 +1,3 @@
-CMAKE_CURRENT_SOURCE_DIR
-------------------------
-
-The path to the source directory currently being processed.
-
-This is the full path to the source directory that is currently being
-processed by cmake.
-
-When run in :option:`cmake -P` script mode, CMake sets the variables
-:variable:`CMAKE_BINARY_DIR`, :variable:`CMAKE_SOURCE_DIR`,
-:variable:`CMAKE_CURRENT_BINARY_DIR` and
-``CMAKE_CURRENT_SOURCE_DIR`` to the current working directory.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0db6c261df88898ba17fecedd4ed812d3c564399a08268ea8971fc2bab3b0933
+size 436

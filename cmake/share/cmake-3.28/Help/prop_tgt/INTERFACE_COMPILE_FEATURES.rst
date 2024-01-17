@@ -1,13 +1,3 @@
-INTERFACE_COMPILE_FEATURES
---------------------------
-
-.. versionadded:: 3.1
-
-.. |property_name| replace:: compile features
-.. |command_name| replace:: :command:`target_compile_features`
-.. |PROPERTY_INTERFACE_NAME| replace:: ``INTERFACE_COMPILE_FEATURES``
-.. |PROPERTY_LINK| replace:: :prop_tgt:`COMPILE_FEATURES`
-.. include:: INTERFACE_BUILD_PROPERTY.txt
-
-See the :manual:`cmake-compile-features(7)` manual for information on compile
-features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b38ce6eb5322b324de47de2d202781d151ac22c8e9d5ddc90545151b1eb90a1
+size 480

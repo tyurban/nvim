@@ -1,19 +1,3 @@
-" Vim filetype plugin file
-" Language:             group(5) user group file
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2008-07-09
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments= commentstring= formatoptions-=tcroq formatoptions+=l
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec0e528aad53b41d7c4608e924c1ea425693208beb7a161a7752ea3670f9cfb8
+size 425

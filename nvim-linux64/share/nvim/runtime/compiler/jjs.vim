@@ -1,24 +1,3 @@
-" Vim compiler file
-" Compiler:	Nashorn Shell
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2018 Jan 9
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "jjs"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-CompilerSet makeprg=jjs
-CompilerSet errorformat=%f:%l:%c\ %m,
-		       \%f:%l\ %m,
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:59650a270877c132c3668a336f4e52d77760555f6dd1320cbf97706784873b13
+size 493

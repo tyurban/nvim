@@ -1,8 +1,3 @@
-CPACK_PERMANENT
----------------
-
-.. versionadded:: 3.1
-
-Request that this file not be removed on uninstall.
-
-The property is currently only supported by the :cpack_gen:`CPack WIX Generator`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:41f4cd0cde5aaab11d8085995bb30cfcb9db9f04d2a01d4d3ea993c1d61b8103
+size 191

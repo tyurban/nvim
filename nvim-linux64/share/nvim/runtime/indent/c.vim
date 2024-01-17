@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:	C
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2005 Mar 27
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-   finish
-endif
-let b:did_indent = 1
-
-" C indenting is built-in, thus this is very simple
-setlocal cindent
-
-let b:undo_indent = "setl cin<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9b18a8f3370cf7bda7c0aa186bea6556a1fb07e1c1186d4fa38c14ad44ca18e
+size 325

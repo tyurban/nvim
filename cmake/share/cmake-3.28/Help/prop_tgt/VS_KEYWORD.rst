@@ -1,10 +1,3 @@
-VS_KEYWORD
-----------
-
-Visual Studio project keyword for VS 9 (2008) and older.
-
-Can be set to change the visual studio keyword, for example Qt
-integration works better if this is set to Qt4VSv1.0.
-
-Use the :prop_tgt:`VS_GLOBAL_KEYWORD` target property to set the
-keyword for Visual Studio 12 (2013) and newer.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4c5e8e84bdc900f03fd27f604b9712f1266057bf7a60d609907dcd7b63ba433
+size 311

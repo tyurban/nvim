@@ -1,15 +1,3 @@
-VS_DEBUGGER_COMMAND
--------------------
-
-.. versionadded:: 3.12
-
-Sets the local debugger command for Visual Studio C++ targets.
-The property value may use
-:manual:`generator expressions <cmake-generator-expressions(7)>`.
-This is defined in ``<LocalDebuggerCommand>`` in the Visual Studio
-project file.  This property is initialized by the value of the variable
-:variable:`CMAKE_VS_DEBUGGER_COMMAND` if it is set when a target is
-created.
-
-This property only works for Visual Studio 12 2013 and above;
-it is ignored on other generators.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a0233905346d1b96879ff16759ee526652c1a2cacb4e5527274d2cbfe3731ee
+size 536

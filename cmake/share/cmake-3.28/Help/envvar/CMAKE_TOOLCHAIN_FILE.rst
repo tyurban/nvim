@@ -1,12 +1,3 @@
-CMAKE_TOOLCHAIN_FILE
---------------------
-
-.. versionadded:: 3.21
-
-.. include:: ENV_VAR.txt
-
-The ``CMAKE_TOOLCHAIN_FILE`` environment variable specifies a default value
-for the :variable:`CMAKE_TOOLCHAIN_FILE` variable when there is no explicit
-configuration given on the first run while creating a new build tree.
-On later runs in an existing build tree the value persists in the cache
-as :variable:`CMAKE_TOOLCHAIN_FILE`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb0773e4164a11f05c9d7f9736cdae902f25aecc2dead344a556435dcd31c27c
+size 424

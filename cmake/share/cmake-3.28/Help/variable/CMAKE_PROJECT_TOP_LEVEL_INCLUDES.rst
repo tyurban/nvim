@@ -1,27 +1,3 @@
-CMAKE_PROJECT_TOP_LEVEL_INCLUDES
---------------------------------
-
-.. versionadded:: 3.24
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of CMake language
-files to include as part of the very first :command:`project` call.
-The files will be included immediately after the toolchain file has been read
-(if one is specified) and platform variables have been set, but before any
-languages have been enabled. Therefore, language-specific variables,
-including things like :variable:`CMAKE_<LANG>_COMPILER`, might not be set.
-See :ref:`Code Injection` for a more detailed discussion of files potentially
-included during a :command:`project` call.
-
-This variable is intended for specifying files that perform one-time setup
-for the build. It provides an injection point for things like configuring
-package managers, adding logic the user shares between projects (e.g. defining
-their own custom build types), and so on. It is primarily for users to add
-things specific to their environment, but not for specifying the toolchain
-details (use :variable:`CMAKE_TOOLCHAIN_FILE` for that).
-
-By default, this variable is empty.  It is intended to be set by the user.
-
-See also the :variable:`CMAKE_PROJECT_INCLUDE`,
-:variable:`CMAKE_PROJECT_INCLUDE_BEFORE`,
-:variable:`CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE`, and
-:variable:`CMAKE_PROJECT_<PROJECT-NAME>_INCLUDE_BEFORE` variables.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5825fc7c60dc2d9705d14d043641f1ed5131aa0341be53fedc31aa8996872c68
+size 1374

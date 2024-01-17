@@ -1,11 +1,3 @@
-CMAKE_PROJECT_VERSION_TWEAK
----------------------------
-
-.. versionadded:: 3.12
-
-The tweak version of the top level project.
-
-This variable holds the tweak version of the project as specified in the top
-level CMakeLists.txt file by a :command:`project` command. Please see
-:variable:`CMAKE_PROJECT_VERSION` documentation for the behavior when
-multiple :command:`project` commands are used in the sources.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0dad9a35bc8a82e3f80056f86933dde8456f2651dd8fc9af6792f4cbcddd649
+size 405

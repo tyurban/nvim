@@ -1,26 +1,3 @@
-" Vim compiler file
-" Compiler:	Critical Mass Modula-3 Compiler
-" Maintainer:	Doug Kearns <dougkearns@gmail.com>
-" Last Change:	2021 Apr 08
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "cm3"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-" TODO: better handling of Quake errors
-CompilerSet makeprg=cm3
-CompilerSet errorformat=%D---\ building\ in\ %f\ ---,
-		       \%W\"%f\"\\,\ line\ %l:\ warning:\ %m,
-		       \%E\"%f\"\\,\ line\ %l:\ %m,
-		       \%-G%.%#
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c27c1a50109a2d0f6c9d313a25382d6d802ba34d38b501dd7769a41d5afc212
+size 633

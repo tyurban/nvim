@@ -1,25 +1,3 @@
-string(APPEND _ANDROID_ABI_INIT_CFLAGS
-  " -march=armv7-a"
-  )
-
-if(CMAKE_ANDROID_ARM_MODE)
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -marm")
-else()
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -mthumb")
-endif()
-
-if(CMAKE_ANDROID_ARM_NEON)
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -mfpu=neon")
-else()
-  string(APPEND _ANDROID_ABI_INIT_CFLAGS " -mfpu=vfpv3-d16")
-endif()
-
-string(APPEND _ANDROID_ABI_INIT_LDFLAGS
-  " -Wl,--fix-cortex-a8"
-  )
-
-string(APPEND _ANDROID_ABI_INIT_CFLAGS
-  " -mfloat-abi=softfp"
-  )
-
-include(Platform/Android/abi-common-Clang)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1d698362b0f2d6405383af0be85b17676fc37a3ea4c450717c0ed5caca7c4dd
+size 552

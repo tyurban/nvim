@@ -1,15 +1,3 @@
-CMAKE_FRAMEWORK_PATH
---------------------
-
-.. include:: ENV_VAR.txt
-
-The ``CMAKE_FRAMEWORK_PATH`` environment variable may be set to a list of
-directories to be searched for macOS frameworks by the :command:`find_library`,
-:command:`find_package`, :command:`find_path` and :command:`find_file` commands.
-
-
-This variable may hold a single directory or a list of directories separated
-by ``:`` on UNIX or ``;`` on Windows (the same as the ``PATH`` environment
-variable convention on those platforms).
-
-See also the :variable:`CMAKE_FRAMEWORK_PATH` CMake variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3982e7a38cef5483a75cbd0765c32d2b64c66f9cc7d8121bd9b447bbb182ef5b
+size 562

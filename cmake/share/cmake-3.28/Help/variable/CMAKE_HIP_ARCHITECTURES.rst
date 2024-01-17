@@ -1,16 +1,3 @@
-CMAKE_HIP_ARCHITECTURES
------------------------
-
-.. versionadded:: 3.21
-
-List of GPU architectures to for which to generate device code.
-Architecture names are interpreted based on :variable:`CMAKE_HIP_PLATFORM`.
-
-This is initialized based on the value of :variable:`CMAKE_HIP_PLATFORM`:
-
-``amd``
-  Uses architectures reported by ``rocm_agent_enumerator``, if available,
-  and otherwise to a default chosen by the compiler.
-
-This variable is used to initialize the :prop_tgt:`HIP_ARCHITECTURES` property
-on all targets. See the target property for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:228a96a07c1b19f3d3754a8357e60195b3b28d8284d695e8fa6bc6075e3e7d38
+size 572

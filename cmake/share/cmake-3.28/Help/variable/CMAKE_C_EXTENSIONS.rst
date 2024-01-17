@@ -1,10 +1,3 @@
-CMAKE_C_EXTENSIONS
-------------------
-
-.. versionadded:: 3.1
-
-Default value for :prop_tgt:`C_EXTENSIONS` target property if set when a target
-is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fef4e37e3a1d5a4f38c0bd0e33b903d6a6cc31807674af8f5a739786bdc72f70
+size 277

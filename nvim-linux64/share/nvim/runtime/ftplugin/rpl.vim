@@ -1,22 +1,3 @@
-" Vim filetype plugin file
-" Language:     RPL/2
-" Maintainer:   Joël BERTRAND <rpl2@free.fr>
-" Last Change:	2012 Mar 07
-" Version: 		0.1
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Don't load another plugin for this buffer
-let b:did_ftplugin = 1
-
-" Set 'formatoptions' to break comment lines but not other lines,
-" and insert the comment leader when hitting <CR> or using "o".
-setlocal fo-=t fo+=croql
-
-" Set 'comments' to format dashed lists in comments.
-setlocal comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,://
-
-let b:undo_ftplugin = "setlocal fo< comments<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:65db2055cf96c45aa70d94de0824d90ac25dbe6e2397d7792fac4dcc42ca1517
+size 621

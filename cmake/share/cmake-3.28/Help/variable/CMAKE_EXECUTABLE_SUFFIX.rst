@@ -1,10 +1,3 @@
-CMAKE_EXECUTABLE_SUFFIX
------------------------
-
-The suffix for executables on this platform.
-
-The suffix to use for the end of an executable filename if any, ``.exe``
-on Windows.
-
-:variable:`CMAKE_EXECUTABLE_SUFFIX_<LANG>` overrides this for
-language ``<LANG>``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cf9a7c571d9159cd2fcb423b7319caf32e39b7ede6332c175c938189a88e6ca
+size 264

@@ -1,13 +1,3 @@
-ISPC
--------
-
-.. versionadded:: 3.19
-
-.. include:: ENV_VAR.txt
-
-Preferred executable for compiling ``ISPC`` language files. Will only be used by
-CMake on the first configuration to determine ``ISPC`` compiler, after which the
-value for ``ISPC`` is stored in the cache as
-:variable:`CMAKE_ISPC_COMPILER <CMAKE_<LANG>_COMPILER>`. For any configuration
-run (including the first), the environment variable will be ignored if the
-:variable:`CMAKE_ISPC_COMPILER <CMAKE_<LANG>_COMPILER>` variable is defined.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e2ba8f0e7d7d97fd3b65660ee263749e4b84399b19b21bd8090460e36d1f7b7
+size 502

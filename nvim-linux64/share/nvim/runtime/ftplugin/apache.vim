@@ -1,16 +1,3 @@
-" Vim filetype plugin
-" Language:	apache configuration file
-" Maintainer:	Per Juchtmans <dubgeiser+vimNOSPAM@gmail.com>
-" Last Change:	2022 Oct 22
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal comments=:#
-setlocal commentstring=#\ %s
-
-let b:undo_ftplugin = "setlocal comments< commentstring<"
-
-" vim: nowrap sw=2 sts=2 ts=8 noet:
+version https://git-lfs.github.com/spec/v1
+oid sha256:63de58ad593bf497f6e31f0aa8577a4050f1c5e7a91982b911eaa6ff7e00ebb4
+size 361

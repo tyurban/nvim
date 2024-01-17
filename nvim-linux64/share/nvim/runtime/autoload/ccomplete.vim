@@ -1,8 +1,3 @@
-" Generated vim file by vim9jit. Please do not edit
-let s:path = expand("<script>")
-let s:lua_path = fnamemodify(s:path, ":r") . ".lua"
-let s:nvim_module = luaeval('require("_vim9script").autoload(_A)', s:lua_path)
-
-function! ccomplete#Complete(findstart, abase) abort
- return s:nvim_module.Complete(a:findstart, a:abase)
-endfunction
+version https://git-lfs.github.com/spec/v1
+oid sha256:c102bf5ef515d3b7912f5cd0241e7558c4e29bddb5ac791cdfe66ff0021ca9c6
+size 334

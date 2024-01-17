@@ -1,8 +1,3 @@
-BINARY_DIR
-----------
-
-.. versionadded:: 3.4
-
-This read-only property reports the value of the
-:variable:`CMAKE_CURRENT_BINARY_DIR` variable in the directory in which
-the target was defined.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4faa752e9e0198c4948f147314c7aa1c3fc46cc45d8b0c40f65ab74b905cfe64
+size 191

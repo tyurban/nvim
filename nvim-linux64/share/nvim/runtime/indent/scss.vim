@@ -1,12 +1,3 @@
-" Vim indent file
-" Language:	SCSS
-" Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
-" Last Change:	2010 Jul 26
-
-if exists("b:did_indent")
-  finish
-endif
-
-runtime! indent/css.vim
-
-" vim:set sw=2:
+version https://git-lfs.github.com/spec/v1
+oid sha256:57b33bb7e01ac254b6cc2fc25418f207159d5df23e595735167ca50dc83ef546
+size 191

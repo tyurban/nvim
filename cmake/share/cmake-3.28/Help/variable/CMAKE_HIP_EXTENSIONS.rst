@@ -1,10 +1,3 @@
-CMAKE_HIP_EXTENSIONS
---------------------
-
-.. versionadded:: 3.21
-
-Default value for :prop_tgt:`HIP_EXTENSIONS` target property if set when a
-target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d0683aa0bd25600f44f5b86afb8d34402914fab84a3dc8f3b4f5dc87041f727
+size 284

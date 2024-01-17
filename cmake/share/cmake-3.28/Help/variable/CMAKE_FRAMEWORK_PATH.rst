@@ -1,10 +1,3 @@
-CMAKE_FRAMEWORK_PATH
---------------------
-
-:ref:`Semicolon-separated list <CMake Language Lists>` of directories specifying a search path
-for macOS frameworks used by the :command:`find_library`,
-:command:`find_package`, :command:`find_path`, and :command:`find_file`
-commands.
-
-There is also an environment variable :envvar:`CMAKE_FRAMEWORK_PATH`, which is used
-as an additional list of search directories.
+version https://git-lfs.github.com/spec/v1
+oid sha256:aaa17aee1a7d07141816bb822137e4323bdbc8dedf6f4fd71eefb00fec4da013
+size 408

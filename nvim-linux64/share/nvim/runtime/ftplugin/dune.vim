@@ -1,20 +1,3 @@
-" Language:    Dune buildsystem
-" Maintainer:  Markus Mottl        <markus.mottl@gmail.com>
-"              Anton Kochkov       <anton.kochkov@gmail.com>
-" URL:         https://github.com/ocaml/vim-ocaml
-" Last Change:
-"              2018 Nov 3 - Added commentstring (Markus Mottl)
-"              2017 Sep 6 - Initial version (Etienne Millon)
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin=1
-
-set lisp
-
-" Comment string
-setl commentstring=;\ %s
-setl comments=:;
-
-setl iskeyword+=#,?,.,/
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d2ea99e82347c6fd85987d0047eb2e13987fd78e878da274ad13c407e0ad2a7
+size 502

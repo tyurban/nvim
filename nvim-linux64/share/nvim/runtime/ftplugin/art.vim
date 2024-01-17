@@ -1,15 +1,3 @@
-" Vim filetype plugin
-" Language:      ART-IM and ART*Enterprise
-" Maintainer:    Dorai Sitaram <ds26@gte.com>
-" URL:		 http://www.ccs.neu.edu/~dorai/vimplugins/vimplugins.html
-" Last Change:   Apr 2, 2003
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-run ftplugin/lisp.vim
-
-setl lw-=if
-setl lw+=def-art-fun,deffacts,defglobal,defrule,defschema,for,schema,while
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5f9be7c31dd7f2ff6d0640c6cf9b9f74a402738161cda67e96784d81a17d355
+size 410

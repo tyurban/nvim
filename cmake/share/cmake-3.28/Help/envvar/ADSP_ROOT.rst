@@ -1,10 +1,3 @@
-ADSP_ROOT
----------
-
-.. versionadded:: 3.24
-
-.. include:: ENV_VAR.txt
-
-The ``ADSP_ROOT`` environment variable specifies a default value
-for the :variable:`CMAKE_ADSP_ROOT` variable when there is no explicit
-configuration given on the first run while creating a new build tree.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c373eb130160449fd54fd773085ffbb724d705f47fe426b4f28002f1b9a64eac
+size 277

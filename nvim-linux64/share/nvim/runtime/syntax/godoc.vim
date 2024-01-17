@@ -1,19 +1,3 @@
-" Vim syntax file
-" Language:	Godoc (generated documentation for go)
-" Maintainer:	David Barnett (https://github.com/google/vim-ft-go)
-" Last Change:	2014 Aug 16
-
-if exists('b:current_syntax')
-  finish
-endif
-
-syn case match
-syn match godocTitle "^\([A-Z][A-Z ]*\)$"
-
-
-hi def link godocTitle Title
-
-
-let b:current_syntax = 'godoc'
-
-" vim: sw=2 sts=2 et
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0798d5bd32292bb97b8ad498b9c954348b87708814ce328159d9e5ccc65b9bb
+size 352

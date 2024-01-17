@@ -1,15 +1,3 @@
-CXX_MODULE_DIRS
----------------
-
-.. versionadded:: 3.28
-
-Semicolon-separated list of base directories of the target's default
-C++ module set (i.e. the file set with name and type ``CXX_MODULES``). The
-property supports
-:manual:`generator expressions <cmake-generator-expressions(7)>`.
-
-This property is normally only set by :command:`target_sources(FILE_SET)`
-rather than being manipulated directly.
-
-See :prop_tgt:`CXX_MODULE_DIRS_<NAME>` for the list of base directories in
-other C++ module sets.
+version https://git-lfs.github.com/spec/v1
+oid sha256:db7266fefc4b225bd3469c341595dbad40d6ae04abf5f76ecfa9f347a625f9ec
+size 499

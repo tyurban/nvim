@@ -1,15 +1,3 @@
-" Vim indent file
-" Language:      BibTeX
-" Maintainer:    Dorai Sitaram <ds26@gte.com>
-" URL:		 http://www.ccs.neu.edu/~dorai/vimplugins/vimplugins.html
-" Last Change:   2005 Mar 28
-
-" Only do this when not done yet for this buffer
-if exists("b:did_indent")
-  finish
-endif
-let b:did_indent = 1
-
-setlocal cindent
-
-let b:undo_indent = "setl cin<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e89475cdae789c27cd20cb79aa8975813a4f1c8239f541c7f4f2494145d5bac
+size 346

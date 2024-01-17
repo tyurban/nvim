@@ -1,12 +1,3 @@
-VS_MOBILE_EXTENSIONS_VERSION
-----------------------------
-
-.. versionadded:: 3.4
-
-Visual Studio Windows 10 Mobile Extensions Version
-
-Specifies the version of the Mobile Extensions that should be included in the
-target. For example ``10.0.10240.0``. If the value is not specified, the Mobile
-Extensions will not be included. To use the same version of the extensions as
-the Windows 10 SDK that is being used, you can use the
-:variable:`CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION` variable.
+version https://git-lfs.github.com/spec/v1
+oid sha256:76f2aecef4fd7f104d20fd9b2a390d05c60368c84438cfda4580d6095f399b66
+size 488

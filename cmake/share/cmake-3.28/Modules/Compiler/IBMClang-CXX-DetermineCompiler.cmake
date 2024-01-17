@@ -1,8 +1,3 @@
-set(_compiler_id_pp_test "defined(__open_xl__) && defined(__clang__)")
-
-set(_compiler_id_version_compute "
-# define @PREFIX@COMPILER_VERSION_MAJOR @MACRO_DEC@(__open_xl_version__)
-# define @PREFIX@COMPILER_VERSION_MINOR @MACRO_DEC@(__open_xl_release__)
-# define @PREFIX@COMPILER_VERSION_PATCH @MACRO_DEC@(__open_xl_modification__)
-# define @PREFIX@COMPILER_VERSION_TWEAK @MACRO_DEC@(__open_xl_ptf_fix_level__)
-")
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b7f46b1180c16ad775927b5b555cd0b354b4bcc73f4759a9977516e1ef6a8cb
+size 413

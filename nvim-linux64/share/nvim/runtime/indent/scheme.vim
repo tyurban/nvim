@@ -1,14 +1,3 @@
-" Vim indent file
-" Language: Scheme
-" Last Change: 2018 Jan 31
-" Maintainer: Evan Hanson <evhan@foldling.org>
-" Previous Maintainer: Sergey Khorev <sergey.khorev@gmail.com>
-" URL: https://foldling.org/vim/indent/scheme.vim
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-
-" Use the Lisp indenting
-runtime! indent/lisp.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:e460d4bb81465387a09a0d0f8f6bb5945616c526e9fb3305f1b8109bac1fa4d1
+size 372

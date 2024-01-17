@@ -1,12 +1,3 @@
-" Vim filetype plugin file
-" Language:	Objective C
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2003 Jan 15
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Behaves just like C
-runtime! ftplugin/c.vim ftplugin/c_*.vim ftplugin/c/*.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:8886e742bc4008c69e073ee92940cbf3b99062019952adea67c66e9408456c70
+size 296

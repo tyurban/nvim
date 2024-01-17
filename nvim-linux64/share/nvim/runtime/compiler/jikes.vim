@@ -1,18 +1,3 @@
-" Vim Compiler File
-" Compiler:	Jikes
-" Maintainer:	Dan Sharp <dwsharp at hotmail dot com>
-" Last Change:	2019 Jul 23
-" URL:		http://dwsharp.users.sourceforge.net/vim/compiler
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "jikes"
-
-if exists(":CompilerSet") != 2		" older Vim always used :setlocal
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-" Jikes defaults to printing output on stderr
-CompilerSet makeprg=jikes\ -Xstdout\ +E\ \"%:S\"
-CompilerSet errorformat=%f:%l:%v:%*\\d:%*\\d:%*\\s%m
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b4a111d17ca54b37708ad1362db6436e639a14046d06d06aa22078ccb792c05
+size 522

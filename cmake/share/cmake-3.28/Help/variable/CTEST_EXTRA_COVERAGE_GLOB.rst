@@ -1,9 +1,3 @@
-CTEST_EXTRA_COVERAGE_GLOB
--------------------------
-
-.. versionadded:: 3.4
-
-A list of regular expressions which will be used to find files which should be
-covered by the :command:`ctest_coverage` command.
-
-.. include:: CTEST_CUSTOM_XXX.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:58a6df895f6d40f3ef94786304318d98bd868fc4430c8e21173528027f6d4f38
+size 240

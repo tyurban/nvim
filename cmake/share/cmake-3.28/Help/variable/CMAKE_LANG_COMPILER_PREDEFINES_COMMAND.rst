@@ -1,10 +1,3 @@
-CMAKE_<LANG>_COMPILER_PREDEFINES_COMMAND
-----------------------------------------
-
-.. versionadded:: 3.10
-
-Command that outputs the compiler pre definitions.
-
-See :prop_tgt:`AUTOMOC` which uses
-:variable:`CMAKE_CXX_COMPILER_PREDEFINES_COMMAND <CMAKE_<LANG>_COMPILER_PREDEFINES_COMMAND>`
-to generate the :prop_tgt:`AUTOMOC_COMPILER_PREDEFINES`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:138f59746ba247bac095e9e8590fac9acffbf8760cc09ee0062d22f677c5489a
+size 344

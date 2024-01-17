@@ -1,16 +1,3 @@
-:MkVimball	vimball.txt	/*:MkVimball*
-:RmVimball	vimball.txt	/*:RmVimball*
-:UseVimball	vimball.txt	/*:UseVimball*
-:VimballList	vimball.txt	/*:VimballList*
-Vimball-copyright	vimball.txt	/*Vimball-copyright*
-g:vimball_home	vimball.txt	/*g:vimball_home*
-g:vimball_mkdir	vimball.txt	/*g:vimball_mkdir*
-vba	vimball.txt	/*vba*
-vimball	vimball.txt	/*vimball*
-vimball-contents	vimball.txt	/*vimball-contents*
-vimball-extract	vimball.txt	/*vimball-extract*
-vimball-history	vimball.txt	/*vimball-history*
-vimball-intro	vimball.txt	/*vimball-intro*
-vimball-manual	vimball.txt	/*vimball-manual*
-vimball-windows	vimball.txt	/*vimball-windows*
-vimball.txt	vimball.txt	/*vimball.txt*
+version https://git-lfs.github.com/spec/v1
+oid sha256:257276b2a770f19154f789486a129fe7acfa578761a04b92bbf84d97906e6251
+size 668

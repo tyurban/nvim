@@ -1,29 +1,3 @@
-#include <cstdio>
-
-#include <cuda_runtime.h>
-
-static bool cmakeCompilerCUDAArch()
-{
-  int count = 0;
-  if (cudaGetDeviceCount(&count) != cudaSuccess || count == 0) {
-    std::fprintf(stderr, "No CUDA devices found.\n");
-    return -1;
-  }
-
-  bool found = false;
-  const char* sep = "";
-  for (int device = 0; device < count; ++device) {
-    cudaDeviceProp prop;
-    if (cudaGetDeviceProperties(&prop, device) == cudaSuccess) {
-      std::printf("%s%d%d", sep, prop.major, prop.minor);
-      sep = ";";
-      found = true;
-    }
-  }
-
-  if (!found) {
-    std::fprintf(stderr, "No CUDA architecture detected from any devices.\n");
-  }
-
-  return found;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5520bd6b54ac2f778170926564f5962872c47f8b63f571eee5e4c0eb3af3b93b
+size 651

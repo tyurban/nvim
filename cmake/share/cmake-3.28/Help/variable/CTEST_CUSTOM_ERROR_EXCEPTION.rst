@@ -1,7 +1,3 @@
-CTEST_CUSTOM_ERROR_EXCEPTION
-----------------------------
-
-A list of regular expressions which will be used to exclude when detecting
-error messages in build outputs by the :command:`ctest_build` command.
-
-.. include:: CTEST_CUSTOM_XXX.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:be74cdac32bf441cd8e84faf2afbaacc65f49d06a59bdef3b0397a77374ccaf6
+size 240

@@ -1,5 +1,3 @@
-# kFreeBSD is a Debian GNU distribution with a kernel from FreeBSD,
-# and should be marked as LINUX
-include(Platform/Linux-Initialize)
-
-set(CMAKE_LIBRARY_ARCHITECTURE_REGEX "[a-z0-9_]+(-[a-z0-9_]+)?-kfreebsd-gnu[a-z0-9_]*")
+version https://git-lfs.github.com/spec/v1
+oid sha256:630d5bda242c6babfb23769e8addfabbcf7ff439ef5c90bc6c8e7e4c4905d829
+size 224

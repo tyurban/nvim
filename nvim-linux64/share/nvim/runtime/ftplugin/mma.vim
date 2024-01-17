@@ -1,16 +1,3 @@
-" Vim filetype plugin file
-" Language:	Mathematica
-" Maintainer:	Ian Ford <ianf@wolfram.com>
-" Last Change:	22 January 2019
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-	finish
-endif
-
-" Don't load another plugin for this buffer
-let b:did_ftplugin = 1
-
-let b:undo_ftplugin = "setlocal commentstring<"
-
-setlocal commentstring=\(*%s*\)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fb683b7fd3819f2852339ed5f9f68ba265ecc377d158aa84cfecbc9e696525b
+size 366

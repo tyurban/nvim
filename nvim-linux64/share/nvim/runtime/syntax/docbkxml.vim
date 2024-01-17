@@ -1,7 +1,3 @@
-" Vim syntax file
-" Language:	DocBook XML
-" Maintainer:	Johannes Zellner <johannes@zellner.org>
-" Last Change:	Sam, 07 Sep 2002 17:20:12 CEST
-
-let b:docbk_type="xml"
-runtime syntax/docbk.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ad9bd6477e64eb437605add7197c4a97e004d6afc77af77f902cbdcd820aabd
+size 191

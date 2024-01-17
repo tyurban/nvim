@@ -1,17 +1,3 @@
-" Vim filetype plugin file
-" Language:     Ch
-" Maintainer:   SoftIntegration, Inc. <info@softintegration.com>
-" URL:		http://www.softintegration.com/download/vim/ftplugin/ch.vim
-" Last change:	2004 May 16
-"		Created based on cpp.vim
-"
-" Ch is a C/C++ interpreter with many high level extensions
-"
-
-" Only do this when not done yet for this buffer
-if exists("b:did_ftplugin")
-  finish
-endif
-
-" Behaves just like C
-runtime! ftplugin/c.vim ftplugin/c_*.vim ftplugin/c/*.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:6559998cdad468d911634cb7bb24a62d8852a3c19d032839902a489a23a1d448
+size 472

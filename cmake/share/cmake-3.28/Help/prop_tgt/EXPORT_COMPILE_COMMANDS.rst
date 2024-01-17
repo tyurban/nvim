@@ -1,9 +1,3 @@
-EXPORT_COMPILE_COMMANDS
------------------------
-
-.. versionadded:: 3.20
-
-Enable/Disable output of compile commands during generation for a target.
-
-This property is initialized by the value of the variable
-:variable:`CMAKE_EXPORT_COMPILE_COMMANDS` if it is set when a target is created.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdea43ebf7291422be502a4676aed12817dadb5b224658a5b326542c499432ce
+size 287

@@ -1,27 +1,3 @@
-include(Compiler/IntelLLVM)
-__compiler_intel_llvm(Fortran)
-
-set(CMAKE_Fortran_SUBMODULE_SEP "@")
-set(CMAKE_Fortran_SUBMODULE_EXT ".smod")
-
-set(CMAKE_Fortran_MODDIR_FLAG "-module ")
-set(CMAKE_Fortran_FORMAT_FIXED_FLAG "-fixed")
-set(CMAKE_Fortran_FORMAT_FREE_FLAG "-free")
-
-set(CMAKE_Fortran_COMPILE_WITH_DEFINES 1)
-
-set(CMAKE_Fortran_CREATE_PREPROCESSED_SOURCE "<CMAKE_Fortran_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>")
-set(CMAKE_Fortran_CREATE_ASSEMBLY_SOURCE "<CMAKE_Fortran_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>")
-
-if(CMAKE_HOST_WIN32)
-  # MSVC-like
-  set(CMAKE_Fortran_PREPROCESS_SOURCE
-    "<CMAKE_Fortran_COMPILER> -fpp <DEFINES> <INCLUDES> <FLAGS> -P <SOURCE> -Fi<PREPROCESSED_SOURCE>")
-else()
-  # GNU-like
-  set(CMAKE_Fortran_PREPROCESS_SOURCE
-    "<CMAKE_Fortran_COMPILER> -fpp <DEFINES> <INCLUDES> <FLAGS> -P <SOURCE> -o <PREPROCESSED_SOURCE>")
-endif()
-
-set(CMAKE_Fortran_COMPILE_OPTIONS_PREPROCESS_ON "-fpp")
-set(CMAKE_Fortran_COMPILE_OPTIONS_PREPROCESS_OFF "-nofpp")
+version https://git-lfs.github.com/spec/v1
+oid sha256:615a89f45a760f9b3ad0e4e24824ac6a3108ac95dc60b7fda80390c4f5f83eb1
+size 1046

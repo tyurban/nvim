@@ -1,12 +1,3 @@
-CMAKE_<LANG>_COMPILER_LAUNCHER
-------------------------------
-
-.. versionadded:: 3.4
-
-Default value for :prop_tgt:`<LANG>_COMPILER_LAUNCHER` target property.
-This variable is used to initialize the property on each target as it is
-created.  This is done only when ``<LANG>`` is ``C``, ``CXX``, ``Fortran``,
-``HIP``, ``ISPC``, ``OBJC``, ``OBJCXX``, or ``CUDA``.
-
-This variable is initialized to the :envvar:`CMAKE_<LANG>_COMPILER_LAUNCHER`
-environment variable if it is set.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e2cceff030526e3bfbdea6e70ec0f02a5e74f4027b290b4032f3605aae19951
+size 474

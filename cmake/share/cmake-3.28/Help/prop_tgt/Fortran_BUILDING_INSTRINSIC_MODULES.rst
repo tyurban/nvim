@@ -1,16 +1,3 @@
-Fortran_BUILDING_INSTRINSIC_MODULES
------------------------------------
-
-.. versionadded:: 3.22
-
-Instructs the CMake Fortran preprocessor that the target is building
-Fortran intrinsics for building a Fortran compiler.
-
-This property is off by default and should be turned only on projects
-that build a Fortran compiler. It should not be turned on for projects
-that use a Fortran compiler.
-
-Turning this property on will correctly add dependencies for building
-Fortran intrinsic modules whereas turning the property off will ignore
-Fortran intrinsic modules in the dependency graph as they are supplied
-by the compiler itself.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ad9c3fb5aa6bdd66394d5fe343a1931302d4baefe594ba497ef17b91dea6436
+size 626

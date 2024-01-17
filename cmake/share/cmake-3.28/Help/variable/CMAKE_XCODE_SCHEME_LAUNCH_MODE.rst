@@ -1,13 +1,3 @@
-CMAKE_XCODE_SCHEME_LAUNCH_MODE
-------------------------------
-
-.. versionadded:: 3.25
-
-Property value for ``Launch`` in the Info section of the generated Xcode
-scheme.
-
-This variable initializes the :prop_tgt:`XCODE_SCHEME_LAUNCH_MODE` property on
-all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:34d766e0978c2cb0a190b7877d0420893ac1962515abf8184f8822d0c7b84598
+size 390

@@ -1,13 +1,3 @@
-CMAKE_AUTOMOC_PATH_PREFIX
--------------------------
-
-.. versionadded:: 3.16
-
-Whether to generate the ``-p`` path prefix option for ``moc`` on
-:prop_tgt:`AUTOMOC` enabled Qt targets.
-
-This variable is used to initialize the :prop_tgt:`AUTOMOC_PATH_PREFIX`
-property on all the targets.  See that target property for additional
-information.
-
-The default value is ``OFF``.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c044bdcf832de4fbc96e9ac49019f350c0e2b7aac4056a3f624d70c157abebf5
+size 369

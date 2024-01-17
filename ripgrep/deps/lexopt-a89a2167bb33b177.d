@@ -1,7 +1,3 @@
-/home/turban/nvim/ripgrep/target/release/deps/liblexopt-a89a2167bb33b177.rmeta: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lexopt-0.3.0/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/liblexopt-a89a2167bb33b177.rlib: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lexopt-0.3.0/src/lib.rs
-
-/home/turban/nvim/ripgrep/target/release/deps/lexopt-a89a2167bb33b177.d: /home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lexopt-0.3.0/src/lib.rs
-
-/home/turban/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lexopt-0.3.0/src/lib.rs:
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3b2421d944fa65d89417242b33b7ef56425a13868a92f447da2c5827872d326
+size 596

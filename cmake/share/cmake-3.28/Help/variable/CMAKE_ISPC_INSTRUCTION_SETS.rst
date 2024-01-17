@@ -1,9 +1,3 @@
-CMAKE_ISPC_INSTRUCTION_SETS
----------------------------
-
-.. versionadded:: 3.19
-
-Default value for :prop_tgt:`ISPC_INSTRUCTION_SETS` property of targets.
-
-This variable is used to initialize the :prop_tgt:`ISPC_INSTRUCTION_SETS` property
-on all targets. See the target property for additional information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7588cb077904e0e82047df7aa58393deaa9bdd1fba764c8ea4303d596b621acd
+size 306

@@ -1,15 +1,3 @@
-GENERATOR_IS_MULTI_CONFIG
--------------------------
-
-.. versionadded:: 3.9
-
-Read-only property that is true on multi-configuration generators.
-
-True when using a multi-configuration generator such as:
-
-* :generator:`Ninja Multi-Config`
-* :ref:`Visual Studio Generators`
-* :generator:`Xcode`
-
-Multi-config generators use :variable:`CMAKE_CONFIGURATION_TYPES`
-as the set of configurations and ignore :variable:`CMAKE_BUILD_TYPE`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3daeb56372712d48dc466cbe927165b0a31e5c162f748fddeaf4c955d8b16523
+size 428

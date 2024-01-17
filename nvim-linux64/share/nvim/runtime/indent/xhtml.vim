@@ -1,12 +1,3 @@
-" Vim indent file
-" Language:	XHTML
-" Maintainer:	Bram Moolenaar <Bram@vim.org> (for now)
-" Last Change:	2005 Jun 24
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-
-" Handled like HTML for now.
-runtime! indent/html.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:892ac2897162058a74de8dd25836709ea7a96e4ea0ac3e24c3d4b8daba6dc4c6
+size 269

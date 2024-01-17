@@ -1,15 +1,3 @@
-" Vim filetype plugin
-" Language:	git config file
-" Maintainer:	Tim Pope <vimNOSPAM@tpope.org>
-" Last Change:	2009 Dec 24
-
-" Only do this when not done yet for this buffer
-if (exists("b:did_ftplugin"))
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal formatoptions-=t formatoptions+=croql
-setlocal comments=:#,:; commentstring=;\ %s
-
-let b:undo_ftplugin = "setl fo< com< cms<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:600396e5acad3552b971bedb27c1345a0822d455dc53dee36ac2248123197769
+size 376

@@ -1,13 +1,3 @@
-CMAKE_ADD_CUSTOM_COMMAND_DEPENDS_EXPLICIT_ONLY
-----------------------------------------------
-
-.. versionadded:: 3.27
-
-Whether to enable the ``DEPENDS_EXPLICIT_ONLY`` option by default in
-:command:`add_custom_command`.
-
-This variable affects the default behavior of the :command:`add_custom_command`
-command.  Setting this variable to ``ON`` is equivalent to using the
-``DEPENDS_EXPLICIT_ONLY`` option in all uses of that command.
-
-See also :variable:`CMAKE_OPTIMIZE_DEPENDENCIES`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a148f64318778dfa77b0c53b293391dadfaa1d6ce66a2448c3db4ec6706b9bfb
+size 482

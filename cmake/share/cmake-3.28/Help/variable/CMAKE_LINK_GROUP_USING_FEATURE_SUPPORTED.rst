@@ -1,12 +1,3 @@
-CMAKE_LINK_GROUP_USING_<FEATURE>_SUPPORTED
-------------------------------------------
-
-.. versionadded:: 3.24
-
-This variable specifies whether the ``<FEATURE>`` is supported regardless of
-the link language.  If this variable is true, then the ``<FEATURE>`` must
-be defined by :variable:`CMAKE_LINK_GROUP_USING_<FEATURE>`.
-
-Note that this variable has no effect if
-:variable:`CMAKE_<LANG>_LINK_GROUP_USING_<FEATURE>_SUPPORTED` is true for
-the link language of the target.
+version https://git-lfs.github.com/spec/v1
+oid sha256:030193f21c4cfe1edcd5ec7db3d62534e5f2d877002a0466d6ead9ea72deff7b
+size 471

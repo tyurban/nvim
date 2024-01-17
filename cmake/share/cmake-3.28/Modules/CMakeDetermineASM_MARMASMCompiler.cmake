@@ -1,18 +1,3 @@
-# Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file Copyright.txt or https://cmake.org/licensing for details.
-
-
-# Find the MS ARM assembler (marmasm or marmasm64)
-
-set(ASM_DIALECT "_MARMASM")
-
-# if we are using the 64bit cl compiler, assume we also want the 64bit assembler
-if(";${CMAKE_VS_PLATFORM_NAME};${CMAKE_C_COMPILER_ARCHITECTURE_ID};${CMAKE_CXX_COMPILER_ARCHITECTURE_ID};"
-    MATCHES ";(ARM64);")
-  set(CMAKE_ASM${ASM_DIALECT}_COMPILER_INIT armasm64)
-else()
-  set(CMAKE_ASM${ASM_DIALECT}_COMPILER_INIT armasm)
-endif()
-
-include(CMakeDetermineASMCompiler)
-set(ASM_DIALECT)
+version https://git-lfs.github.com/spec/v1
+oid sha256:865a8119e1b1f19ffe6efc0fe7887d9679a7f4e80fd8b2cb0cc2f56d9b6314b6
+size 612

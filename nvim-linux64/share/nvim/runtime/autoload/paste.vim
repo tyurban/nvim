@@ -1,25 +1,3 @@
-" Vim support file to help with paste mappings and menus
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2019 Jan 27
-
-" Define the string to use for items that are present both in Edit, Popup and
-" Toolbar menu.  Also used in mswin.vim and macmap.vim.
-
-let paste#paste_cmd = {'n': ":call paste#Paste()<CR>"}
-let paste#paste_cmd['v'] = '"-c<Esc>' . paste#paste_cmd['n']
-let paste#paste_cmd['i'] = "\<c-\>\<c-o>\"+gP"
-
-func! paste#Paste()
-  let ove = &ve
-  set ve=all
-  normal! `^
-  if @+ != ''
-    normal! "+gP
-  endif
-  let c = col(".")
-  normal! i
-  if col(".") < c	" compensate for i<ESC> moving the cursor left
-    normal! l
-  endif
-  let &ve = ove
-endfunc
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf10183e9f745b8fd8affe05ac07b0e267df089e037d2d0782fa5beac3a8c22f
+size 672

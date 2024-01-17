@@ -1,13 +1,3 @@
-CMAKE_XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION
------------------------------------------------
-
-.. versionadded:: 3.25
-
-Property value for ``Metal: Shader Validation`` in the Options section of
-the generated Xcode scheme.
-
-This variable initializes the
-:prop_tgt:`XCODE_SCHEME_ENABLE_GPU_SHADER_VALIDATION` property on all targets.
-
-Please refer to the :prop_tgt:`XCODE_GENERATE_SCHEME` target property
-documentation to see all Xcode schema related properties.
+version https://git-lfs.github.com/spec/v1
+oid sha256:10640cace8cd2a136910bc93daf3e5742aa718ecf5b0c0bf79ac53a6d0629880
+size 462

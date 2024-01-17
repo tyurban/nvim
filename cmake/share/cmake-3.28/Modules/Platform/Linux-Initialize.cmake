@@ -1,5 +1,3 @@
-set(LINUX 1)
-set(UNIX 1)
-
-# Match multiarch library directory names.
-set(CMAKE_LIBRARY_ARCHITECTURE_REGEX "[a-z0-9_]+(-[a-z0-9_]+)?-linux-gnu[a-z0-9_]*")
+version https://git-lfs.github.com/spec/v1
+oid sha256:07d15e575d0b17b7b551ff25977dadfdd0938de1558196f2339494e423c0a294
+size 154

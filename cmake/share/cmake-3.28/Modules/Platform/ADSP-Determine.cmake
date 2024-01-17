@@ -1,26 +1,3 @@
-if(IS_DIRECTORY "$ENV{ADSP_ROOT}")
-    file(TO_CMAKE_PATH "$ENV{ADSP_ROOT}" CMAKE_ADSP_ROOT)
-endif()
-
-macro(_find_adsp_root path_pattern)
-  set(CMAKE_ADSP_ROOT "")
-  set(_adsp_root_version "0")
-  file(GLOB _adsp_root_paths "${path_pattern}")
-  foreach(_current_adsp_root_path IN LISTS _adsp_root_paths)
-    string(REGEX MATCH "([0-9\\.]+)/?$" _current_adsp_root_version "${_current_adsp_root_path}")
-    if(_current_adsp_root_version VERSION_GREATER _adsp_root_version)
-      set(CMAKE_ADSP_ROOT "${_current_adsp_root_path}")
-      set(_adsp_root_version "${_current_adsp_root_version}")
-    endif()
-  endforeach()
-endmacro()
-
-if(NOT CMAKE_ADSP_ROOT)
-  _find_adsp_root("C:/Analog Devices/CrossCore Embedded Studio *")
-endif()
-if(NOT CMAKE_ADSP_ROOT)
-  _find_adsp_root("C:/Program Files (x86)/Analog Devices/VisualDSP *")
-endif()
-if(NOT IS_DIRECTORY "${CMAKE_ADSP_ROOT}")
-  message(FATAL_ERROR "ADSP: could not find CCES/VDSP++ install directory ${CMAKE_ADSP_ROOT}")
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd631a4898f236d4c2bfc3b687e1f581dec8bf41b8714c1d41c7ead73ba8b6a8
+size 974

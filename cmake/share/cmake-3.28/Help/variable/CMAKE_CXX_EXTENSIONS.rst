@@ -1,10 +1,3 @@
-CMAKE_CXX_EXTENSIONS
---------------------
-
-.. versionadded:: 3.1
-
-Default value for :prop_tgt:`CXX_EXTENSIONS` target property if set when a
-target is created.
-
-See the :manual:`cmake-compile-features(7)` manual for information on
-compile features and a list of supported compilers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d97e222d70553a38b6bff5e9bab461d94464697483dd50b24ed4a452cd1086b
+size 283

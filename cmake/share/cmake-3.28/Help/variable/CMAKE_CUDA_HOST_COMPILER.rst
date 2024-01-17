@@ -1,8 +1,3 @@
-CMAKE_CUDA_HOST_COMPILER
-------------------------
-
-.. versionadded:: 3.10
-
-This is the original CUDA-specific name for the more general
-:variable:`CMAKE_<LANG>_HOST_COMPILER` variable.  See the latter
-for details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f684a374b009f3fe4f66ecda5dde46348f1be9605043eff76b8bdd7402ade514
+size 214

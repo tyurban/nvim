@@ -1,11 +1,3 @@
-" Vim filetype plugin file
-" Language:	asm
-" Maintainer:	Colin Caine <cmcaine at the common googlemail domain>
-" Last Changed: 23 May 2020
-
-if exists("b:did_ftplugin") | finish | endif
-
-setl comments=:;,s1:/*,mb:*,ex:*/,://
-setl commentstring=;%s
-
-let b:did_ftplugin = 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:102fde76c7a729c000b2f95562805d86bfb8990ed0abf09b65514909ddfd8285
+size 271

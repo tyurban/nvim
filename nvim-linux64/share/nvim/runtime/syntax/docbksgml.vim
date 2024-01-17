@@ -1,7 +1,3 @@
-" Vim syntax file
-" Language:	DocBook SGML
-" Maintainer:	Johannes Zellner <johannes@zellner.org>
-" Last Change:	Sam, 07 Sep 2002 17:20:46 CEST
-
-let b:docbk_type="sgml"
-runtime syntax/docbk.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cd1a768c92a47751e967b95ef90554f7ae3cd1fe9c3909a604cec51b6f5d2b9
+size 193

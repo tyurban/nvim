@@ -1,14 +1,3 @@
-CUDA_OPTIX_COMPILATION
-----------------------
-
-.. versionadded:: 3.27
-
-Compile CUDA sources to ``.optixir`` files instead of ``.obj`` files
-within :ref:`Object Libraries`.
-
-For example:
-
-.. code-block:: cmake
-
-  add_library(myoptix OBJECT a.cu b.cu)
-  set_property(TARGET myoptix PROPERTY CUDA_OPTIX_COMPILATION ON)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4de90cc738ee48b17c5b9e932ef89806161ae167a6b48d22c3eb860b658c7433
+size 316

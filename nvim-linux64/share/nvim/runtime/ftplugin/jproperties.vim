@@ -1,15 +1,3 @@
-" Vim filetype plugin
-" Language:	Java properties file
-" Maintainer:	None
-" Last Change:	2019 Dec 01
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-setlocal formatoptions-=t
-setlocal comments=:#,:!
-setlocal commentstring=#\ %s
-
-let b:undo_ftplugin = "setl cms< com< fo<"
+version https://git-lfs.github.com/spec/v1
+oid sha256:56b9b67bca988eafbf72ac1f10dc12b8338751c94b0de0fbc18c8cc04035fc82
+size 292

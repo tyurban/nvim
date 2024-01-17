@@ -1,12 +1,3 @@
-" Vim indent file
-" Language:    Fennel
-" Maintainer:  Gregory Anders <greg[NOSPAM]@gpanders.com>
-" Last Change: 2022 Apr 20
-
-" Only load this indent file when no other was loaded.
-if exists("b:did_indent")
-  finish
-endif
-
-" Use the Lisp indenting
-runtime! indent/lisp.vim
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb21899d0754a023d731f69d3885b8737362c778fd93914707cee1a6725e14a7
+size 273

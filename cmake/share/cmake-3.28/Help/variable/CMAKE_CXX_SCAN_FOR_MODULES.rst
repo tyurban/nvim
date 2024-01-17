@@ -1,10 +1,3 @@
-CMAKE_CXX_SCAN_FOR_MODULES
---------------------------
-
-.. versionadded:: 3.28
-
-Whether to scan C++ source files for module dependencies.
-
-This variable is used to initialize the :prop_tgt:`CXX_SCAN_FOR_MODULES`
-property on all the targets.  See that target property for additional
-information.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fb3f832f51ff5b43ef90ea8fa1f7f5e01ad6fbf603dee9f202ba0cca2686b6c
+size 294

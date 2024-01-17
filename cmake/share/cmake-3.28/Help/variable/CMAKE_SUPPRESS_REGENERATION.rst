@@ -1,13 +1,3 @@
-CMAKE_SUPPRESS_REGENERATION
----------------------------
-
-.. versionadded:: 3.12
-
-If ``CMAKE_SUPPRESS_REGENERATION`` is ``OFF``, which is default, then CMake
-adds a special target on which all other targets depend that checks the build
-system and optionally re-runs CMake to regenerate the build system when
-the target specification source changes.
-
-If this variable evaluates to ``ON`` at the end of the top-level
-``CMakeLists.txt`` file, CMake will not add the regeneration target to the
-build system or perform any build system checks.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d509a146e980aee7368a7b2f32cb65d34a194792be8ad1ba5bd95afa9c97852b
+size 538

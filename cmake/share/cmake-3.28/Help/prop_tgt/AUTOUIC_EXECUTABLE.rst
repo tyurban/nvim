@@ -1,17 +1,3 @@
-AUTOUIC_EXECUTABLE
-------------------
-
-.. versionadded:: 3.14
-
-``AUTOUIC_EXECUTABLE`` is file path pointing to the ``uic``
-executable to use for :prop_tgt:`AUTOUIC` enabled files. Setting
-this property will make CMake skip the automatic detection of the
-``uic`` binary as well as the sanity-tests normally run to ensure
-that the binary is available and working as expected.
-
-Usually this property does not need to be set. Only consider this
-property if auto-detection of ``uic`` can not work -- e.g. because
-you are building the ``uic`` binary as part of your project.
-
-See the :manual:`cmake-qt(7)` manual for more information on using CMake
-with Qt.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c88cef552d82d0d6a6b7868685f099d759cdd012d2c84575c14e491a94436ebd
+size 652

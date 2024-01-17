@@ -1,20 +1,3 @@
-CMP0152
--------
-
-.. versionadded:: 3.28
-
-:command:`file(REAL_PATH)` resolves symlinks before collapsing ../ components.
-
-In CMake 3.27 and below, :command:`file(REAL_PATH)` collapsed any ``../``
-components in a path before resolving symlinks.  This produced incorrect
-results when the ``../`` collapsed away a symlink.
-
-The ``OLD`` behavior for this policy is to collapse ``../`` components before
-resolving symlinks.
-The ``NEW`` behavior for this policy is to resolve all symlinks before
-collapsing ``../`` components.
-
-This policy was introduced in CMake version 3.28.  Use the
-:command:`cmake_policy` command to set it to ``OLD`` or ``NEW`` explicitly.
-
-.. include:: DEPRECATED.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d9724284f8308244d7d576d423e7759678bb7fdcbc6bf2a47b1fdc7208cf185
+size 685

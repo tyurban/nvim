@@ -1,10 +1,3 @@
-CMAKE_AUTOMOC_EXECUTABLE
-------------------------
-
-.. versionadded:: 3.27
-
-This variable is used to initialize the :prop_tgt:`AUTOMOC_EXECUTABLE`
-property on all the targets. See that target property for additional
-information.
-
-By default it is empty.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ee28ca76c889fc82c139ab6cdb48b5a0db2f43bb87f964d559ea7f49d7bcdeb
+size 253

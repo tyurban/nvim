@@ -1,16 +1,3 @@
-" Vim compiler file
-" Compiler:    Standard for JavaScript
-" Maintainer:  Romain Lafourcade <romainlafourcade@gmail.com>
-" Last Change: 2020 August 20
-
-if exists("current_compiler")
-  finish
-endif
-let current_compiler = "standard"
-
-if exists(":CompilerSet") != 2
-  command -nargs=* CompilerSet setlocal <args>
-endif
-
-CompilerSet makeprg=npx\ standard
-CompilerSet errorformat=%f:%l:%c:\ %m,%-G%.%#
+version https://git-lfs.github.com/spec/v1
+oid sha256:88269717457f93f9c2e39655c8dd72c7c3040e0b89237d711bdaee744f44ca67
+size 397

@@ -1,16 +1,3 @@
-syn match normalOp /[dcrypoaxv!"#%&.-\/:<>=?@ABCDGHIJKLMNOPQRSUVWXYZgmqstz~iu]/ nextgroup=normalMod
-syn match normalMod /m\@<![ia]/
-syn match normalObject /["'()<>BW\[\]`bstweE{}ftFT;,$]/
-syn match normalCount /[0-9]/
-syn region normalSearch start=/[/?]\@<=./ end=/.<CR>\@=/ contains=normalKey keepend
-syn region normalChange start=/\([cr][wWbBeE()\[\]{}pst]\)\@<=./ end=/.\@=/ contains=normalKey keepend
-syn match normalCharSearch /\c[ftr]\@<=\w/
-syn match normalMark /\(f\@<!m\)\@<=[a-zA-Z0-9]/
-syn match normalKey /<'\@!.\{-}>'\@!/
-
-hi! link normalOp Operator
-hi! link normalMod PreProc
-hi! link normalObject Structure
-hi! link normalCount Number
-hi! link normalMark Identifier
-hi! link normalKey Special
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcffbc62a0510c465c46b66fdd6bf7b4374fb4ee924141aad4dae8550fab7471
+size 708

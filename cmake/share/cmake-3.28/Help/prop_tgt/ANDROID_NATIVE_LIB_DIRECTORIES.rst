@@ -1,18 +1,3 @@
-ANDROID_NATIVE_LIB_DIRECTORIES
-------------------------------
-
-.. versionadded:: 3.4
-
-Set the Android property that specifies directories to search for the ``.so``
-libraries.
-
-This a string property that contains the directory paths separated
-by semicolons.
-
-This property is initialized by the value of the
-:variable:`CMAKE_ANDROID_NATIVE_LIB_DIRECTORIES` variable if it is set when a
-target is created.
-
-Contents of ``ANDROID_NATIVE_LIB_DIRECTORIES`` may use "generator expressions"
-with the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)`
-manual for available expressions.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1a63433a478f3f6a156549c4cf0808a0ba77c95c18836435c3c8a6f946d8380
+size 597

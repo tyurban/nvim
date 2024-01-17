@@ -1,22 +1,3 @@
-" Vim filetype plugin file
-" Language:             Haskell
-" Maintainer:           Daniel Campoverde <alx@sillybytes.net>
-" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
-" Latest Revision:      2018-08-27
-
-if exists("b:did_ftplugin")
-  finish
-endif
-let b:did_ftplugin = 1
-
-let s:cpo_save = &cpo
-set cpo&vim
-
-let b:undo_ftplugin = "setl com< cms< fo<"
-
-setlocal comments=s1fl:{-,mb:-,ex:-},:-- commentstring=--\ %s
-setlocal formatoptions-=t formatoptions+=croql
-setlocal omnifunc=haskellcomplete#Complete
-
-let &cpo = s:cpo_save
-unlet s:cpo_save
+version https://git-lfs.github.com/spec/v1
+oid sha256:a97fc280bb8b3e3d89f3a18d8652bb97111c4ac644ce3f2c8f923ae3db24f0fe
+size 551

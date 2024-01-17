@@ -1,10 +1,3 @@
-CMAKE_MAXIMUM_RECURSION_DEPTH
------------------------------
-
-.. versionadded:: 3.27
-
-.. include:: ENV_VAR.txt
-
-Maximum recursion depth for CMake scripts.  This environment variable is
-used if the :variable:`CMAKE_MAXIMUM_RECURSION_DEPTH` variable is not set.
-See that variable's documentation for details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5654931f444616d5b9feba6f234c03f4d06b6e2e0b017db0fc4ae991c3dec67a
+size 306
